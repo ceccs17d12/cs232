@@ -69,6 +69,7 @@ andriod       ios
 There are stopped jobs.
 ]0;s4d1@CC2-25: ~/FOSSs4d1@CC2-25:~/FOSS$ exit
 
+
 Script done on Monday 11 February 2019 10:20:17 AM IST
 
 Script started on Monday 11 February 2019 10:02:49 AM IST
