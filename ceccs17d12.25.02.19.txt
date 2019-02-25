@@ -10782,4 +10782,4 @@ txt[A
 [K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[20@grep 'CHN17CS' cs.txt >[C[C[C[C[C[C[C[C
 [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccat cs.txt[K cs.txt[14@sed -i 's/(P)/5/g'[C[C[C[C[C[C[CC)/6[C[C[C[C[C[C[C[C[C[C[Ksed -i 's/(B+)/8/g' cs.txt[1@A)/8.5[C[C[C[C[C[C[C[C[C[C[Ksed -i 's/(O)/10/g' cs.txt[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kexit
 
-Script done on Monday 25 February 2019 12:00:52 PM IST
+Script done on Monday 25 February 2019 12:00:52 PM IST 
