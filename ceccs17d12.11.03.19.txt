@@ -1,0 +1,1276 @@
+Script started on Monday 11 March 2019 09:11:16 AM IST
+]0;s4d1@CC2-25: ~/FOSS/11-02s4d1@CC2-25:~/FOSS/11-02$ man ftp
+[?1049h[?1h=
+FTP(1)                    BSD General Commands Manual                   FTP(1)[m
+[m
+[1mNAME[0m[m
+     [1mftp[0m — Internet file transfer program[m
+[m
+[1mSYNOPSIS[0m[m
+     [1mftp[0m [[1m-46pinegvd[0m] [[4mhost[24m [[4mport[24m]][m
+     [1mpftp[0m [[1m-46inegvd[0m] [[4mhost[24m [[4mport[24m]][m
+[m
+[1mDESCRIPTION[0m[m
+     [1mFtp[0m is the user interface to the Internet standard File Transfer Proto‐[m
+     col.  The program allows a user to transfer files to and from a remote[m
+     network site.[m
+[m
+     Options may be specified at the command line, or to the command inter‐[m
+     preter.[m
+[m
+     [1m-4[0m    Use only IPv4 to contact any host.[m
+[m
+     [1m-6[0m    Use IPv6 only.[m
+[m
+     [1m-p[0m    Use passive mode for data transfers. Allows use of ftp in environ‐[m
+           ments where a firewall prevents connections from the outside world[m
+[7m Manual page ftp(1) line 1 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K
+[K[7m Manual page ftp(1) line 1 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K
+[K[7m Manual page ftp(1) line 1 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K
+[K[7m Manual page ftp(1) line 1 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K
+[K[7m Manual page ftp(1) line 1 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K
+[K[7m Manual page ftp(1) line 1 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K
+[K[7m Manual page ftp(1) line 1 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K
+[K[7m Manual page ftp(1) line 1 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K
+[K[7m Manual page ftp(1) line 1 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K
+[K[7m Manual page ftp(1) line 1 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K
+[K[7m Manual page ftp(1) line 1 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K
+[K[7m Manual page ftp(1) line 1 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K
+[K[7m Manual page ftp(1) line 1 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K
+[K[7m Manual page ftp(1) line 1 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K
+[K[7m Manual page ftp(1) line 1 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K
+[K[7m Manual page ftp(1) line 1 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K
+[K[7m Manual page ftp(1) line 1 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K
+[K[7m Manual page ftp(1) line 1 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K
+[K[7m Manual page ftp(1) line 1 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K
+[K[7m Manual page ftp(1) line 1 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K
+[K[7m Manual page ftp(1) line 1 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K
+[K[7m Manual page ftp(1) line 1 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K
+[K[7m Manual page ftp(1) line 1 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K
+[K[7m Manual page ftp(1) line 1 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K
+[K[7m Manual page ftp(1) line 1 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K
+[K[7m Manual page ftp(1) line 1 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K
+[K[7m Manual page ftp(1) line 1 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K
+[K[7m Manual page ftp(1) line 1 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K
+[K[7m Manual page ftp(1) line 1 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K
+[K[7m Manual page ftp(1) line 1 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K
+[K[7m Manual page ftp(1) line 1 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K
+[K[7m Manual page ftp(1) line 1 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K
+[K[7m Manual page ftp(1) line 1 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K
+[K[7m Manual page ftp(1) line 1 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K
+[K[7m Manual page ftp(1) line 1 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K
+[K[7m Manual page ftp(1) line 1 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K
+[K[7m Manual page ftp(1) line 1 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K
+[K[7m Manual page ftp(1) line 1 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K
+[K[7m Manual page ftp(1) line 1 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K
+[K[7m Manual page ftp(1) line 1 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K
+[K[7m Manual page ftp(1) line 1 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K
+[K[7m Manual page ftp(1) line 1 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K
+[K[7m Manual page ftp(1) line 1 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K           back to the client machine. Requires that the ftp server support[m
+[7m Manual page ftp(1) line 2 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K           the PASV command. This is the default if invoked as [1mpftp.[0m[m
+[7m Manual page ftp(1) line 3 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page ftp(1) line 4 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K     [1m-i[0m    Turns off interactive prompting during multiple file transfers.[m
+[7m Manual page ftp(1) line 5 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page ftp(1) line 6 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K     [1m-n[0m    Restrains [1mftp[0m from attempting “auto-login” upon initial connection.[m
+[7m Manual page ftp(1) line 7 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K           If auto-login is enabled, [1mftp[0m will check the [4m.netrc[24m (see netrc(5))[m
+[7m Manual page ftp(1) line 8 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K           file in the user's home directory for an entry describing an[m
+[7m Manual page ftp(1) line 9 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K           account on the remote machine.  If no entry exists, [1mftp[0m will prompt[m
+[7m Manual page ftp(1) line 10 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K           for the remote machine login name (default is the user identity on[m
+[7m Manual page ftp(1) line 11 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K           the local machine), and, if necessary, prompt for a password and an[m
+[7m Manual page ftp(1) line 12 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K           account with which to login.[m
+[7m Manual page ftp(1) line 13 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page ftp(1) line 14 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K     [1m-e[0m    Disables command editing and history support, if it was compiled[m
+[7m Manual page ftp(1) line 15 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K           into the [1mftp[0m executable. Otherwise, does nothing.[m
+[7m Manual page ftp(1) line 16 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page ftp(1) line 17 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K     [1m-g[0m    Disables file name globbing.[m
+[7m Manual page ftp(1) line 18 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page ftp(1) line 19 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K     [1m-v[0m    Verbose option forces [1mftp[0m to show all responses from the remote[m
+[7m Manual page ftp(1) line 20 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K           server, as well as report on data transfer statistics.[m
+[7m Manual page ftp(1) line 21 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page ftp(1) line 22 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K[HM[m
+[24;1H
+[K[7m Manual page ftp(1) line 21 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K[HM     [1m-6[0m    Use IPv6 only.[m
+[24;1H
+[K[7m Manual page ftp(1) line 20 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K[HM[m
+[24;1H
+[K[7m Manual page ftp(1) line 19 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K[HM     [1m-4[0m    Use only IPv4 to contact any host.[m
+[24;1H
+[K[7m Manual page ftp(1) line 18 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K[HM[m
+[24;1H
+[K[7m Manual page ftp(1) line 17 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K[HM     preter.[m
+[24;1H
+[K[7m Manual page ftp(1) line 16 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K[HM     Options may be specified at the command line, or to the command inter‐[m
+[24;1H
+[K[7m Manual page ftp(1) line 15 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K[HM[m
+[24;1H
+[K[7m Manual page ftp(1) line 14 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K[HM     network site.[m
+[24;1H
+[K[7m Manual page ftp(1) line 13 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K[HM     col.  The program allows a user to transfer files to and from a remote[m
+[24;1H
+[K[7m Manual page ftp(1) line 12 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K[HM     [1mFtp[0m is the user interface to the Internet standard File Transfer Proto‐[m
+[24;1H
+[K[7m Manual page ftp(1) line 11 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K[HM[1mDESCRIPTION[0m[m
+[24;1H
+[K[7m Manual page ftp(1) line 10 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K[HM[m
+[24;1H
+[K[7m Manual page ftp(1) line 9 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K[HM     [1mpftp[0m [[1m-46inegvd[0m] [[4mhost[24m [[4mport[24m]][m
+[24;1H
+[K[7m Manual page ftp(1) line 8 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K[HM     [1mftp[0m [[1m-46pinegvd[0m] [[4mhost[24m [[4mport[24m]][m
+[24;1H
+[K[7m Manual page ftp(1) line 7 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K[HM[1mSYNOPSIS[0m[m
+[24;1H
+[K[7m Manual page ftp(1) line 6 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K[HM[m
+[24;1H
+[K[7m Manual page ftp(1) line 5 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K[HM     [1mftp[0m — Internet file transfer program[m
+[24;1H
+[K[7m Manual page ftp(1) line 4 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K     [1m-i[0m    Turns off interactive prompting during multiple file transfers.[m
+[7m Manual page ftp(1) line 5 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page ftp(1) line 6 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K     [1m-n[0m    Restrains [1mftp[0m from attempting “auto-login” upon initial connection.[m
+[7m Manual page ftp(1) line 7 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K           If auto-login is enabled, [1mftp[0m will check the [4m.netrc[24m (see netrc(5))[m
+[7m Manual page ftp(1) line 8 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K           file in the user's home directory for an entry describing an[m
+[7m Manual page ftp(1) line 9 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K           account on the remote machine.  If no entry exists, [1mftp[0m will prompt[m
+[7m Manual page ftp(1) line 10 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K           for the remote machine login name (default is the user identity on[m
+[7m Manual page ftp(1) line 11 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K           the local machine), and, if necessary, prompt for a password and an[m
+[7m Manual page ftp(1) line 12 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K           account with which to login.[m
+[7m Manual page ftp(1) line 13 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page ftp(1) line 14 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K     [1m-e[0m    Disables command editing and history support, if it was compiled[m
+[7m Manual page ftp(1) line 15 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K           into the [1mftp[0m executable. Otherwise, does nothing.[m
+[7m Manual page ftp(1) line 16 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page ftp(1) line 17 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K     [1m-g[0m    Disables file name globbing.[m
+[7m Manual page ftp(1) line 18 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page ftp(1) line 19 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K     [1m-v[0m    Verbose option forces [1mftp[0m to show all responses from the remote[m
+[7m Manual page ftp(1) line 20 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K           server, as well as report on data transfer statistics.[m
+[7m Manual page ftp(1) line 21 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page ftp(1) line 22 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K[HM[m
+[24;1H
+[K[7m Manual page ftp(1) line 21 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K[HM     [1m-6[0m    Use IPv6 only.[m
+[24;1H
+[K[7m Manual page ftp(1) line 20 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K[HM[m
+[24;1H
+[K[7m Manual page ftp(1) line 19 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K[HM     [1m-4[0m    Use only IPv4 to contact any host.[m
+[24;1H
+[K[7m Manual page ftp(1) line 18 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K[HM[m
+[24;1H
+[K[7m Manual page ftp(1) line 17 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K[HM     preter.[m
+[24;1H
+[K[7m Manual page ftp(1) line 16 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K[HM     Options may be specified at the command line, or to the command inter‐[m
+[24;1H
+[K[7m Manual page ftp(1) line 15 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K[HM[m
+[24;1H
+[K[7m Manual page ftp(1) line 14 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K[HM     network site.[m
+[24;1H
+[K[7m Manual page ftp(1) line 13 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K[HM     col.  The program allows a user to transfer files to and from a remote[m
+[24;1H
+[K[7m Manual page ftp(1) line 12 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K[HM     [1mFtp[0m is the user interface to the Internet standard File Transfer Proto‐[m
+[24;1H
+[K[7m Manual page ftp(1) line 11 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K[HM[1mDESCRIPTION[0m[m
+[24;1H
+[K[7m Manual page ftp(1) line 10 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K[HM[m
+[24;1H
+[K[7m Manual page ftp(1) line 9 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K[HM     [1mpftp[0m [[1m-46inegvd[0m] [[4mhost[24m [[4mport[24m]][m
+[24;1H
+[K[7m Manual page ftp(1) line 8 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K[HM     [1mftp[0m [[1m-46pinegvd[0m] [[4mhost[24m [[4mport[24m]][m
+[24;1H
+[K[7m Manual page ftp(1) line 7 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K[HM[1mSYNOPSIS[0m[m
+[24;1H
+[K[7m Manual page ftp(1) line 6 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K[HM[m
+[24;1H
+[K[7m Manual page ftp(1) line 5 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K[HM     [1mftp[0m — Internet file transfer program[m
+[24;1H
+[K[7m Manual page ftp(1) line 4 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K[HM[1mNAME[0m[m
+[24;1H
+[K[7m Manual page ftp(1) line 3 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K[HM[m
+[24;1H
+[K[7m Manual page ftp(1) line 2 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K[HMFTP(1)                    BSD General Commands Manual                   FTP(1)[m
+[24;1H
+[K[7m Manual page ftp(1) line 1 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K
+[K[7m Manual page ftp(1) line 1 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K
+[K[7m Manual page ftp(1) line 1 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K
+[K[7m Manual page ftp(1) line 1 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K
+[K[7m Manual page ftp(1) line 1 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K
+[K[7m Manual page ftp(1) line 1 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K
+[K[7m Manual page ftp(1) line 1 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K
+[K[7m Manual page ftp(1) line 1 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K
+[K[7m Manual page ftp(1) line 1 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K
+[K[7m Manual page ftp(1) line 1 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K
+[K[7m Manual page ftp(1) line 1 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K
+[K[7m Manual page ftp(1) line 1 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K
+[K[7m Manual page ftp(1) line 1 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K
+[K[7m Manual page ftp(1) line 1 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K
+[K[7m Manual page ftp(1) line 1 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K
+[K[7m Manual page ftp(1) line 1 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K
+[K[7m Manual page ftp(1) line 1 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K
+[K[7m Manual page ftp(1) line 1 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K
+[K[7m Manual page ftp(1) line 1 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K
+[K[7m Manual page ftp(1) line 1 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K
+[K[7m Manual page ftp(1) line 1 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K
+[K[7m Manual page ftp(1) line 1 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K
+[K[7m Manual page ftp(1) line 1 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K
+[K[7m Manual page ftp(1) line 1 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K
+[K[7m Manual page ftp(1) line 1 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K
+[K[7m Manual page ftp(1) line 1 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K
+[K[7m Manual page ftp(1) line 1 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K
+[K[7m Manual page ftp(1) line 1 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K
+[K[7m Manual page ftp(1) line 1 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K
+[K[7m Manual page ftp(1) line 1 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K
+[K[7m Manual page ftp(1) line 1 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K
+[K[7m Manual page ftp(1) line 1 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K
+[K[7m Manual page ftp(1) line 1 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K
+[K[7m Manual page ftp(1) line 1 (press h for help or q to quit)[27m[K
+[K[?1l>[?1049l]0;s4d1@CC2-25: ~/FOSS/11-02s4d1@CC2-25:~/FOSS/11-02$ ftp 14.139.189.217
+ftp: connect: Network is unreachable
+ftp> 
+ftp> q[K^Z
+[1]+  Stopped                 ftp 14.139.189.217
+]0;s4d1@CC2-25: ~/FOSS/11-02s4d1@CC2-25:~/FOSS/11-02$ ftp
+ftp> 14.139.189.217
+?Invalid command
+ftp> ^Z^X
+[2]+  Stopped                 ftp
+]0;s4d1@CC2-25: ~/FOSS/11-02s4d1@CC2-25:~/FOSS/11-02$ fp[K[Ksftp
+usage: sftp [-1246aCfpqrv] [-B buffer_size] [-b batchfile] [-c cipher]
+          [-D sftp_server_path] [-F ssh_config] [-i identity_file] [-l limit]
+          [-o ssh_option] [-P port] [-R num_requests] [-S program]
+          [-s subsystem | sftp_server] host
+       sftp [user@]host[:file ...]
+       sftp [user@]host[:dir[/]]
+       sftp -b batchfile [user@]host
+]0;s4d1@CC2-25: ~/FOSS/11-02s4d1@CC2-25:~/FOSS/11-02$ sftp 192.168.0.30
+The authenticity of host '192.168.0.30 (192.168.0.30)' can't be established.
+ECDSA key fingerprint is d8:e8:3a:9a:e6:9d:37:9c:e9:3b:8d:e3:eb:eb:36:a0.
+Are you sure you want to continue connecting (yes/no)? yes
+Warning: Permanently added '192.168.0.30' (ECDSA) to the list of known hosts.
+
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+s4d1@192.168.0.30's password: 
+
+[3]+  Stopped                 sftp 192.168.0.30
+]0;s4d1@CC2-25: ~/FOSS/11-02s4d1@CC2-25:~/FOSS/11-02$ ifconfig eth0 172.16.25.125[K[K[K[K[K[K[K[K[K[K[K[K[K192.18[K68.0.2
+\SIOCSIFADDR: Operation not permitted
+SIOCSIFFLAGS: Operation not permitted
+]0;s4d1@CC2-25: ~/FOSS/11-02s4d1@CC2-25:~/FOSS/11-02$ \ifconfig eth0 192.168.0.2[1@s[1@u[1@d[1@o[1@ 
+sudo: unable to resolve host CC2-25
+[sudo] password for s4d1: 
+s4d1 is not in the sudoers file.  This incident will be reported.
+]0;s4d1@CC2-25: ~/FOSS/11-02s4d1@CC2-25:~/FOSS/11-02$ ifconfig eth0 up
+SIOCSIFFLAGS: Operation not permitted
+]0;s4d1@CC2-25: ~/FOSS/11-02s4d1@CC2-25:~/FOSS/11-02$ ifconfig eth0 up[1@s[1@u[1@d[1@o[1@ 
+sudo: unable to resolve host CC2-25
+[sudo] password for s4d1: 
+s4d1 is not in the sudoers file.  This incident will be reported.
+]0;s4d1@CC2-25: ~/FOSS/11-02s4d1@CC2-25:~/FOSS/11-02$ pinf[Kg
+Usage: ping [-aAbBdDfhLnOqrRUvV] [-c count] [-i interval] [-I interface]
+            [-m mark] [-M pmtudisc_option] [-l preload] [-p pattern] [-Q tos]
+            [-s packetsize] [-S sndbuf] [-t ttl] [-T timestamp_option]
+            [-w deadline] [-W timeout] [hop1 ...] destination
+]0;s4d1@CC2-25: ~/FOSS/11-02s4d1@CC2-25:~/FOSS/11-02$ ping
+Usage: ping [-aAbBdDfhLnOqrRUvV] [-c count] [-i interval] [-I interface]
+            [-m mark] [-M pmtudisc_option] [-l preload] [-p pattern] [-Q tos]
+            [-s packetsize] [-S sndbuf] [-t ttl] [-T timestamp_option]
+            [-w deadline] [-W timeout] [hop1 ...] destination
+]0;s4d1@CC2-25: ~/FOSS/11-02s4d1@CC2-25:~/FOSS/11-02$ ping -a
+Usage: ping [-aAbBdDfhLnOqrRUvV] [-c count] [-i interval] [-I interface]
+            [-m mark] [-M pmtudisc_option] [-l preload] [-p pattern] [-Q tos]
+            [-s packetsize] [-S sndbuf] [-t ttl] [-T timestamp_option]
+            [-w deadline] [-W timeout] [hop1 ...] destination
+]0;s4d1@CC2-25: ~/FOSS/11-02s4d1@CC2-25:~/FOSS/11-02$ ping -a[KA
+Usage: ping [-aAbBdDfhLnOqrRUvV] [-c count] [-i interval] [-I interface]
+            [-m mark] [-M pmtudisc_option] [-l preload] [-p pattern] [-Q tos]
+            [-s packetsize] [-S sndbuf] [-t ttl] [-T timestamp_option]
+            [-w deadline] [-W timeout] [hop1 ...] destination
+]0;s4d1@CC2-25: ~/FOSS/11-02s4d1@CC2-25:~/FOSS/11-02$ ping -A[Kn
+Usage: ping [-aAbBdDfhLnOqrRUvV] [-c count] [-i interval] [-I interface]
+            [-m mark] [-M pmtudisc_option] [-l preload] [-p pattern] [-Q tos]
+            [-s packetsize] [-S sndbuf] [-t ttl] [-T timestamp_option]
+            [-w deadline] [-W timeout] [hop1 ...] destination
+]0;s4d1@CC2-25: ~/FOSS/11-02s4d1@CC2-25:~/FOSS/11-02$ ping -n[K[Kwww.ggogle./;[K[Kcom
+ping: unknown host www.ggogle.com
+]0;s4d1@CC2-25: ~/FOSS/11-02s4d1@CC2-25:~/FOSS/11-02$ ping www.ggogle.com[1Pogle.com[Cogle.com
+ping: unknown host www.google.com
+]0;s4d1@CC2-25: ~/FOSS/11-02s4d1@CC2-25:~/FOSS/11-02$ ping www.google.com[C[K.in
+ping: unknown host www.google.co.in
+]0;s4d1@CC2-25: ~/FOSS/11-02s4d1@CC2-25:~/FOSS/11-02$ sudo ping -v
+sudo: unable to resolve host CC2-25
+[sudo] password for s4d1: 
+Sorry, try again.
+[sudo] password for s4d1: 
+s4d1 is not in the sudoers file.  This incident will be reported.
+]0;s4d1@CC2-25: ~/FOSS/11-02s4d1@CC2-25:~/FOSS/11-02$ sudo apt-get install build-essential libncurses-dev bi 
+son flex libssl-dev libelf-dev
+sudo: unable to resolve host CC2-25
+[sudo] password for s4d1: 
+Sorry, try again.
+[sudo] password for s4d1: 
+s4d1 is not in the sudoers file.  This incident will be reported.
+]0;s4d1@CC2-25: ~/FOSS/11-02s4d1@CC2-25:~/FOSS/11-02$ cat etc/resolv.conf
+cat: etc/resolv.conf: No such file or directory
+]0;s4d1@CC2-25: ~/FOSS/11-02s4d1@CC2-25:~/FOSS/11-02$ cat etc/resolv.conf[C/etc/resolv.conf
+# Dynamic resolv.conf(5) file for glibc resolver(3) generated by resolvconf(8)
+#     DO NOT EDIT THIS FILE BY HAND -- YOUR CHANGES WILL BE OVERWRITTEN
+nameserver 127.0.1.1
+search example.org
+]0;s4d1@CC2-25: ~/FOSS/11-02s4d1@CC2-25:~/FOSS/11-02$ route
+Kernel IP routing table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+192.168.0.0     *               255.255.255.0   U     1      0        0 eth0
+]0;s4d1@CC2-25: ~/FOSS/11-02s4d1@CC2-25:~/FOSS/11-02$ route add default gw 192.168.1.1
+SIOCADDRT: Operation not permitted
+]0;s4d1@CC2-25: ~/FOSS/11-02s4d1@CC2-25:~/FOSS/11-02$ route add default gw 192.168.1.1[1@s[1@u[1@d[1@o[1@ 
+sudo: unable to resolve host CC2-25
+[sudo] password for s4d1: 
+Sorry, try again.
+[sudo] password for s4d1: 
+Sorry, try again.
+[sudo] password for s4d1: 
+
+[4]+  Stopped                 sudo route add default gw 192.168.1.1
+]0;s4d1@CC2-25: ~/FOSS/11-02s4d1@CC2-25:~/FOSS/11-02$ sudo route add default gw 192.168.1.1[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Krc[Ksync -v
+rsync  version 3.1.0  protocol version 31
+Copyright (C) 1996-2013 by Andrew Tridgell, Wayne Davison, and others.
+Web site: http://rsync.samba.org/
+Capabilities:
+    64-bit files, 64-bit inums, 64-bit timestamps, 64-bit long ints,
+    socketpairs, hardlinks, symlinks, IPv6, batchfiles, inplace,
+    append, ACLs, xattrs, iconv, symtimes, prealloc
+
+rsync comes with ABSOLUTELY NO WARRANTY.  This is free software, and you
+are welcome to redistribute it under certain conditions.  See the GNU
+General Public Licence for details.
+
+rsync is a file transfer program capable of efficient remote update
+via a fast differencing algorithm.
+
+Usage: rsync [OPTION]... SRC [SRC]... DEST
+  or   rsync [OPTION]... SRC [SRC]... [USER@]HOST:DEST
+  or   rsync [OPTION]... SRC [SRC]... [USER@]HOST::DEST
+  or   rsync [OPTION]... SRC [SRC]... rsync://[USER@]HOST[:PORT]/DEST
+  or   rsync [OPTION]... [USER@]HOST:SRC [DEST]
+  or   rsync [OPTION]... [USER@]HOST::SRC [DEST]
+  or   rsync [OPTION]... rsync://[USER@]HOST[:PORT]/SRC [DEST]
+The ':' usages connect via remote shell, while '::' & 'rsync://' usages connect
+to an rsync daemon, and require SRC or DEST to start with a module name.
+
+Options
+ -v, --verbose               increase verbosity
+     --info=FLAGS            fine-grained informational verbosity
+     --debug=FLAGS           fine-grained debug verbosity
+     --msgs2stderr           special output handling for debugging
+ -q, --quiet                 suppress non-error messages
+     --no-motd               suppress daemon-mode MOTD (see manpage caveat)
+ -c, --checksum              skip based on checksum, not mod-time & size
+ -a, --archive               archive mode; equals -rlptgoD (no -H,-A,-X)
+     --no-OPTION             turn off an implied OPTION (e.g. --no-D)
+ -r, --recursive             recurse into directories
+ -R, --relative              use relative path names
+     --no-implied-dirs       don't send implied dirs with --relative
+ -b, --backup                make backups (see --suffix & --backup-dir)
+     --backup-dir=DIR        make backups into hierarchy based in DIR
+     --suffix=SUFFIX         set backup suffix (default ~ w/o --backup-dir)
+ -u, --update                skip files that are newer on the receiver
+     --inplace               update destination files in-place (SEE MAN PAGE)
+     --append                append data onto shorter files
+     --append-verify         like --append, but with old data in file checksum
+ -d, --dirs                  transfer directories without recursing
+ -l, --links                 copy symlinks as symlinks
+ -L, --copy-links            transform symlink into referent file/dir
+     --copy-unsafe-links     only "unsafe" symlinks are transformed
+     --safe-links            ignore symlinks that point outside the source tree
+     --munge-links           munge symlinks to make them safer (but unusable)
+ -k, --copy-dirlinks         transform symlink to a dir into referent dir
+ -K, --keep-dirlinks         treat symlinked dir on receiver as dir
+ -H, --hard-links            preserve hard links
+ -p, --perms                 preserve permissions
+ -E, --executability         preserve the file's executability
+     --chmod=CHMOD           affect file and/or directory permissions
+ -A, --acls                  preserve ACLs (implies --perms)
+ -X, --xattrs                preserve extended attributes
+ -o, --owner                 preserve owner (super-user only)
+ -g, --group                 preserve group
+     --devices               preserve device files (super-user only)
+     --specials              preserve special files
+ -D                          same as --devices --specials
+ -t, --times                 preserve modification times
+ -O, --omit-dir-times        omit directories from --times
+ -J, --omit-link-times       omit symlinks from --times
+     --super                 receiver attempts super-user activities
+     --fake-super            store/recover privileged attrs using xattrs
+ -S, --sparse                handle sparse files efficiently
+     --preallocate           allocate dest files before writing them
+ -n, --dry-run               perform a trial run with no changes made
+ -W, --whole-file            copy files whole (without delta-xfer algorithm)
+ -x, --one-file-system       don't cross filesystem boundaries
+ -B, --block-size=SIZE       force a fixed checksum block-size
+ -e, --rsh=COMMAND           specify the remote shell to use
+     --rsync-path=PROGRAM    specify the rsync to run on the remote machine
+     --existing              skip creating new files on receiver
+     --ignore-existing       skip updating files that already exist on receiver
+     --remove-source-files   sender removes synchronized files (non-dirs)
+     --del                   an alias for --delete-during
+     --delete                delete extraneous files from destination dirs
+     --delete-before         receiver deletes before transfer, not during
+     --delete-during         receiver deletes during the transfer
+     --delete-delay          find deletions during, delete after
+     --delete-after          receiver deletes after transfer, not during
+     --delete-excluded       also delete excluded files from destination dirs
+     --ignore-missing-args   ignore missing source args without error
+     --delete-missing-args   delete missing source args from destination
+     --ignore-errors         delete even if there are I/O errors
+     --force                 force deletion of directories even if not empty
+     --max-delete=NUM        don't delete more than NUM files
+     --max-size=SIZE         don't transfer any file larger than SIZE
+     --min-size=SIZE         don't transfer any file smaller than SIZE
+     --partial               keep partially transferred files
+     --partial-dir=DIR       put a partially transferred file into DIR
+     --delay-updates         put all updated files into place at transfer's end
+ -m, --prune-empty-dirs      prune empty directory chains from the file-list
+     --numeric-ids           don't map uid/gid values by user/group name
+     --usermap=STRING        custom username mapping
+     --groupmap=STRING       custom groupname mapping
+     --chown=USER:GROUP      simple username/groupname mapping
+     --timeout=SECONDS       set I/O timeout in seconds
+     --contimeout=SECONDS    set daemon connection timeout in seconds
+ -I, --ignore-times          don't skip files that match in size and mod-time
+ -M, --remote-option=OPTION  send OPTION to the remote side only
+     --size-only             skip files that match in size
+     --modify-window=NUM     compare mod-times with reduced accuracy
+ -T, --temp-dir=DIR          create temporary files in directory DIR
+ -y, --fuzzy                 find similar file for basis if no dest file
+     --compare-dest=DIR      also compare destination files relative to DIR
+     --copy-dest=DIR         ... and include copies of unchanged files
+     --link-dest=DIR         hardlink to files in DIR when unchanged
+ -z, --compress              compress file data during the transfer
+     --compress-level=NUM    explicitly set compression level
+     --skip-compress=LIST    skip compressing files with a suffix in LIST
+ -C, --cvs-exclude           auto-ignore files the same way CVS does
+ -f, --filter=RULE           add a file-filtering RULE
+ -F                          same as --filter='dir-merge /.rsync-filter'
+                             repeated: --filter='- .rsync-filter'
+     --exclude=PATTERN       exclude files matching PATTERN
+     --exclude-from=FILE     read exclude patterns from FILE
+     --include=PATTERN       don't exclude files matching PATTERN
+     --include-from=FILE     read include patterns from FILE
+     --files-from=FILE       read list of source-file names from FILE
+ -0, --from0                 all *-from/filter files are delimited by 0s
+ -s, --protect-args          no space-splitting; only wildcard special-chars
+     --address=ADDRESS       bind address for outgoing socket to daemon
+     --port=PORT             specify double-colon alternate port number
+     --sockopts=OPTIONS      specify custom TCP options
+     --blocking-io           use blocking I/O for the remote shell
+     --stats                 give some file-transfer stats
+ -8, --8-bit-output          leave high-bit chars unescaped in output
+ -h, --human-readable        output numbers in a human-readable format
+     --progress              show progress during transfer
+ -P                          same as --partial --progress
+ -i, --itemize-changes       output a change-summary for all updates
+     --out-format=FORMAT     output updates using the specified FORMAT
+     --log-file=FILE         log what we're doing to the specified FILE
+     --log-file-format=FMT   log updates using the specified FMT
+     --password-file=FILE    read daemon-access password from FILE
+     --list-only             list the files instead of copying them
+     --bwlimit=RATE          limit socket I/O bandwidth
+     --outbuf=N|L|B          set output buffering to None, Line, or Block
+     --write-batch=FILE      write a batched update to FILE
+     --only-write-batch=FILE like --write-batch but w/o updating destination
+     --read-batch=FILE       read a batched update from FILE
+     --protocol=NUM          force an older protocol version to be used
+     --iconv=CONVERT_SPEC    request charset conversion of filenames
+     --checksum-seed=NUM     set block/file checksum seed (advanced)
+ -4, --ipv4                  prefer IPv4
+ -6, --ipv6                  prefer IPv6
+     --version               print version number
+(-h) --help                  show this help (-h is --help only if used alone)
+
+Use "rsync --daemon --help" to see the daemon-mode command-line options.
+Please see the rsync(1) and rsyncd.conf(5) man pages for full documentation.
+See http://rsync.samba.org/ for updates, bug reports, and answers
+rsync error: syntax or usage error (code 1) at main.c(1640) [Receiver=3.1.0]
+]0;s4d1@CC2-25: ~/FOSS/11-02s4d1@CC2-25:~/FOSS/11-02$ sudo rsync -azvv /home/path/folder1/ /home/path/folder 
+2
+sudo: unable to resolve host CC2-25
+[sudo] password for s4d1: 
+s4d1 is not in the sudoers file.  This incident will be reported.
+]0;s4d1@CC2-25: ~/FOSS/11-02s4d1@CC2-25:~/FOSS/11-02$ ssh 14.139.189.217
+ssh: connect to host 14.139.189.217 port 22: Network is unreachable
+
+]0;s4d1@CC2-25: ~/FOSS/11-02s4d1@CC2-25:~/FOSS/11-02$ ssh 192.168.0.30
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+s4d1@192.168.0.30's password: 
+
+[5]+  Stopped                 ssh 192.168.0.30
+]0;s4d1@CC2-25: ~/FOSS/11-02s4d1@CC2-25:~/FOSS/11-02$ ask[K[K[Kssh ask [K@192.168.0.30
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+ask@192.168.0.30's password: 
+
+[6]+  Stopped                 ssh ask@192.168.0.30
+]0;s4d1@CC2-25: ~/FOSS/11-02s4d1@CC2-25:~/FOSS/11-02$ [Assh ask@192.168.0.30[4P192.168.0.30
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+s4d1@192.168.0.30's password: 
+
+[7]+  Stopped                 ssh 192.168.0.30
+]0;s4d1@CC2-25: ~/FOSS/11-02s4d1@CC2-25:~/FOSS/11-02$ ssh cs17d12@192.168.0.30
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs17d12@192.168.0.30's password: 
+Welcome to elementary OS 0.4.1 Loki (GNU/Linux 4.13.0-32-generic x86_64)
+
+ * Website:  http://elementary.io/
+
+275 packages can be updated.
+0 updates are security updates.
+
+
+The programs included with elementary OS are free software;
+the exact distribution terms for each program are described in the
+individual files in /usr/share/doc/*/copyright.
+
+elementary OS comes with ABSOLUTELY NO WARRANTY, to the extent permitted by
+applicable law.
+
+$ ^Zexit
+Connection to 192.168.0.30 closed.
+
+]0;s4d1@CC2-25: ~/FOSS/11-02s4d1@CC2-25:~/FOSS/11-02$ ssh cs17d12@192.168.0.30[8P192.168.0.30cs17d12@192.168.0.30
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs17d12@192.168.0.30's password: 
+Permission denied, please try again.
+
+cs17d12@192.168.0.30's password: 
+Welcome to elementary OS 0.4.1 Loki (GNU/Linux 4.13.0-32-generic x86_64)
+
+ * Website:  http://elementary.io/
+
+275 packages can be updated.
+0 updates are security updates.
+
+Last login: Mon Mar 11 10:56:19 2019 from 192.168.0.20
+
+$ exit
+Connection to 192.168.0.30 closed.
+
+]0;s4d1@CC2-25: ~/FOSS/11-02s4d1@CC2-25:~/FOSS/11-02$ sftp chn17d12 [K@198[K2.168.0.20
+ssh: connect to host 192.168.0.20 port 22: Connection refused
+
+Couldn't read packet: Connection reset by peer
+
+]0;s4d1@CC2-25: ~/FOSS/11-02s4d1@CC2-25:~/FOSS/11-02$ sftp chn17d12@192.168.0.20[2Psh cs17d12@192.168.0.30[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kssh 192.168.0.30ask@192.168.0.30[4P192.168.0.30[Ksftp chn17d12@192.168.0.20[Ksftp chn17d12@192.168.0.20[Kssh 192.168.0.30ask@192.168.0.30[4P192.168.0.304.139.189.217udo rsync -azvv /home/path/folder1/ /home/path/folder2
+2[A
+]0;s4d1@CC2-25: ~/FOSS/11-02s4d1@CC2-25:~/FOSS/11-02$ [Csh 14.139.189.217[K
+
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[2P92.168.0.30ask@192.168.0.30[4P192.168.0.30[Ksftp chn17d12@192.168.0.20[Ksftp chn17d12@192.168.0.20[Kssh 192.168.0.30ask@192.168.0.30[4P192.168.0.30[Kssh 192.168.0.30
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+s4d1@192.168.0.30's password: 
+
+[8]+  Stopped                 ssh 192.168.0.30
+]0;s4d1@CC2-25: ~/FOSS/11-02s4d1@CC2-25:~/FOSS/11-02$ ssh 192.168.0.30[1P 192.168.0.30[1P 192.168.0.30[1P 192.168.0.30s 192.168.0.30f 192.168.0.30t 192.168.0.30p 192.168.0.30[C 192.168.0.30c 192.168.0.30h 192.168.0.30n 192.168.0.301 192.168.0.307 192.168.0.30d 192.168.0.301 192.168.0.302 192.168.0.30@ 192.168.0.30[C[1P192.168.0.30
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+chn17d12@192.168.0.30's password: 
+Permission denied, please try again.
+
+chn17d12@192.168.0.30's password: 
+Permission denied, please try again.
+
+chn17d12@192.168.0.30's password: 
+
+[9]+  Stopped                 sftp chn17d12@192.168.0.30
+]0;s4d1@CC2-25: ~/FOSS/11-02s4d1@CC2-25:~/FOSS/11-02$ sftp chn17d12@192.168.0.30[10Psh 192.168.0.30ftp chn17d12@192.168.0.20[Ksftp chn17d12@192.168.0.20[Ksftp chn17d12@192.168.0.20[K[K30[C[C[1P chn17d12@192.168.0.30[1P chn17d12@192.168.0.30[1P chn17d12@192.168.0.30[1P chn17d12@192.168.0.30s chn17d12@192.168.0.30s chn17d12@192.168.0.30h chn17d12@192.168.0.30
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+chn17d12@192.168.0.30's password: 
+Permission denied, please try again.
+
+chn17d12@192.168.0.30's password: 
+Permission denied, please try again.
+
+chn17d12@192.168.0.30's password: 
+
+[10]+  Stopped                 ssh chn17d12@192.168.0.30
+]0;s4d1@CC2-25: ~/FOSS/11-02s4d1@CC2-25:~/FOSS/11-02$ ssh chn17d12@192.168.0.30
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+chn17d12@192.168.0.30's password: 
+Permission denied, please try again.
+
+chn17d12@192.168.0.30's password: 
+
+[11]+  Stopped                 ssh chn17d12@192.168.0.30
+]0;s4d1@CC2-25: ~/FOSS/11-02s4d1@CC2-25:~/FOSS/11-02$ ssh ceccs17d12@192.168.0.30
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+ceccs17d12@192.168.0.30's password: 
+Permission denied, please try again.
+
+ceccs17d12@192.168.0.30's password: 
+
+[12]+  Stopped                 ssh ceccs17d12@192.168.0.30
+]0;s4d1@CC2-25: ~/FOSS/11-02s4d1@CC2-25:~/FOSS/11-02$ z[Kexit
+There are stopped jobs.
+]0;s4d1@CC2-25: ~/FOSS/11-02s4d1@CC2-25:~/FOSS/11-02$ exit
+
+Script done on Monday 11 March 2019 11:13:11 AM IST
+
+Script started on Monday 11 March 2019 11:15:06 AM IST
+]0;s4d1@CC2-25: ~/FOSS/11-02s4d1@CC2-25:~/FOSS/11-02$ ssh chn17d12@192.168.0.30
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+chn17d12@192.168.0.30's password: 
+Permission denied, please try again.
+
+chn17d12@192.168.0.30's password: 
+Permission denied, please try again.
+
+chn17d12@192.168.0.30's password: 
+Permission denied (publickey,password).
+
+]0;s4d1@CC2-25: ~/FOSS/11-02s4d1@CC2-25:~/FOSS/11-02$ z[Kusermod -U ubuntu
+usermod: user 'ubuntu' does not exist
+]0;s4d1@CC2-25: ~/FOSS/11-02s4d1@CC2-25:~/FOSS/11-02$ sudo apt-get  remove  openssh-server openssh-client
+sudo: unable to resolve host CC2-25
+[sudo] password for s4d1: 
+s4d1 is not in the sudoers file.  This incident will be reported.
+]0;s4d1@CC2-25: ~/FOSS/11-02s4d1@CC2-25:~/FOSS/11-02$ cs17d12[K[K[K[K[K[K[Ksudo apt-get  remove  openssh-server openssh-client
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[34Pusermod -U ubuntussh chn17d12@192.168.0.30[1P17d12@192.168.0.30[1P17d12@192.168.0.30c17d12@192.168.0.30s17d12@192.168.0.30[1P17d12@192.168.0.30[1P17d12@192.168.0.30s17d12@192.168.0.30
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs17d12@192.168.0.30's password: 
+Welcome to elementary OS 0.4.1 Loki (GNU/Linux 4.13.0-32-generic x86_64)
+
+ * Website:  http://elementary.io/
+
+275 packages can be updated.
+0 updates are security updates.
+
+Last login: Mon Mar 11 11:01:51 2019 from 192.168.0.20
+
+$ pwd
+/home/cs17d12
+$ mkdir? /  ? ? /home/cs17d12/test
+$ pwd
+/home/cs17d12
+$ cd    ^[[A^[[A        cd /home/cs17d12/test
+$ pwd
+/home/cs17d12/test
+$ scp /path/to/file username@a:/path/to/destination^[[D^[[D^[[D^[[D^[[D^[[D^[[D^[[D^[[D^[[D^[[D^[[D^[[D^[[D^[[D                                                                                  exit
+cp: cannot stat '/path/to/file': No such file or directory
+$ scp file:///home/s4d1/FOSS/11-02 ^[[Dexit
+ssh: Could not resolve hostname file: Name or service not known
+
+$ scp /home/s4d1/FOOS  SS/11-02? /1.txt cs17d12@198.168.0.30:? /home/cs17d12/test
+ssh: connect to host 198.168.0.30 port 22: No route to host
+
+lost connection
+$ ^[[A^[[B        scp /home/s4d1/FOSS/11-02/1.txt cs17d12@198.168.0.30:/home/cs17d12
+ssh: connect to host 198.168.0.30 port 22: No route to host
+
+lost connection
+$ ^[[A    ext it
+Connection to 192.168.0.30 closed.
+
+]0;s4d1@CC2-25: ~/FOSS/11-02s4d1@CC2-25:~/FOSS/11-02$ ssh cs17d12@192.168.0.30udo apt-get  remove  openssh-server openssh-client
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[27Psh cs17d12@192.168.0.30
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs17d12@192.168.0.30's password: 
+Welcome to elementary OS 0.4.1 Loki (GNU/Linux 4.13.0-32-generic x86_64)
+
+ * Website:  http://elementary.io/
+
+275 packages can be updated.
+0 updates are security updates.
+
+Last login: Mon Mar 11 11:29:13 2019 from 192.168.0.170
+
+$ pwd
+/home/cs17d12
+$ exit
+Connection to 192.168.0.30 closed.
+
+]0;s4d1@CC2-25: ~/FOSS/11-02s4d1@CC2-25:~/FOSS/11-02$ ssh cs17d12@192.168.0.30[1P cs17d12@192.168.0.30[1P cs17d12@192.168.0.30f cs17d12@192.168.0.30t cs17d12@192.168.0.30p cs17d12@192.168.0.30
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs17d12@192.168.0.30's password: 
+Connected to 192.168.0.30.
+sftp> scp /home/s4d1/FOSS/11-02/1.txt cs17d12@198.168.0.30:/home/cs17d12
+Invalid command.
+
+sftp> ls
+examples.desktop    test                
+sftp> cd test
+sftp> lpwd
+Local working directory: /home/s4d1/FOSS/11-02
+sftp> put localfile
+stat localfile: No such file or directory
+
+sftp> put localfile[K[K[K[K[K[K[K[K[K 1.txt
+Uploading 1.txt to /home/cs17d12/test/1.txt
+
+1.txt                                           0%    0     0.0KB/s   --:-- ETA
+1.txt                                         100% 4096     4.0KB/s   00:00    
+sftp> pwd
+Remote working directory: /home/cs17d12/test
+sftp> lpwd
+Local working directory: /home/s4d1/FOSS/11-02
+sftp> ls
+1.txt  
+sftp> get 1.txt
+Fetching /home/cs17d12/test/1.txt to 1.txt
+
+/home/cs17d12/test/1.txt                        0%    0     0.0KB/s   --:-- ETA
+/home/cs17d12/test/1.txt                      100% 4096     4.0KB/s   00:00    
+sftp> exit
+]0;s4d1@CC2-25: ~/FOSS/11-02s4d1@CC2-25:~/FOSS/11-02$ exit
+exit
+
+Script done on Monday 11 March 2019 11:44:41 AM IST
+s4d1@CC2-25:~$ cd /home/s4d1/FOSS/11-02 
+s4d1@CC2-25:~/FOSS/11-02$ script 1.txt
+Script started, file is 1.txt
+s4d1@CC2-25:~/FOSS/11-02$ ssh chn17d12@192.168.0.30
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+chn17d12@192.168.0.30's password: 
+Permission denied, please try again.
+chn17d12@192.168.0.30's password: 
+Permission denied, please try again.
+chn17d12@192.168.0.30's password: 
+Permission denied (publickey,password).
+s4d1@CC2-25:~/FOSS/11-02$ usermod -U ubuntu
+usermod: user 'ubuntu' does not exist
+s4d1@CC2-25:~/FOSS/11-02$ sudo apt-get  remove  openssh-server openssh-client
+sudo: unable to resolve host CC2-25
+[sudo] password for s4d1: 
+s4d1 is not in the sudoers file.  This incident will be reported.
+s4d1@CC2-25:~/FOSS/11-02$ ssh cs17d12@192.168.0.30
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs17d12@192.168.0.30's password: 
+Welcome to elementary OS 0.4.1 Loki (GNU/Linux 4.13.0-32-generic x86_64)
+
+ * Website:  http://elementary.io/
+
+275 packages can be updated.
+0 updates are security updates.
+
+Last login: Mon Mar 11 11:01:51 2019 from 192.168.0.20
+$ pwd
+/home/cs17d12
+$ mkdir /home/cs17d12/test
+$ pwd
+/home/cs17d12
+$ cd /home/cs17d12/test
+$ pwd
+/home/cs17d12/test
+$ scp /path/to/file username@a:/path/to/destination^[[D^[[D^[[D^[[D^[[D^[[D^[[D^exit                           
+cp: cannot stat '/path/to/file': No such file or directory
+$ scp file:///home/s4d1/FOSS/11-02 ^[[Dexit
+ssh: Could not resolve hostname file: Name or service not known
+$ scp /home/s4d1/FOSS/11-02/1.txt cs17d12@198.168.0.30:/home/cs17d12/test
+ssh: connect to host 198.168.0.30 port 22: No route to host
+lost connection
+$ scp /home/s4d1/FOSS/11-02/1.txt cs17d12@198.168.0.30:/home/cs17d12
+ssh: connect to host 198.168.0.30 port 22: No route to host
+lost connection
+$ exit
+Connection to 192.168.0.30 closed.
+s4d1@CC2-25:~/FOSS/11-02$ ssh cs17d12@192.168.0.30
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs17d12@192.168.0.30's password: 
+Welcome to elementary OS 0.4.1 Loki (GNU/Linux 4.13.0-32-generic x86_64)
+
+ * Website:  http://elementary.io/
+
+275 packages can be updated.
+0 updates are security updates.
+
+Last login: Mon Mar 11 11:29:13 2019 from 192.168.0.170
+$ pwd
+/home/cs17d12
+$ exit
+Connection to 192.168.0.30 closed.
+s4d1@CC2-25:~/FOSS/11-02$ sftp cs17d12@192.168.0.30
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs17d12@192.168.0.30's password: 
+Connected to 192.168.0.30.
+sftp> scp /home/s4d1/FOSS/11-02/1.txt cs17d12@198.168.0.30:/home/cs17d12
+Invalid command.
+sftp> ls
+examples.desktop    test                
+sftp> cd test
+sftp> lpwd
+Local working directory: /home/s4d1/FOSS/11-02
+sftp> put localfile
+stat localfile: No such file or directory
+sftp> put 1.txt
+Uploading 1.txt to /home/cs17d12/test/1.txt
+1.txt                                         100% 4096     4.0KB/s   00:00    
+sftp> pwd
+Remote working directory: /home/cs17d12/test
+sftp> lpwd
+Local working directory: /home/s4d1/FOSS/11-02
+sftp> ls
+1.txt  
+sftp> get 1.txt
+Fetching /home/cs17d12/test/1.txt to 1.txt
+/home/cs17d12/test/1.txt                      100% 4096     4.0KB/s   00:00    
+sftp> exit
+s4d1@CC2-25:~/FOSS/11-02$ exit
+exit
+Script done, file is 1.txt
+s4d1@CC2-25:~/FOSS/11-02$ sftp ceccs17d12@192.168.0.30
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+ceccs17d12@192.168.0.30's password: 
+Permission denied, please try again.
+ceccs17d12@192.168.0.30's password: 
+
+[1]+  Stopped                 sftp ceccs17d12@192.168.0.30
+s4d1@CC2-25:~/FOSS/11-02$ sftp cs17d12@192.168.0.30
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs17d12@192.168.0.30's password: 
+Connected to 192.168.0.30.
+sftp> ls
+examples.desktop    test                
+sftp> cd test
+sftp> ls
+1.txt  
+sftp> get 1.txt
+Fetching /home/cs17d12/test/1.txt to 1.txt
+/home/cs17d12/test/1.txt                      100% 4096     4.0KB/s   00:00    
+sftp> cd /home
+sftp> ls
+ask       cec       cs17d00   cs17d01   cs17d02   cs17d03   cs17d04   cs17d05   
+cs17d06   cs17d07   cs17d08   cs17d09   cs17d10   cs17d11   cs17d12   cs17d13   
+cs17d14   cs17d15   cs17d16   cs17d17   cs17d18   cs17d19   cs17d20   cs17d21   
+cs17d22   cs17d23   cs17d24   cs17d25   cs17d26   cs17d27   cs17d28   cs17d29   
+cs17d30   cs17d31   cs17d32   cs17d33   cs17d34   cs17d35   cs17d36   cs17d37   
+cs17d38   cs17d39   cs17d40   cs17d41   cs17d42   cs17d43   cs17d44   cs17d45   
+cs17d46   cs17d47   cs17d48   cs17d49   cs17d50   cs17d51   cs17d52   cs17d53   
+cs17d54   cs17d55   cs17d56   cs17d57   cs17d58   cs17d59   cs17d60   cs17d61   
+cs17d62   hari      ieeecec   
+sftp> cd /home/cs17d23/
+sftp> ls
+examples.desktop    test.txt            
+sftp> cd /home
+sftp> ls
+ask       cec       cs17d00   cs17d01   cs17d02   cs17d03   cs17d04   cs17d05   
+cs17d06   cs17d07   cs17d08   cs17d09   cs17d10   cs17d11   cs17d12   cs17d13   
+cs17d14   cs17d15   cs17d16   cs17d17   cs17d18   cs17d19   cs17d20   cs17d21   
+cs17d22   cs17d23   cs17d24   cs17d25   cs17d26   cs17d27   cs17d28   cs17d29   
+cs17d30   cs17d31   cs17d32   cs17d33   cs17d34   cs17d35   cs17d36   cs17d37   
+cs17d38   cs17d39   cs17d40   cs17d41   cs17d42   cs17d43   cs17d44   cs17d45   
+cs17d46   cs17d47   cs17d48   cs17d49   cs17d50   cs17d51   cs17d52   cs17d53   
+cs17d54   cs17d55   cs17d56   cs17d57   cs17d58   cs17d59   cs17d60   cs17d61   
+cs17d62   hari      ieeecec   
+sftp> cd /home/cs17d23/
+sftp> mkdir /home/cs17d23/new
+Couldn't create directory: Permission denied
+sftp> cd
+You must specify a path after a cd command.
+sftp> cd /home
+sftp> ls
+ask       cec       cs17d00   cs17d01   cs17d02   cs17d03   cs17d04   cs17d05   
+cs17d06   cs17d07   cs17d08   cs17d09   cs17d10   cs17d11   cs17d12   cs17d13   
+cs17d14   cs17d15   cs17d16   cs17d17   cs17d18   cs17d19   cs17d20   cs17d21   
+cs17d22   cs17d23   cs17d24   cs17d25   cs17d26   cs17d27   cs17d28   cs17d29   
+cs17d30   cs17d31   cs17d32   cs17d33   cs17d34   cs17d35   cs17d36   cs17d37   
+cs17d38   cs17d39   cs17d40   cs17d41   cs17d42   cs17d43   cs17d44   cs17d45   
+cs17d46   cs17d47   cs17d48   cs17d49   cs17d50   cs17d51   cs17d52   cs17d53   
+cs17d54   cs17d55   cs17d56   cs17d57   cs17d58   cs17d59   cs17d60   cs17d61   
+cs17d62   hari      ieeecec   
+sftp> cd /home/ask
+sftp> ls
+examples.desktop    useradd.sh          
+sftp> cd /home/cs17d12/
+sftp> ls
+examples.desktop    test                
+sftp> mkdir script
+sftp> ls
+examples.desktop    script              test                
+sftp> cd /home/cs17d12/script
+sftp>  exit
+s4d1@CC2-25:~/FOSS/11-02$ exit
+exit
+
+]0;s4d1@CC2-25: ~/FOSS/11-02s4d1@CC2-25:~/FOSS/11-02$ exit
+exit
+
+Script done on Monday 11 March 2019 11:44:41 AM IST
+
