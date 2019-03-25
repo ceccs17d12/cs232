@@ -1,0 +1,613 @@
+Script started on Monday 25 March 2019 09:47:33 AM IST
+]0;cec-lab1@CC2-25: ~/Desktopcec-lab1@CC2-25:~/Desktop$ so[Kudo su
+sudo: unable to resolve host CC2-25
+[sudo] password for cec-lab1: 
+]0;root@CC2-25: /home/cec-lab1/Desktoproot@CC2-25:/home/cec-lab1/Desktop# ifconfig
+eth0      Link encap:Ethernet  HWaddr 38:d5:47:b8:d2:08  
+          inet addr:192.168.5.75  Bcast:192.168.5.255  Mask:255.255.255.0
+          inet6 addr: fe80::3ad5:47ff:feb8:d208/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:64365 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:31456 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:48560499 (48.5 MB)  TX bytes:4435314 (4.4 MB)
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+          RX packets:482 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:482 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:0 
+          RX bytes:182440 (182.4 KB)  TX bytes:182440 (182.4 KB)
+
+]0;root@CC2-25: /home/cec-lab1/Desktoproot@CC2-25:/home/cec-lab1/Desktop# ifconfig eth0 192.168.25.56[K
+]0;root@CC2-25: /home/cec-lab1/Desktoproot@CC2-25:/home/cec-lab1/Desktop# ping 192.168.25.3
+PING 192.168.25.3 (192.168.25.3) 56(84) bytes of data.
+64 bytes from 192.168.25.3: icmp_seq=1 ttl=64 time=0.386 ms
+64 bytes from 192.168.25.3: icmp_seq=2 ttl=64 time=0.254 ms
+64 bytes from 192.168.25.3: icmp_seq=3 ttl=64 time=0.379 ms
+64 bytes from 192.168.25.3: icmp_seq=4 ttl=64 time=0.240 ms
+64 bytes from 192.168.25.3: icmp_seq=5 ttl=64 time=0.238 ms
+64 bytes from 192.168.25.3: icmp_seq=6 ttl=64 time=0.191 ms
+64 bytes from 192.168.25.3: icmp_seq=7 ttl=64 time=0.185 ms
+64 bytes from 192.168.25.3: icmp_seq=8 ttl=64 time=0.303 ms
+64 bytes from 192.168.25.3: icmp_seq=9 ttl=64 time=0.431 ms
+^Z
+[1]+  Stopped                 ping 192.168.25.3
+]0;root@CC2-25: /home/cec-lab1/Desktoproot@CC2-25:/home/cec-lab1/Desktop# ifconfig etho[K0 down 192.168.0[K25.4
+]0;root@CC2-25: /home/cec-lab1/Desktoproot@CC2-25:/home/cec-lab1/Desktop# ifconfig eth0 down 192.168.25.4[1P 192.168.25.4[1P 192.168.25.4[1P 192.168.25.4[1P 192.168.25.4u 192.168.25.4p 192.168.25.4
+]0;root@CC2-25: /home/cec-lab1/Desktoproot@CC2-25:/home/cec-lab1/Desktop# ifup etho[K0 192.168.25.4
+Ignoring unknown interface eth0=eth0.
+Ignoring unknown interface 192.168.25.4=192.168.25.4.
+]0;root@CC2-25: /home/cec-lab1/Desktoproot@CC2-25:/home/cec-lab1/Desktop# ifup eth0 192.168.25.4[7@config eth0 up[C[C[C[C[C[C[C[C[C[C[C[C[C
+]0;root@CC2-25: /home/cec-lab1/Desktoproot@CC2-25:/home/cec-lab1/Desktop# ifconfig eth0 up 192.168.25.4[7Pup eth0[C[C[C[C[C[C[C[C[C[C[C[C[C[7@config eth0 up[C[C[C[C[C[C[C[C[C[C[C[C[C[2@down[C[C[C[C[C[C[C[C[C[C[C[C[C
+]0;root@CC2-25: /home/cec-lab1/Desktoproot@CC2-25:/home/cec-lab1/Desktop# ifconfig eth0 down 192.168.25.4[2Pup[C[C[C[C[C[C[C[C[C[C[C[C[C[7Pup eth0[C[C[C[C[C[C[C[C[C[C[C[C[C[7@config eth0 up[C[C[C[C[C[C[C[C[C[C[C[C[C[2@down[C[C[C[C[C[C[C[C[C[C[C[C[C[2Pup[C[C[C[C[C[C[C[C[C[C[C[C[C
+]0;root@CC2-25: /home/cec-lab1/Desktoproot@CC2-25:/home/cec-lab1/Desktop# ifconfig eth0 netmask 255.12[K[K255.255.244
+SIOCSIFNETMASK: Invalid argument
+]0;root@CC2-25: /home/cec-lab1/Desktoproot@CC2-25:/home/cec-lab1/Desktop# ifconfig eth0 netmask 255.255.255.244[K[K[K[K[K[K[K[K2[K.255.224
+]0;root@CC2-25: /home/cec-lab1/Desktoproot@CC2-25:/home/cec-lab1/Desktop# ifconfig
+eth0      Link encap:Ethernet  HWaddr 38:d5:47:b8:d2:08  
+          inet addr:192.168.25.4  Bcast:192.168.25.31  Mask:255.255.255.224
+          inet6 addr: fe80::3ad5:47ff:feb8:d208/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:64500 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:31622 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:48586571 (48.5 MB)  TX bytes:4459615 (4.4 MB)
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+          RX packets:490 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:490 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:0 
+          RX bytes:182968 (182.9 KB)  TX bytes:182968 (182.9 KB)
+
+]0;root@CC2-25: /home/cec-lab1/Desktoproot@CC2-25:/home/cec-lab1/Desktop# ifconfig eth0 netmask 255.255.255.22444[8Pup 192.168.25.4[2@down[C[C[C[C[C[C[C[C[C[C[C[C[C[2Pup[C[C[C[C[C[C[C[C[C[C[C[C[C[7Pup eth0[C[C[C[C[C[C[C[C[C[C[C[C[C[7@config eth0 up[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[Kp
+]0;root@CC2-25: /home/cec-lab1/Desktoproot@CC2-25:/home/cec-lab1/Desktop# ifconfig eth0 up[K[Kdo3wn[K[K[Kwn
+]0;root@CC2-25: /home/cec-lab1/Desktoproot@CC2-25:/home/cec-lab1/Desktop# ifconfig
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+          RX packets:490 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:490 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:0 
+          RX bytes:182968 (182.9 KB)  TX bytes:182968 (182.9 KB)
+
+]0;root@CC2-25: /home/cec-lab1/Desktoproot@CC2-25:/home/cec-lab1/Desktop# ifconfig eth0 down[2Pup
+]0;root@CC2-25: /home/cec-lab1/Desktoproot@CC2-25:/home/cec-lab1/Desktop# ifconfig eth0 up[K eth0 down[2Pupdown[K
+eth0      Link encap:Ethernet  HWaddr 38:d5:47:b8:d2:08  
+          UP BROADCAST MULTICAST  MTU:1500  Metric:1
+          RX packets:64506 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:31705 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:48587133 (48.5 MB)  TX bytes:4472876 (4.4 MB)
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+          RX packets:490 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:490 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:0 
+          RX bytes:182968 (182.9 KB)  TX bytes:182968 (182.9 KB)
+
+]0;root@CC2-25: /home/cec-lab1/Desktoproot@CC2-25:/home/cec-lab1/Desktop# po[K[Kifconfig eth0 up[K eth0 down[2Pup[K eth0 netmask 255.255.255.22444[8Pup 192.168.25.4[2@down[C[C[C[C[C[C[C[C[C[C[C[C[C[2Pup[C[C[C[C[C[C[C[C[C[C[C[C[C[7Pup eth0[C[C[C[C[C[C[C[C[C[C[C[C[C[7@config eth0 up[C[C[C[C[C[C[C[C[C[C[C[C[C[2@down[C[C[C[C[C[C[C[C[C[C[C[C[C[14Pping 192.168.25.3ifconfig eth0 192.168.25.5[9Pping 192.168.25.3[K4
+connect: Network is unreachable
+]0;root@CC2-25: /home/cec-lab1/Desktoproot@CC2-25:/home/cec-lab1/Desktop# ping 192.168.25.4
+connect: Network is unreachable
+]0;root@CC2-25: /home/cec-lab1/Desktoproot@CC2-25:/home/cec-lab1/Desktop# ping 192.168.25.4
+connect: Network is unreachable
+]0;root@CC2-25: /home/cec-lab1/Desktoproot@CC2-25:/home/cec-lab1/Desktop# ping 192.168.25.4
+connect: Network is unreachable
+]0;root@CC2-25: /home/cec-lab1/Desktoproot@CC2-25:/home/cec-lab1/Desktop# ping 192.168.25.4
+connect: Network is unreachable
+]0;root@CC2-25: /home/cec-lab1/Desktoproot@CC2-25:/home/cec-lab1/Desktop# ping 192.168.25.4
+connect: Network is unreachable
+]0;root@CC2-25: /home/cec-lab1/Desktoproot@CC2-25:/home/cec-lab1/Desktop# ping 192.168.25.4[K2
+connect: Network is unreachable
+]0;root@CC2-25: /home/cec-lab1/Desktoproot@CC2-25:/home/cec-lab1/Desktop# 1[Kping 192.168.25.242[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kping 192.168.25.4[9Pifconfig eth0 up[K eth0 down[K eth0 up[Kping 192.168.25.4[Kping 192.168.25.4[9Pifconfig eth0 up[K eth0 down[2Pup[K eth0 netmask 255.255.255.22444[8Pup 192.168.25.4[2@down[C[C[C[C[C[C[C[C[C[C[C[C[C[2Pup[C[C[C[C[C[C[C[C[C[C[C[C[C[7Pup eth0[C[C[C[C[C[C[C[C[C[C[C[C[C[7@config eth0 up[C[C[C[C[C[C[C[C[C[C[C[C[C[2@down[C[C[C[C[C[C[C[C[C[C[C[C[C[14Pping 192.168.25.3ifconfig eth0 192.168.25.5[9Pping 192.168.25.3[K2
+connect: Network is unreachable
+]0;root@CC2-25: /home/cec-lab1/Desktoproot@CC2-25:/home/cec-lab1/Desktop# ping 192.168.25.2
+connect: Network is unreachable
+]0;root@CC2-25: /home/cec-lab1/Desktoproot@CC2-25:/home/cec-lab1/Desktop# ping 192.168.25.2
+connect: Network is unreachable
+]0;root@CC2-25: /home/cec-lab1/Desktoproot@CC2-25:/home/cec-lab1/Desktop# root@192.168.25.2
+root@192.168.25.2: command not found
+]0;root@CC2-25: /home/cec-lab1/Desktoproot@CC2-25:/home/cec-lab1/Desktop# root@192.168.25.2sroot@192.168.25.2froot@192.168.25.2troot@192.168.25.2proot@192.168.25.2 root@192.168.25.2
+ssh: connect to host 192.168.25.2 port 22: Network is unreachable
+Couldn't read packet: Connection reset by peer
+]0;root@CC2-25: /home/cec-lab1/Desktoproot@CC2-25:/home/cec-lab1/Desktop# sftp root@192.168.25.2[5Proot@192.168.25.2ping 192.168.25.2
+connect: Network is unreachable
+]0;root@CC2-25: /home/cec-lab1/Desktoproot@CC2-25:/home/cec-lab1/Desktop# ping
+Usage: ping [-aAbBdDfhLnOqrRUvV] [-c count] [-i interval] [-I interface]
+            [-m mark] [-M pmtudisc_option] [-l preload] [-p pattern] [-Q tos]
+            [-s packetsize] [-S sndbuf] [-t ttl] [-T timestamp_option]
+            [-w deadline] [-W timeout] [hop1 ...] destination
+]0;root@CC2-25: /home/cec-lab1/Desktoproot@CC2-25:/home/cec-lab1/Desktop# ping 192.168.25.2sftp root@192.168.25.2[5Pping 192.168.25.2
+connect: Network is unreachable
+]0;root@CC2-25: /home/cec-lab1/Desktoproot@CC2-25:/home/cec-lab1/Desktop# 
+]0;root@CC2-25: /home/cec-lab1/Desktoproot@CC2-25:/home/cec-lab1/Desktop# ping 192.168.25.2
+connect: Network is unreachable
+]0;root@CC2-25: /home/cec-lab1/Desktoproot@CC2-25:/home/cec-lab1/Desktop# ping 192.168.25.2
+connect: Network is unreachable
+]0;root@CC2-25: /home/cec-lab1/Desktoproot@CC2-25:/home/cec-lab1/Desktop# ping 192.168.25.2
+connect: Network is unreachable
+]0;root@CC2-25: /home/cec-lab1/Desktoproot@CC2-25:/home/cec-lab1/Desktop# ping 192.168.25.2
+connect: Network is unreachable
+]0;root@CC2-25: /home/cec-lab1/Desktoproot@CC2-25:/home/cec-lab1/Desktop# ping 192.168.25.2[K4
+connect: Network is unreachable
+]0;root@CC2-25: /home/cec-lab1/Desktoproot@CC2-25:/home/cec-lab1/Desktop# ping 192.168.25.4
+connect: Network is unreachable
+]0;root@CC2-25: /home/cec-lab1/Desktoproot@CC2-25:/home/cec-lab1/Desktop# ping 192.168.25.4
+connect: Network is unreachable
+]0;root@CC2-25: /home/cec-lab1/Desktoproot@CC2-25:/home/cec-lab1/Desktop# ping 192.168.25.4
+connect: Network is unreachable
+]0;root@CC2-25: /home/cec-lab1/Desktoproot@CC2-25:/home/cec-lab1/Desktop# ping 192.168.25.4
+connect: Network is unreachable
+]0;root@CC2-25: /home/cec-lab1/Desktoproot@CC2-25:/home/cec-lab1/Desktop# ping 192.168.25.4
+connect: Network is unreachable
+]0;root@CC2-25: /home/cec-lab1/Desktoproot@CC2-25:/home/cec-lab1/Desktop# ping 192.168.25.4
+connect: Network is unreachable
+]0;root@CC2-25: /home/cec-lab1/Desktoproot@CC2-25:/home/cec-lab1/Desktop# ping 192.168.25.4
+connect: Network is unreachable
+]0;root@CC2-25: /home/cec-lab1/Desktoproot@CC2-25:/home/cec-lab1/Desktop# ping 192.168.25.4
+connect: Network is unreachable
+]0;root@CC2-25: /home/cec-lab1/Desktoproot@CC2-25:/home/cec-lab1/Desktop# ping 192.168.25.4
+connect: Network is unreachable
+]0;root@CC2-25: /home/cec-lab1/Desktoproot@CC2-25:/home/cec-lab1/Desktop# ping 192.168.25.4
+connect: Network is unreachable
+]0;root@CC2-25: /home/cec-lab1/Desktoproot@CC2-25:/home/cec-lab1/Desktop# ^C
+]0;root@CC2-25: /home/cec-lab1/Desktoproot@CC2-25:/home/cec-lab1/Desktop# ^[[Aping 192.168.25.42[K 192.168.25.2sftp root@192.168.25.2[5Proot@192.168.25.2ping 192.168.25.2[Kping 192.168.25.4[9Pifconfig eth0 up[K eth0 down[2Pup[K eth0 netmask 255.255.255.22444[8Pup 192.168.25.4[2@down[C[C[C[C[C[C[C[C[C[C[C[C[C[2Pup[C[C[C[C[C[C[C[C[C[C[C[C[C[2@down[C[C[C[C[C[C[C[C[C[C[C[C[C[2Pup[C[C[C[C[C[C[C[C[C[C[C[C[C[K5
+]0;root@CC2-25: /home/cec-lab1/Desktoproot@CC2-25:/home/cec-lab1/Desktop# ifconfig eth0 up 192.168.25.5[12Pping 192.168.25.42[K 192.168.25.2sftp root@192.168.25.2[5Proot@192.168.25.2ping 192.168.25.2[Kping 192.168.25.4[9Pifconfig eth0 up[K eth0 down[2Pup[K eth0 netmask 255.255.255.22444[8Pup 192.168.25.4[2@down[C[C[C[C[C[C[C[C[C[C[C[C[C[2Pup[C[C[C[C[C[C[C[C[C[C[C[C[C[7Pup eth0[C[C[C[C[C[C[C[C[C[C[C[C[C[7@config eth0 up[C[C[C[C[C[C[C[C[C[C[C[C[C[2@down[C[C[C[C[C[C[C[C[C[C[C[C[C[14Pping 192.168.25.3ifconfig eth0 192.168.25.5
+]0;root@CC2-25: /home/cec-lab1/Desktoproot@CC2-25:/home/cec-lab1/Desktop# ifconfig eth0 192.168.25.5up 192.168.25.5[12Pping 192.168.25.42[K 192.168.25.2
+PING 192.168.25.2 (192.168.25.2) 56(84) bytes of data.
+64 bytes from 192.168.25.2: icmp_seq=1 ttl=64 time=0.267 ms
+64 bytes from 192.168.25.2: icmp_seq=2 ttl=64 time=0.164 ms
+64 bytes from 192.168.25.2: icmp_seq=3 ttl=64 time=0.154 ms
+64 bytes from 192.168.25.2: icmp_seq=4 ttl=64 time=0.155 ms
+^Z
+[2]+  Stopped                 ping 192.168.25.2
+]0;root@CC2-25: /home/cec-lab1/Desktoproot@CC2-25:/home/cec-lab1/Desktop# sftp rppt[K[K[Koot@192.168.25.4
+ssh: connect to host 192.168.25.4 port 22: Connection refused
+Couldn't read packet: Connection reset by peer
+]0;root@CC2-25: /home/cec-lab1/Desktoproot@CC2-25:/home/cec-lab1/Desktop# sftp root@192.168.25.4[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kping 192.168.25.4
+connect: Network is unreachable
+]0;root@CC2-25: /home/cec-lab1/Desktoproot@CC2-25:/home/cec-lab1/Desktop# ping 192.168.25.4sftp root@192.168.25.4[5Pping 192.168.25.2
+connect: Network is unreachable
+]0;root@CC2-25: /home/cec-lab1/Desktoproot@CC2-25:/home/cec-lab1/Desktop# ping 192.168.25.24sftp root@192.168.25.4[5Pping 192.168.25.2sftp root@192.168.25.4[5Pping 192.168.25.2ifconfig eth0 192.168.25.5
+]0;root@CC2-25: /home/cec-lab1/Desktoproot@CC2-25:/home/cec-lab1/Desktop# ifconfig eth0 192.168.25.5[9Pping 192.168.25.24
+PING 192.168.25.4 (192.168.25.4) 56(84) bytes of data.
+64 bytes from 192.168.25.4: icmp_seq=1 ttl=64 time=0.501 ms
+64 bytes from 192.168.25.4: icmp_seq=2 ttl=64 time=0.264 ms
+64 bytes from 192.168.25.4: icmp_seq=3 ttl=64 time=0.268 ms
+64 bytes from 192.168.25.4: icmp_seq=4 ttl=64 time=0.256 ms
+64 bytes from 192.168.25.4: icmp_seq=5 ttl=64 time=0.237 ms
+^Z
+[3]+  Stopped                 ping 192.168.25.4
+]0;root@CC2-25: /home/cec-lab1/Desktoproot@CC2-25:/home/cec-lab1/Desktop# ping 192.168.25.4ifconfig eth0 192.168.25.5[9Pping 192.168.25.24sftp root@192.168.25.4
+ssh: connect to host 192.168.25.4 port 22: Connection refused
+Couldn't read packet: Connection reset by peer
+]0;root@CC2-25: /home/cec-lab1/Desktoproot@CC2-25:/home/cec-lab1/Desktop# sftp root@192.168.25.4[C[1P@192.168.25.4[1P@192.168.25.4[1P@192.168.25.4[1P@192.168.25.4c@192.168.25.4e@192.168.25.4c@192.168.25.4_@192.168.25.4l@192.168.25.4a@192.168.25.4b@192.168.25.42@192.168.25.4
+ssh: connect to host 192.168.25.4 port 22: Network is unreachable
+Couldn't read packet: Connection reset by peer
+]0;root@CC2-25: /home/cec-lab1/Desktoproot@CC2-25:/home/cec-lab1/Desktop# sftp cec_lab2@192.168.25.4[4Proot@192.168.25.4[5Pping 192.168.25.4sftp root@192.168.25.4[5Pping 192.168.25.4ifconfig eth0 192.168.25.5
+]0;root@CC2-25: /home/cec-lab1/Desktoproot@CC2-25:/home/cec-lab1/Desktop# ifconfig eth0 192.168.25.5sftp cec_lab2@192.168.25.4
+ssh: connect to host 192.168.25.4 port 22: Connection refused
+Couldn't read packet: Connection reset by peer
+]0;root@CC2-25: /home/cec-lab1/Desktoproot@CC2-25:/home/cec-lab1/Desktop# sftp cec_lab2@192.168.25.4ifconfig eth0 192.168.25.5sftp cec_lab2@192.168.25.4[4Proot@192.168.25.4[5Pping 192.168.25.4
+PING 192.168.25.4 (192.168.25.4) 56(84) bytes of data.
+64 bytes from 192.168.25.4: icmp_seq=1 ttl=64 time=0.251 ms
+64 bytes from 192.168.25.4: icmp_seq=2 ttl=64 time=0.188 ms
+64 bytes from 192.168.25.4: icmp_seq=3 ttl=64 time=0.224 ms
+64 bytes from 192.168.25.4: icmp_seq=4 ttl=64 time=0.334 ms
+64 bytes from 192.168.25.4: icmp_seq=5 ttl=64 time=0.348 ms
+^Z
+[4]+  Stopped                 ping 192.168.25.4
+]0;root@CC2-25: /home/cec-lab1/Desktoproot@CC2-25:/home/cec-lab1/Desktop# ping 192.168.25.4sftp cec_lab2@192.168.25.4
+ssh: connect to host 192.168.25.4 port 22: Connection refused
+Couldn't read packet: Connection reset by peer
+]0;root@CC2-25: /home/cec-lab1/Desktoproot@CC2-25:/home/cec-lab1/Desktop# sftp cec_lab2@192.168.25.4[K2[1P@192.168.25.2[1P@192.168.25.2[1P@192.168.25.2[1P@192.168.25.2[1P@192.168.25.2[1P@192.168.25.2[1P@192.168.25.2[1P@192.168.25.2r@192.168.25.2o@192.168.25.2o@192.168.25.2t@192.168.25.2
+The authenticity of host '192.168.25.2 (192.168.25.2)' can't be established.
+RSA key fingerprint is 0e:ac:0a:9c:54:2c:a0:8a:c4:c7:19:a3:44:ca:7f:53.
+Are you sure you want to continue connecting (yes/no)? yes
+Warning: Permanently added '192.168.25.2' (RSA) to the list of known hosts.
+root@192.168.25.2's password: 
+
+^Z
+[5]+  Stopped                 sftp root@192.168.25.2
+]0;root@CC2-25: /home/cec-lab1/Desktoproot@CC2-25:/home/cec-lab1/Desktop# sftp root@192.168.25.2cec_lab2@192.168.25.4[9Pping 192.168.25.4
+connect: Network is unreachable
+]0;root@CC2-25: /home/cec-lab1/Desktoproot@CC2-25:/home/cec-lab1/Desktop# ping 192.168.25.4[K2
+connect: Network is unreachable
+]0;root@CC2-25: /home/cec-lab1/Desktoproot@CC2-25:/home/cec-lab1/Desktop# ping 192.168.25.24sftp root@192.168.25.2cec_lab2@192.168.25.4[9Pping 192.168.25.4sftp cec_lab2@192.168.25.4[9Pping 192.168.25.4sftp cec_lab2@192.168.25.4ifconfig eth0 192.168.25.5
+]0;root@CC2-25: /home/cec-lab1/Desktoproot@CC2-25:/home/cec-lab1/Desktop# ifconfig eth0 192.168.25.5[9Pping 192.168.25.24
+PING 192.168.25.4 (192.168.25.4) 56(84) bytes of data.
+64 bytes from 192.168.25.4: icmp_seq=1 ttl=64 time=0.465 ms
+64 bytes from 192.168.25.4: icmp_seq=2 ttl=64 time=0.311 ms
+64 bytes from 192.168.25.4: icmp_seq=3 ttl=64 time=0.223 ms
+^Z
+[6]+  Stopped                 ping 192.168.25.4
+]0;root@CC2-25: /home/cec-lab1/Desktoproot@CC2-25:/home/cec-lab1/Desktop# ping 192.168.25.4ifconfig eth0 192.168.25.5[9Pping 192.168.25.24sftp root@192.168.25.2cec_lab2@192.168.25.4
+ssh: connect to host 192.168.25.4 port 22: Connection refused
+Couldn't read packet: Connection reset by peer
+]0;root@CC2-25: /home/cec-lab1/Desktoproot@CC2-25:/home/cec-lab1/Desktop# sftp cec_lab2@192.168.25.4[9Pping 192.168.25.4ifconfig eth0 192.168.25.5[9Pping 192.168.25.24sftp root@192.168.25.2cec_lab2@192.168.25.4[4Proot@192.168.25.2
+root@192.168.25.2's password: 
+Permission denied, please try again.
+root@192.168.25.2's password: 
+Permission denied, please try again.
+root@192.168.25.2's password: 
+Connected to 192.168.25.2.
+sftp> ls
+25.03.19            Desktop             Server.java~        UNIX or linux os    
+a.c~                a.out               a.txt               a.txt~              
+abc                 abc.tct             binary.c            c.sh~               
+cec                 cecs4dcnew          classlist~          efg.txt             
+employ.c            employ.c~           employ.txt          employee.c          
+employee.c~         etc                 file.txt            file1.txt           
+insort.c            linux.txt           man ssh             msgq.c~             
+n.sh~               output.txt          output1.txt         output2.txt         
+pipe.c              pipe.c~             receive.java~       redirection.txt     
+sconf.sh            sconf.sh~           sharedmem.c~        sharedmem0.c~       
+sharedmem1.c~       sheba               signal.c            sort.txt            
+sys.sh~             temp.txt            typescript          usr                 
+yum-2.4.3           yum-3.4.3           
+sftp> put /home/cec-lab1/Desktop/new.txt
+Uploading /home/cec-lab1/Desktop/new.txt to /root/new.txt
+/home/cec-lab1/Desktop/new.txt                100%    0     0.0KB/s   00:00    
+sftp> ls
+25.03.19            Desktop             Server.java~        UNIX or linux os    
+a.c~                a.out               a.txt               a.txt~              
+abc                 abc.tct             binary.c            c.sh~               
+cec                 cecs4dcnew          classlist~          efg.txt             
+employ.c            employ.c~           employ.txt          employee.c          
+employee.c~         etc                 file.txt            file1.txt           
+insort.c            linux.txt           man ssh             msgq.c~             
+n.sh~               new.txt             output.txt          output1.txt         
+output2.txt         pipe.c              pipe.c~             receive.java~       
+redirection.txt     sconf.sh            sconf.sh~           sharedmem.c~        
+sharedmem0.c~       sharedmem1.c~       sheba               signal.c            
+sort.txt            sys.sh~             temp.txt            typescript          
+usr                 yum-2.4.3           yum-3.4.3           
+sftp> cd desktop
+Couldn't canonicalize: No such file or directory
+sftp> cd desktop[1@/d[1@hd[1@od[1@md[1@ed[1@/dd[Pe[1@De
+Couldn't canonicalize: No such file or directory
+sftp> pwd
+Remote working directory: /root
+sftp> cd /root/Desl[Kktop
+sftp> ls
+Python-2.7.15-22_Oso.x86_64.rpm         a.txt                                   
+aa                                      alphiealeena                            
+binary.c                                binary.c~                               
+bubblesort.c~                           poly.c~                                 
+python2.4-2.4-1pydotorg.i386.rpm        python3-3.6.5-1.fc28.i686.rpm           
+yum-2.0.7                               yum-4.4.3.tar.gz                        
+sftp> lscd /root/Desktop[7Gpwd[Kcd /home/Desktop[10G[6Pd[17G[7Gls[Kput /home/cec-lab1/Desktop/new.txt
+Uploading /home/cec-lab1/Desktop/new.txt to /root/Desktop/new.txt
+/home/cec-lab1/Desktop/new.txt                100%    0     0.0KB/s   00:00    
+sftp> put /home/cec-lab1/Desktop/new.txt[7Gls[Kcd /root/Desktop[7Gls[K
+Python-2.7.15-22_Oso.x86_64.rpm         a.txt                                   
+aa                                      alphiealeena                            
+binary.c                                binary.c~                               
+bubblesort.c~                           new.txt                                 
+poly.c~                                 python2.4-2.4-1pydotorg.i386.rpm        
+python3-3.6.5-1.fc28.i686.rpm           yum-2.0.7                               
+yum-4.4.3.tar.gz                        
+sftp> 
+[7]+  Stopped                 sftp root@192.168.25.2
+]0;root@CC2-25: /home/cec-lab1/Desktoproot@CC2-25:/home/cec-lab1/Desktop# sftp root@192.168.25.2[K4
+ssh: connect to host 192.168.25.4 port 22: Connection refused
+Couldn't read packet: Connection reset by peer
+]0;root@CC2-25: /home/cec-lab1/Desktoproot@CC2-25:/home/cec-lab1/Desktop# sftp root@192.168.25.42cec_lab2@192.168.25.4[9Pping 192.168.25.4
+PING 192.168.25.4 (192.168.25.4) 56(84) bytes of data.
+^Z
+[8]+  Stopped                 ping 192.168.25.4
+]0;root@CC2-25: /home/cec-lab1/Desktoproot@CC2-25:/home/cec-lab1/Desktop# ifconfig
+eth0      Link encap:Ethernet  HWaddr 38:d5:47:b8:d2:08  
+          inet addr:192.168.25.5  Bcast:192.168.25.255  Mask:255.255.255.0
+          inet6 addr: fe80::3ad5:47ff:feb8:d208/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:2128836 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:32300 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:206113985 (206.1 MB)  TX bytes:4572175 (4.5 MB)
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+          RX packets:522 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:522 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:0 
+          RX bytes:185688 (185.6 KB)  TX bytes:185688 (185.6 KB)
+
+]0;root@CC2-25: /home/cec-lab1/Desktoproot@CC2-25:/home/cec-lab1/Desktop# ifconfig 192.168.25.2
+192.168.25.2: error fetching interface information: Device not found
+]0;root@CC2-25: /home/cec-lab1/Desktoproot@CC2-25:/home/cec-lab1/Desktop# ifconfig 192.168.25.2[K
+eth0      Link encap:Ethernet  HWaddr 38:d5:47:b8:d2:08  
+          inet addr:192.168.25.5  Bcast:192.168.25.255  Mask:255.255.255.0
+          inet6 addr: fe80::3ad5:47ff:feb8:d208/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:4002514 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:32300 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:490599956 (490.5 MB)  TX bytes:4572175 (4.5 MB)
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+          RX packets:522 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:522 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:0 
+          RX bytes:185688 (185.6 KB)  TX bytes:185688 (185.6 KB)
+
+]0;root@CC2-25: /home/cec-lab1/Desktoproot@CC2-25:/home/cec-lab1/Desktop# ifconfig 192.168.25.2[Kping 192.168.25.4sftp root@192.168.25.42cec_lab2@192.168.25.4[9Pping 192.168.25.4ifconfig eth0 192.168.25.5[9Pping 192.168.25.24sftp root@192.168.25.2cec_lab2@192.168.25.4[9Pping 192.168.25.4sftp cec_lab2@192.168.25.4ifconfig eth0 192.168.25.5sftp cec_lab2@192.168.25.4[4Proot@192.168.25.4[5Pping 192.168.25.4ifconfig eth0 192.168.25.5[9Pping 192.168.25.24sftp root@192.168.25.4[5Pping 192.168.25.2ifconfig eth0 192.168.25.5up 192.168.25.5[12Pping 192.168.25.42[K 192.168.25.2sftp root@192.168.25.2[5Proot@192.168.25.2ping 192.168.25.2[Kping 192.168.25.4[9Pifconfig eth0 up[K eth0 down[2Pup[K eth0 netmask 255.255.255.22444[8Pup 192.168.25.4[2@down[C[C[C[C[C[C[C[C[C[C[C[C[C[2Pup[C[C[C[C[C[C[C[C[C[C[C[C[C[7Pup eth0[C[C[C[C[C[C[C[C[C[C[C[C[C[7@config eth0 up[C[C[C[C[C[C[C[C[C[C[C[C[C[2@down[C[C[C[C[C[C[C[C[C[C[C[C[C[14Pping 192.168.25.3ifconfig eth0 192.168.25.5[K[4Pdate +%T -s "06:00:00"[3Papt install unicode[9Pdduser trpt install unicodedate +%T -s "06:00:00"[Kifconfig eth0 192.168.25.5[9Pping 192.168.25.3ifconfig eth0 down 192.168.25.4[2Pup[C[C[C[C[C[C[C[C[C[C[C[C[C[7Pup eth0[C[C[C[C[C[C[C[C[C[C[C[C[C[7@config eth0 up[C[C[C[C[C[C[C[C[C[C[C[C[C[7Pup eth0[C[C[C[C[C[C[C[C[C[C[C[C[C[7@config eth0 up[C[C[C[C[C[C[C[C[C[C[C[C[C[2@down[C[C[C[C[C[C[C[C[C[C[C[C[C[2Pup[C[C[C[C[C[C[C[C[C[C[C[C[Cnetmask 255.255.255.24424
+]0;root@CC2-25: /home/cec-lab1/Desktoproot@CC2-25:/home/cec-lab1/Desktop# ifconfig eth0 netmask 255.255.255.224[K
+eth0      Link encap:Ethernet  HWaddr 38:d5:47:b8:d2:08  
+          inet addr:192.168.25.5  Bcast:192.168.25.31  Mask:255.255.255.224
+          inet6 addr: fe80::3ad5:47ff:feb8:d208/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:5638519 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:32305 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:837152985 (837.1 MB)  TX bytes:4572883 (4.5 MB)
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+          RX packets:522 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:522 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:0 
+          RX bytes:185688 (185.6 KB)  TX bytes:185688 (185.6 KB)
+
+]0;root@CC2-25: /home/cec-lab1/Desktoproot@CC2-25:/home/cec-lab1/Desktop# ifconfig eth0 netmask 255.255.255.224[K 192.168.25.2[Kping 192.168.25.4sftp root@192.168.25.4[5Pping 192.168.25.4
+PING 192.168.25.4 (192.168.25.4) 56(84) bytes of data.
+From 192.168.25.5 icmp_seq=1 Destination Host Unreachable
+From 192.168.25.5 icmp_seq=2 Destination Host Unreachable
+From 192.168.25.5 icmp_seq=3 Destination Host Unreachable
+From 192.168.25.5 icmp_seq=4 Destination Host Unreachable
+From 192.168.25.5 icmp_seq=5 Destination Host Unreachable
+From 192.168.25.5 icmp_seq=6 Destination Host Unreachable
+^Z
+[9]+  Stopped                 ping 192.168.25.4
+]0;root@CC2-25: /home/cec-lab1/Desktoproot@CC2-25:/home/cec-lab1/Desktop# ping 192.168.25.4[K2
+PING 192.168.25.2 (192.168.25.2) 56(84) bytes of data.
+From 192.168.25.5 icmp_seq=1 Destination Host Unreachable
+From 192.168.25.5 icmp_seq=2 Destination Host Unreachable
+From 192.168.25.5 icmp_seq=3 Destination Host Unreachable
+^Z
+[10]+  Stopped                 ping 192.168.25.2
+]0;root@CC2-25: /home/cec-lab1/Desktoproot@CC2-25:/home/cec-lab1/Desktop# ping 192.168.25.24[9Pifconfig eth0 netmask 255.255.255.224[K eth0 netmask 255.255.255.224[K 192.168.25.2[Kping 192.168.25.4sftp root@192.168.25.42cec_lab2@192.168.25.4[4Proot@192.168.25.2cec_lab2@192.168.25.4[9Pping 192.168.25.4ifconfig eth0 192.168.25.5
+]0;root@CC2-25: /home/cec-lab1/Desktoproot@CC2-25:/home/cec-lab1/Desktop# ifconfig eth0 192.168.25.5[9Pping 192.168.25.242
+PING 192.168.25.2 (192.168.25.2) 56(84) bytes of data.
+From 192.168.25.5 icmp_seq=1 Destination Host Unreachable
+From 192.168.25.5 icmp_seq=2 Destination Host Unreachable
+From 192.168.25.5 icmp_seq=3 Destination Host Unreachable
+^Z
+[11]+  Stopped                 ping 192.168.25.2
+]0;root@CC2-25: /home/cec-lab1/Desktoproot@CC2-25:/home/cec-lab1/Desktop# ping 192.168.25.2ifconfig eth0 192.168.25.5[9Pping 192.168.25.2[Kping 192.168.25.2ifconfig eth0 192.168.25.5[9Pping 192.168.25.2[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kifconfig eth0 192.168.25.5[9Pping 192.168.25.2[K4
+PING 192.168.25.4 (192.168.25.4) 56(84) bytes of data.
+^[[A    ^Z
+[12]+  Stopped                 ping 192.168.25.4
+]0;root@CC2-25: /home/cec-lab1/Desktoproot@CC2-25:/home/cec-lab1/Desktop# ping 192.168.25.4[Kifconfig eth0 192.168.25.5[9Pping 192.168.25.2[K4
+PING 192.168.25.4 (192.168.25.4) 56(84) bytes of data.
+From 192.168.25.5 icmp_seq=1 Destination Host Unreachable
+From 192.168.25.5 icmp_seq=2 Destination Host Unreachable
+From 192.168.25.5 icmp_seq=3 Destination Host Unreachable
+^Z
+[13]+  Stopped                 ping 192.168.25.4
+]0;root@CC2-25: /home/cec-lab1/Desktoproot@CC2-25:/home/cec-lab1/Desktop# ping 192.168.25.4
+PING 192.168.25.4 (192.168.25.4) 56(84) bytes of data.
+^Z
+[14]+  Stopped                 ping 192.168.25.4
+]0;root@CC2-25: /home/cec-lab1/Desktoproot@CC2-25:/home/cec-lab1/Desktop# ping 192.168.25.4[Kifconfig eth0 192.168.25.5[9Pping 192.168.25.2ifconfig eth0 192.168.25.5[K3
+]0;root@CC2-25: /home/cec-lab1/Desktoproot@CC2-25:/home/cec-lab1/Desktop# ifconfig eth0 192.168.25.3[9Pping 192.168.25.4
+PING 192.168.25.4 (192.168.25.4) 56(84) bytes of data.
+^Z
+[15]+  Stopped                 ping 192.168.25.4
+]0;root@CC2-25: /home/cec-lab1/Desktoproot@CC2-25:/home/cec-lab1/Desktop# ping 192.168.25.4ifconfig eth0 192.168.25.3[9Pping 192.168.25.4ifconfig eth0 192.168.25.3[9Pping 192.168.25.4ifconfig eth0 192.168.25.3
+]0;root@CC2-25: /home/cec-lab1/Desktoproot@CC2-25:/home/cec-lab1/Desktop# ifconfig eth0 192.168.25.3[9Pping 192.168.25.4
+PING 192.168.25.4 (192.168.25.4) 56(84) bytes of data.
+^Z
+[16]+  Stopped                 ping 192.168.25.4
+]0;root@CC2-25: /home/cec-lab1/Desktoproot@CC2-25:/home/cec-lab1/Desktop# ping 192.168.25.4[K3
+PING 192.168.25.3 (192.168.25.3) 56(84) bytes of data.
+64 bytes from 192.168.25.3: icmp_seq=1 ttl=64 time=0.010 ms
+64 bytes from 192.168.25.3: icmp_seq=2 ttl=64 time=0.020 ms
+64 bytes from 192.168.25.3: icmp_seq=3 ttl=64 time=0.017 ms
+^Z
+[17]+  Stopped                 ping 192.168.25.3
+]0;root@CC2-25: /home/cec-lab1/Desktoproot@CC2-25:/home/cec-lab1/Desktop# ping 192.168.25.3[K4
+PING 192.168.25.4 (192.168.25.4) 56(84) bytes of data.
+ping: sendmsg: Network is unreachable
+ping: sendmsg: Network is unreachable
+ping: sendmsg: Network is unreachable
+^Z
+[18]+  Stopped                 ping 192.168.25.4
+]0;root@CC2-25: /home/cec-lab1/Desktoproot@CC2-25:/home/cec-lab1/Desktop# ping 192.168.25.4[K1
+connect: Network is unreachable
+]0;root@CC2-25: /home/cec-lab1/Desktoproot@CC2-25:/home/cec-lab1/Desktop# ping 192.168.25.1434ifconfig eth0 192.168.25.3
+]0;root@CC2-25: /home/cec-lab1/Desktoproot@CC2-25:/home/cec-lab1/Desktop# ifconfig eth0 192.168.25.3[9Pping 192.168.25.1
+PING 192.168.25.1 (192.168.25.1) 56(84) bytes of data.
+^Z
+[19]+  Stopped                 ping 192.168.25.1
+]0;root@CC2-25: /home/cec-lab1/Desktoproot@CC2-25:/home/cec-lab1/Desktop# ping 192.168.25.1ifconfig eth0 192.168.25.3[9Pping 192.168.25.14341ifconfig eth0 192.168.25.3[9Pping 192.168.25.1ifconfig eth0 192.168.25.3
+]0;root@CC2-25: /home/cec-lab1/Desktoproot@CC2-25:/home/cec-lab1/Desktop# ping 192.168.25.3
+PING 192.168.25.3 (192.168.25.3) 56(84) bytes of data.
+64 bytes from 192.168.25.3: icmp_seq=1 ttl=64 time=0.011 ms
+64 bytes from 192.168.25.3: icmp_seq=2 ttl=64 time=0.015 ms
+64 bytes from 192.168.25.3: icmp_seq=3 ttl=64 time=0.019 ms
+64 bytes from 192.168.25.3: icmp_seq=4 ttl=64 time=0.041 ms
+^Z
+[20]+  Stopped                 ping 192.168.25.3
+]0;root@CC2-25: /home/cec-lab1/Desktoproot@CC2-25:/home/cec-lab1/Desktop# ping 192.168.25.3[K2
+PING 192.168.25.2 (192.168.25.2) 56(84) bytes of data.
+^Z
+[21]+  Stopped                 ping 192.168.25.2
+]0;root@CC2-25: /home/cec-lab1/Desktoproot@CC2-25:/home/cec-lab1/Desktop# sftp root@192.168.25.4
+ssh: connect to host 192.168.25.4 port 22: Network is unreachable
+Couldn't read packet: Connection reset by peer
+]0;root@CC2-25: /home/cec-lab1/Desktoproot@CC2-25:/home/cec-lab1/Desktop# sftp root@192.168.25.4[K2
+ssh: connect to host 192.168.25.2 port 22: Network is unreachable
+Couldn't read packet: Connection reset by peer
+]0;root@CC2-25: /home/cec-lab1/Desktoproot@CC2-25:/home/cec-lab1/Desktop# sftp root@192.168.25.2
+ssh: connect to host 192.168.25.2 port 22: Network is unreachable
+Couldn't read packet: Connection reset by peer
+]0;root@CC2-25: /home/cec-lab1/Desktoproot@CC2-25:/home/cec-lab1/Desktop# sftp root@192.168.25.2[K
+ssh: Could not resolve hostname 192.168.25.: Name or service not known
+Couldn't read packet: Connection reset by peer
+]0;root@CC2-25: /home/cec-lab1/Desktoproot@CC2-25:/home/cec-lab1/Desktop# sftp root@192.168.25.1
+ssh: connect to host 192.168.25.1 port 22: Network is unreachable
+Couldn't read packet: Connection reset by peer
+]0;root@CC2-25: /home/cec-lab1/Desktoproot@CC2-25:/home/cec-lab1/Desktop# sftp root@192.168.25.1[K3
+ssh: connect to host 192.168.25.3 port 22: Network is unreachable
+Couldn't read packet: Connection reset by peer
+]0;root@CC2-25: /home/cec-lab1/Desktoproot@CC2-25:/home/cec-lab1/Desktop# ping 192.168/[K.25.3
+connect: Network is unreachable
+]0;root@CC2-25: /home/cec-lab1/Desktoproot@CC2-25:/home/cec-lab1/Desktop# ping 192.168.25.3sftp root@192.168.25.31[K24[5Pping 192.168.25.23[9@ifconfig eth0[C[C[C[C[C[C[C[C[C[C[C[C[C[9Pping 192.168.25.1ifconfig eth0 192.168.25.3
+]0;root@CC2-25: /home/cec-lab1/Desktoproot@CC2-25:/home/cec-lab1/Desktop# ifconfig eth0 192.168.25.3[9Pping[C[C[C[C[C[C[C[C[C[C[C[C[C
+PING 192.168.25.3 (192.168.25.3) 56(84) bytes of data.
+64 bytes from 192.168.25.3: icmp_seq=1 ttl=64 time=0.031 ms
+64 bytes from 192.168.25.3: icmp_seq=2 ttl=64 time=0.010 ms
+^Z
+[22]+  Stopped                 ping 192.168.25.3
+]0;root@CC2-25: /home/cec-lab1/Desktoproot@CC2-25:/home/cec-lab1/Desktop# ping 192.168.25.3[K4
+PING 192.168.25.4 (192.168.25.4) 56(84) bytes of data.
+^Z
+[23]+  Stopped                 ping 192.168.25.4
+]0;root@CC2-25: /home/cec-lab1/Desktoproot@CC2-25:/home/cec-lab1/Desktop# ping 192.168.25.43[9@ifconfig eth0[C[C[C[C[C[C[C[C[C[C[C[C[C[9Pping[C[C[C[C[C[C[C[C[C[C[C[C[Csftp root@192.168.25.31[K24[5Pping 192.168.25.23[9@ifconfig eth0[C[C[C[C[C[C[C[C[C[C[C[C[C[9Pping 192.168.25.1ifconfig eth0 192.168.25.3[9Pping 192.168.25.1434ifconfig eth0 192.168.25.3[9Pping 192.168.25.4ifconfig eth0 192.168.25.3[9Pping 192.168.25.4[Kifconfig eth0 192.168.25.5[9Pping 192.168.25.24[9Pifconfig eth0 netmask 255.255.255.224[K[K[K0
+]0;root@CC2-25: /home/cec-lab1/Desktoproot@CC2-25:/home/cec-lab1/Desktop# ifconfig eth0 netmask 255.255.255.0[18Pping 192.168.25.43[9@ifconfig eth0[C[C[C[C[C[C[C[C[C[C[C[C[C
+]0;root@CC2-25: /home/cec-lab1/Desktoproot@CC2-25:/home/cec-lab1/Desktop# ifconfig eth0 192.168.25.3netmask 255.255.255.0[18Pping 192.168.25.43
+PING 192.168.25.3 (192.168.25.3) 56(84) bytes of data.
+64 bytes from 192.168.25.3: icmp_seq=1 ttl=64 time=0.025 ms
+64 bytes from 192.168.25.3: icmp_seq=2 ttl=64 time=0.016 ms
+64 bytes from 192.168.25.3: icmp_seq=3 ttl=64 time=0.033 ms
+64 bytes from 192.168.25.3: icmp_seq=4 ttl=64 time=0.023 ms
+^Z
+[24]+  Stopped                 ping 192.168.25.3
+]0;root@CC2-25: /home/cec-lab1/Desktoproot@CC2-25:/home/cec-lab1/Desktop# ping 192.168.25.3[K4
+PING 192.168.25.4 (192.168.25.4) 56(84) bytes of data.
+^Z
+[25]+  Stopped                 ping 192.168.25.4
+]0;root@CC2-25: /home/cec-lab1/Desktoproot@CC2-25:/home/cec-lab1/Desktop# ping 192.168.25.4[K2
+PING 192.168.25.2 (192.168.25.2) 56(84) bytes of data.
+^Z
+[26]+  Stopped                 ping 192.168.25.2
+]0;root@CC2-25: /home/cec-lab1/Desktoproot@CC2-25:/home/cec-lab1/Desktop# ping 192.168.25.243[K6
+connect: Network is unreachable
+]0;root@CC2-25: /home/cec-lab1/Desktoproot@CC2-25:/home/cec-lab1/Desktop# ping 192.168.25.6[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kping 192.168.25.243[9@ifconfig eth0[C[C[C[C[C[C[C[C[C[C[C[C[Cnetmask 255.255.255.0[9P192.168.25.3[K6
+]0;root@CC2-25: /home/cec-lab1/Desktoproot@CC2-25:/home/cec-lab1/Desktop# ifconfig eth0 192.168.25.6[Kping 192.168.25.243[9@ifconfig eth0[C[C[C[C[C[C[C[C[C[C[C[C[Cnetmask 255.255.255.0
+]0;root@CC2-25: /home/cec-lab1/Desktoproot@CC2-25:/home/cec-lab1/Desktop# ifconfig
+eth0      Link encap:Ethernet  HWaddr 38:d5:47:b8:d2:08  
+          inet addr:192.168.25.6  Bcast:192.168.25.255  Mask:255.255.255.0
+          inet6 addr: fe80::3ad5:47ff:feb8:d208/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:16053664 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:95027 errors:0 dropped:188 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2441706347 (2.4 GB)  TX bytes:9847981 (9.8 MB)
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+          RX packets:594 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:594 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:0 
+          RX bytes:192688 (192.6 KB)  TX bytes:192688 (192.6 KB)
+
+]0;root@CC2-25: /home/cec-lab1/Desktoproot@CC2-25:/home/cec-lab1/Desktop# if[K[Ksftp root[K[K[K[K[K[K[K[K[Kping 192.168.25.6
+connect: Network is unreachable
+]0;root@CC2-25: /home/cec-lab1/Desktoproot@CC2-25:/home/cec-lab1/Desktop# ping 192.168.25.6[9Pifconfig eth0 netmask 255.255.255.0[9P192.168.25.6[Kping 192.168.25.2[Kifconfig eth0 192.168.25.6
+]0;root@CC2-25: /home/cec-lab1/Desktoproot@CC2-25:/home/cec-lab1/Desktop# ifconfig eth0 192.168.25.6[9Pping[C[C[C[C[C[C[C[C[C[C[C[C[C
+PING 192.168.25.6 (192.168.25.6) 56(84) bytes of data.
+64 bytes from 192.168.25.6: icmp_seq=1 ttl=64 time=0.015 ms
+64 bytes from 192.168.25.6: icmp_seq=2 ttl=64 time=0.019 ms
+64 bytes from 192.168.25.6: icmp_seq=3 ttl=64 time=0.025 ms
+^Z
+[27]+  Stopped                 ping 192.168.25.6
+]0;root@CC2-25: /home/cec-lab1/Desktoproot@CC2-25:/home/cec-lab1/Desktop# ping 192.168.25.6[9@ifconfig eth0[C[C[C[C[C[C[C[C[C[C[C[C[C[9Pping[C[C[C[C[C[C[C[C[C[C[C[C[C[9Pifconfig eth0 netmask 255.255.255.0[Kping 192.168.25.6[K4
+PING 192.168.25.4 (192.168.25.4) 56(84) bytes of data.
+ping: sendmsg: Network is unreachable
+ping: sendmsg: Network is unreachable
+ping: sendmsg: Network is unreachable
+ping: sendmsg: Network is unreachable
+ping: sendmsg: Network is unreachable
+ping: sendmsg: Network is unreachable
+^Z
+[28]+  Stopped                 ping 192.168.25.4
+]0;root@CC2-25: /home/cec-lab1/Desktoproot@CC2-25:/home/cec-lab1/Desktop# ping 192.168.25.4[K6
+connect: Network is unreachable
+]0;root@CC2-25: /home/cec-lab1/Desktoproot@CC2-25:/home/cec-lab1/Desktop# ping 192.168.25.646[9@ifconfig eth0[C[C[C[C[C[C[C[C[C[C[C[C[C[9Pping[C[C[C[C[C[C[C[C[C[C[C[C[C[9Pifconfig eth0 netmask 255.255.255.0[9P192.168.25.6[Kping 192.168.25.243[9@ifconfig eth0[C[C[C[C[C[C[C[C[C[C[C[C[C
+]0;root@CC2-25: /home/cec-lab1/Desktoproot@CC2-25:/home/cec-lab1/Desktop# ifconfig eth0 192.168.25.3[K6
+]0;root@CC2-25: /home/cec-lab1/Desktoproot@CC2-25:/home/cec-lab1/Desktop# ifconfig eth0 192.168.25.6
+]0;root@CC2-25: /home/cec-lab1/Desktoproot@CC2-25:/home/cec-lab1/Desktop# ifconfig eth0 192.168.25.6
+]0;root@CC2-25: /home/cec-lab1/Desktoproot@CC2-25:/home/cec-lab1/Desktop# ifconfig eth0 192.168.25.6
+]0;root@CC2-25: /home/cec-lab1/Desktoproot@CC2-25:/home/cec-lab1/Desktop# ping 192.168.25.6
+PING 192.168.25.6 (192.168.25.6) 56(84) bytes of data.
+64 bytes from 192.168.25.6: icmp_seq=1 ttl=64 time=0.014 ms
+64 bytes from 192.168.25.6: icmp_seq=2 ttl=64 time=0.019 ms
+64 bytes from 192.168.25.6: icmp_seq=3 ttl=64 time=0.053 ms
+64 bytes from 192.168.25.6: icmp_seq=4 ttl=64 time=0.017 ms
+64 bytes from 192.168.25.6: icmp_seq=5 ttl=64 time=0.019 ms
+64 bytes from 192.168.25.6: icmp_seq=6 ttl=64 time=0.061 ms
+64 bytes from 192.168.25.6: icmp_seq=7 ttl=64 time=0.059 ms
+64 bytes from 192.168.25.6: icmp_seq=8 ttl=64 time=0.026 ms
+64 bytes from 192.168.25.6: icmp_seq=9 ttl=64 time=0.023 ms
+64 bytes from 192.168.25.6: icmp_seq=10 ttl=64 time=0.033 ms
+64 bytes from 192.168.25.6: icmp_seq=11 ttl=64 time=0.020 ms
+ping: sendmsg: Network is unreachable
+ping: sendmsg: Network is unreachable
+ping: sendmsg: Network is unreachable
+ping: sendmsg: Network is unreachable
+ping: sendmsg: Network is unreachable
+ping: sendmsg: Network is unreachable
+ping: sendmsg: Network is unreachable
+ping: sendmsg: Network is unreachable
+ping: sendmsg: Network is unreachable
+ping: sendmsg: Network is unreachable
+ping: sendmsg: Network is unreachable
+ping: sendmsg: Network is unreachable
+ping: sendmsg: Network is unreachable
+ping: sendmsg: Network is unreachable
+ping: sendmsg: Network is unreachable
+ping: sendmsg: Network is unreachable
+ping: sendmsg: Network is unreachable
+ping: sendmsg: Network is unreachable
+ping: sendmsg: Network is unreachable
+ping: sendmsg: Network is unreachable
+ping: sendmsg: Network is unreachable
+ping: sendmsg: Network is unreachable
+ping: sendmsg: Network is unreachable
+ping: sendmsg: Network is unreachable
+ping: sendmsg: Network is unreachable
+ping: sendmsg: Network is unreachable
+^Z^X
+[29]+  Stopped                 ping 192.168.25.6
+]0;root@CC2-25: /home/cec-lab1/Desktoproot@CC2-25:/home/cec-lab1/Desktop# [Aping 192.168.25.6[9@ifconfig eth0[C[C[C[C[C[C[C[C[C[C[C[C[C
+]0;root@CC2-25: /home/cec-lab1/Desktoproot@CC2-25:/home/cec-lab1/Desktop# ifconfig eth0 192.168.25.6[9Pping[C[C[C[C[C[C[C[C[C[C[C[C[C
+PING 192.168.25.6 (192.168.25.6) 56(84) bytes of data.
+64 bytes from 192.168.25.6: icmp_seq=1 ttl=64 time=0.013 ms
+ping: sendmsg: Network is unreachable
+ping: sendmsg: Network is unreachable
+ping: sendmsg: Network is unreachable
+ping: sendmsg: Network is unreachable
+ping: sendmsg: Network is unreachable
+ping: sendmsg: Network is unreachable
+^Z
+[30]+  Stopped                 ping 192.168.25.6
+]0;root@CC2-25: /home/cec-lab1/Desktoproot@CC2-25:/home/cec-lab1/Desktop# ping 192.168.25.6
+connect: Network is unreachable
+]0;root@CC2-25: /home/cec-lab1/Desktoproot@CC2-25:/home/cec-lab1/Desktop# ping 192.168.25.6[9@ifconfig eth0[C[C[C[C[C[C[C[C[C[C[C[C[C
+]0;root@CC2-25: /home/cec-lab1/Desktoproot@CC2-25:/home/cec-lab1/Desktop# exit
+There are stopped jobs.
+]0;root@CC2-25: /home/cec-lab1/Desktoproot@CC2-25:/home/cec-lab1/Desktop# exit
+]0;cec-lab1@CC2-25: ~/Desktopcec-lab1@CC2-25:~/Desktop$ exit
+
+Script done on Monday 25 March 2019 10:40:22 AM IST
