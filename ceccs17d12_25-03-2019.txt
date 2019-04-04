@@ -118,8 +118,10 @@ connect: Network is unreachable
 ]0;root@CC2-25: /home/cec-lab1/Desktoproot@CC2-25:/home/cec-lab1/Desktop# root@192.168.25.2
 root@192.168.25.2: command not found
 ]0;root@CC2-25: /home/cec-lab1/Desktoproot@CC2-25:/home/cec-lab1/Desktop# root@192.168.25.2sroot@192.168.25.2froot@192.168.25.2troot@192.168.25.2proot@192.168.25.2 root@192.168.25.2
-ssh: connect to host 192.168.25.2 port 22: Network is unreachable
-Couldn't read packet: Connection reset by peer
+ssh: connect to host 192.168.25.2 port 22: Network is unreachable
+
+Couldn't read packet: Connection reset by peer
+
 ]0;root@CC2-25: /home/cec-lab1/Desktoproot@CC2-25:/home/cec-lab1/Desktop# sftp root@192.168.25.2[5Proot@192.168.25.2ping 192.168.25.2
 connect: Network is unreachable
 ]0;root@CC2-25: /home/cec-lab1/Desktoproot@CC2-25:/home/cec-lab1/Desktop# ping
@@ -172,8 +174,10 @@ PING 192.168.25.2 (192.168.25.2) 56(84) bytes of data.
 ^Z
 [2]+  Stopped                 ping 192.168.25.2
 ]0;root@CC2-25: /home/cec-lab1/Desktoproot@CC2-25:/home/cec-lab1/Desktop# sftp rppt[K[K[Koot@192.168.25.4
-ssh: connect to host 192.168.25.4 port 22: Connection refused
-Couldn't read packet: Connection reset by peer
+ssh: connect to host 192.168.25.4 port 22: Connection refused
+
+Couldn't read packet: Connection reset by peer
+
 ]0;root@CC2-25: /home/cec-lab1/Desktoproot@CC2-25:/home/cec-lab1/Desktop# sftp root@192.168.25.4[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kping 192.168.25.4
 connect: Network is unreachable
 ]0;root@CC2-25: /home/cec-lab1/Desktoproot@CC2-25:/home/cec-lab1/Desktop# ping 192.168.25.4sftp root@192.168.25.4[5Pping 192.168.25.2
@@ -189,15 +193,21 @@ PING 192.168.25.4 (192.168.25.4) 56(84) bytes of data.
 ^Z
 [3]+  Stopped                 ping 192.168.25.4
 ]0;root@CC2-25: /home/cec-lab1/Desktoproot@CC2-25:/home/cec-lab1/Desktop# ping 192.168.25.4ifconfig eth0 192.168.25.5[9Pping 192.168.25.24sftp root@192.168.25.4
-ssh: connect to host 192.168.25.4 port 22: Connection refused
-Couldn't read packet: Connection reset by peer
+ssh: connect to host 192.168.25.4 port 22: Connection refused
+
+Couldn't read packet: Connection reset by peer
+
 ]0;root@CC2-25: /home/cec-lab1/Desktoproot@CC2-25:/home/cec-lab1/Desktop# sftp root@192.168.25.4[C[1P@192.168.25.4[1P@192.168.25.4[1P@192.168.25.4[1P@192.168.25.4c@192.168.25.4e@192.168.25.4c@192.168.25.4_@192.168.25.4l@192.168.25.4a@192.168.25.4b@192.168.25.42@192.168.25.4
-ssh: connect to host 192.168.25.4 port 22: Network is unreachable
-Couldn't read packet: Connection reset by peer
+ssh: connect to host 192.168.25.4 port 22: Network is unreachable
+
+Couldn't read packet: Connection reset by peer
+
 ]0;root@CC2-25: /home/cec-lab1/Desktoproot@CC2-25:/home/cec-lab1/Desktop# sftp cec_lab2@192.168.25.4[4Proot@192.168.25.4[5Pping 192.168.25.4sftp root@192.168.25.4[5Pping 192.168.25.4ifconfig eth0 192.168.25.5
 ]0;root@CC2-25: /home/cec-lab1/Desktoproot@CC2-25:/home/cec-lab1/Desktop# ifconfig eth0 192.168.25.5sftp cec_lab2@192.168.25.4
-ssh: connect to host 192.168.25.4 port 22: Connection refused
-Couldn't read packet: Connection reset by peer
+ssh: connect to host 192.168.25.4 port 22: Connection refused
+
+Couldn't read packet: Connection reset by peer
+
 ]0;root@CC2-25: /home/cec-lab1/Desktoproot@CC2-25:/home/cec-lab1/Desktop# sftp cec_lab2@192.168.25.4ifconfig eth0 192.168.25.5sftp cec_lab2@192.168.25.4[4Proot@192.168.25.4[5Pping 192.168.25.4
 PING 192.168.25.4 (192.168.25.4) 56(84) bytes of data.
 64 bytes from 192.168.25.4: icmp_seq=1 ttl=64 time=0.251 ms
@@ -208,13 +218,16 @@ PING 192.168.25.4 (192.168.25.4) 56(84) bytes of data.
 ^Z
 [4]+  Stopped                 ping 192.168.25.4
 ]0;root@CC2-25: /home/cec-lab1/Desktoproot@CC2-25:/home/cec-lab1/Desktop# ping 192.168.25.4sftp cec_lab2@192.168.25.4
-ssh: connect to host 192.168.25.4 port 22: Connection refused
-Couldn't read packet: Connection reset by peer
+ssh: connect to host 192.168.25.4 port 22: Connection refused
+
+Couldn't read packet: Connection reset by peer
+
 ]0;root@CC2-25: /home/cec-lab1/Desktoproot@CC2-25:/home/cec-lab1/Desktop# sftp cec_lab2@192.168.25.4[K2[1P@192.168.25.2[1P@192.168.25.2[1P@192.168.25.2[1P@192.168.25.2[1P@192.168.25.2[1P@192.168.25.2[1P@192.168.25.2[1P@192.168.25.2r@192.168.25.2o@192.168.25.2o@192.168.25.2t@192.168.25.2
 The authenticity of host '192.168.25.2 (192.168.25.2)' can't be established.
 RSA key fingerprint is 0e:ac:0a:9c:54:2c:a0:8a:c4:c7:19:a3:44:ca:7f:53.
 Are you sure you want to continue connecting (yes/no)? yes
-Warning: Permanently added '192.168.25.2' (RSA) to the list of known hosts.
+Warning: Permanently added '192.168.25.2' (RSA) to the list of known hosts.
+
 root@192.168.25.2's password: 
 
 ^Z
@@ -232,13 +245,17 @@ PING 192.168.25.4 (192.168.25.4) 56(84) bytes of data.
 ^Z
 [6]+  Stopped                 ping 192.168.25.4
 ]0;root@CC2-25: /home/cec-lab1/Desktoproot@CC2-25:/home/cec-lab1/Desktop# ping 192.168.25.4ifconfig eth0 192.168.25.5[9Pping 192.168.25.24sftp root@192.168.25.2cec_lab2@192.168.25.4
-ssh: connect to host 192.168.25.4 port 22: Connection refused
-Couldn't read packet: Connection reset by peer
+ssh: connect to host 192.168.25.4 port 22: Connection refused
+
+Couldn't read packet: Connection reset by peer
+
 ]0;root@CC2-25: /home/cec-lab1/Desktoproot@CC2-25:/home/cec-lab1/Desktop# sftp cec_lab2@192.168.25.4[9Pping 192.168.25.4ifconfig eth0 192.168.25.5[9Pping 192.168.25.24sftp root@192.168.25.2cec_lab2@192.168.25.4[4Proot@192.168.25.2
 root@192.168.25.2's password: 
-Permission denied, please try again.
+Permission denied, please try again.
+
 root@192.168.25.2's password: 
-Permission denied, please try again.
+Permission denied, please try again.
+
 root@192.168.25.2's password: 
 Connected to 192.168.25.2.
 sftp> ls
@@ -257,7 +274,8 @@ sys.sh~             temp.txt            typescript          usr
 yum-2.4.3           yum-3.4.3           
 sftp> put /home/cec-lab1/Desktop/new.txt
 Uploading /home/cec-lab1/Desktop/new.txt to /root/new.txt
-/home/cec-lab1/Desktop/new.txt                100%    0     0.0KB/s   00:00    
+
+/home/cec-lab1/Desktop/new.txt                100%    0     0.0KB/s   00:00    
 sftp> ls
 25.03.19            Desktop             Server.java~        UNIX or linux os    
 a.c~                a.out               a.txt               a.txt~              
@@ -273,9 +291,11 @@ sharedmem0.c~       sharedmem1.c~       sheba               signal.c
 sort.txt            sys.sh~             temp.txt            typescript          
 usr                 yum-2.4.3           yum-3.4.3           
 sftp> cd desktop
-Couldn't canonicalize: No such file or directory
+Couldn't canonicalize: No such file or directory
+
 sftp> cd desktop[1@/d[1@hd[1@od[1@md[1@ed[1@/dd[Pe[1@De
-Couldn't canonicalize: No such file or directory
+Couldn't canonicalize: No such file or directory
+
 sftp> pwd
 Remote working directory: /root
 sftp> cd /root/Desl[Kktop
@@ -288,7 +308,8 @@ python2.4-2.4-1pydotorg.i386.rpm        python3-3.6.5-1.fc28.i686.rpm
 yum-2.0.7                               yum-4.4.3.tar.gz                        
 sftp> lscd /root/Desktop[7Gpwd[Kcd /home/Desktop[10G[6Pd[17G[7Gls[Kput /home/cec-lab1/Desktop/new.txt
 Uploading /home/cec-lab1/Desktop/new.txt to /root/Desktop/new.txt
-/home/cec-lab1/Desktop/new.txt                100%    0     0.0KB/s   00:00    
+
+/home/cec-lab1/Desktop/new.txt                100%    0     0.0KB/s   00:00    
 sftp> put /home/cec-lab1/Desktop/new.txt[7Gls[Kcd /root/Desktop[7Gls[K
 Python-2.7.15-22_Oso.x86_64.rpm         a.txt                                   
 aa                                      alphiealeena                            
@@ -300,8 +321,10 @@ yum-4.4.3.tar.gz
 sftp> 
 [7]+  Stopped                 sftp root@192.168.25.2
 ]0;root@CC2-25: /home/cec-lab1/Desktoproot@CC2-25:/home/cec-lab1/Desktop# sftp root@192.168.25.2[K4
-ssh: connect to host 192.168.25.4 port 22: Connection refused
-Couldn't read packet: Connection reset by peer
+ssh: connect to host 192.168.25.4 port 22: Connection refused
+
+Couldn't read packet: Connection reset by peer
+
 ]0;root@CC2-25: /home/cec-lab1/Desktoproot@CC2-25:/home/cec-lab1/Desktop# sftp root@192.168.25.42cec_lab2@192.168.25.4[9Pping 192.168.25.4
 PING 192.168.25.4 (192.168.25.4) 56(84) bytes of data.
 ^Z
@@ -451,23 +474,35 @@ PING 192.168.25.2 (192.168.25.2) 56(84) bytes of data.
 ^Z
 [21]+  Stopped                 ping 192.168.25.2
 ]0;root@CC2-25: /home/cec-lab1/Desktoproot@CC2-25:/home/cec-lab1/Desktop# sftp root@192.168.25.4
-ssh: connect to host 192.168.25.4 port 22: Network is unreachable
-Couldn't read packet: Connection reset by peer
+ssh: connect to host 192.168.25.4 port 22: Network is unreachable
+
+Couldn't read packet: Connection reset by peer
+
 ]0;root@CC2-25: /home/cec-lab1/Desktoproot@CC2-25:/home/cec-lab1/Desktop# sftp root@192.168.25.4[K2
-ssh: connect to host 192.168.25.2 port 22: Network is unreachable
-Couldn't read packet: Connection reset by peer
+ssh: connect to host 192.168.25.2 port 22: Network is unreachable
+
+Couldn't read packet: Connection reset by peer
+
 ]0;root@CC2-25: /home/cec-lab1/Desktoproot@CC2-25:/home/cec-lab1/Desktop# sftp root@192.168.25.2
-ssh: connect to host 192.168.25.2 port 22: Network is unreachable
-Couldn't read packet: Connection reset by peer
+ssh: connect to host 192.168.25.2 port 22: Network is unreachable
+
+Couldn't read packet: Connection reset by peer
+
 ]0;root@CC2-25: /home/cec-lab1/Desktoproot@CC2-25:/home/cec-lab1/Desktop# sftp root@192.168.25.2[K
-ssh: Could not resolve hostname 192.168.25.: Name or service not known
-Couldn't read packet: Connection reset by peer
+ssh: Could not resolve hostname 192.168.25.: Name or service not known
+
+Couldn't read packet: Connection reset by peer
+
 ]0;root@CC2-25: /home/cec-lab1/Desktoproot@CC2-25:/home/cec-lab1/Desktop# sftp root@192.168.25.1
-ssh: connect to host 192.168.25.1 port 22: Network is unreachable
-Couldn't read packet: Connection reset by peer
+ssh: connect to host 192.168.25.1 port 22: Network is unreachable
+
+Couldn't read packet: Connection reset by peer
+
 ]0;root@CC2-25: /home/cec-lab1/Desktoproot@CC2-25:/home/cec-lab1/Desktop# sftp root@192.168.25.1[K3
-ssh: connect to host 192.168.25.3 port 22: Network is unreachable
-Couldn't read packet: Connection reset by peer
+ssh: connect to host 192.168.25.3 port 22: Network is unreachable
+
+Couldn't read packet: Connection reset by peer
+
 ]0;root@CC2-25: /home/cec-lab1/Desktoproot@CC2-25:/home/cec-lab1/Desktop# ping 192.168/[K.25.3
 connect: Network is unreachable
 ]0;root@CC2-25: /home/cec-lab1/Desktoproot@CC2-25:/home/cec-lab1/Desktop# ping 192.168.25.3sftp root@192.168.25.31[K24[5Pping 192.168.25.23[9@ifconfig eth0[C[C[C[C[C[C[C[C[C[C[C[C[C[9Pping 192.168.25.1ifconfig eth0 192.168.25.3
