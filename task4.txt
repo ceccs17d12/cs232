@@ -1,0 +1,91 @@
+Script started on Thursday 04 April 2019 11:51:35 AM IST
+]0;s4d1@CC2-25: ~/Desktops4d1@CC2-25:~/Desktop$ scp [K[K[K[Kls
+[0m[01;34mFOSS[0m  rsync.txt  [01;34mt2[0m  task2.sh  task4.txt
+]0;s4d1@CC2-25: ~/Desktops4d1@CC2-25:~/Desktop$ scp task2.sh cs17d12@192.168.0.30:home/cs17d12
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs17d12@192.168.0.30's password: 
+scp: home/cs17d12: No such file or directory
+]0;s4d1@CC2-25: ~/Desktops4d1@CC2-25:~/Desktop$ scp task2.sh cs17d12@192.168.0.30:home/cs17d12[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kls
+[0m[01;34mFOSS[0m  rsync.txt  [01;34mt2[0m  task2.sh  task4.txt
+]0;s4d1@CC2-25: ~/Desktops4d1@CC2-25:~/Desktop$ lsscp task2.sh cs17d12@192.168.0.30:home/cs17d12/home/cs17d12
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs17d12@192.168.0.30's password: 
+task2.sh                                        0%    0     0.0KB/s   --:-- ETAtask2.sh                                      100% 2207     2.2KB/s   00:00    
+]0;s4d1@CC2-25: ~/Desktops4d1@CC2-25:~/Desktop$ ssh cs17d12@192.1687.030.30[1P.0.30
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs17d12@192.168.0.30's password: 
+Welcome to elementary OS 0.4.1 Loki (GNU/Linux 4.13.0-32-generic x86_64)
+
+ * Website:  http://elementary.io/
+
+278 packages can be updated.
+0 updates are security updates.
+
+Last login: Thu Apr  4 10:41:22 2019 from 192.168.0.178
+$ ls
+examples.desktop  rsync.txt  script  task2.sh  test
+$ rm task2.sh
+$ ls
+examples.desktop  rsync.txt  script  test
+$ 
+Connection to 192.168.0.30 closed.
+]0;s4d1@CC2-25: ~/Desktops4d1@CC2-25:~/Desktop$ rsync -zvh task2.sh cs17d12@192.168.0.30:?home[K[K[K[K[K/home/cs17d12
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs17d12@192.168.0.30's password: 
+task2.sh
+
+sent 642 bytes  received 35 bytes  150.44 bytes/sec
+total size is 2.21K  speedup is 3.26
+]0;s4d1@CC2-25: ~/Desktops4d1@CC2-25:~/Desktop$ rsync -zvh cs17d12@192.168.0.30:/home [K/cs17d12/task2.sh /h ome/s4d1/Desktop
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs17d12@192.168.0.30's password: 
+task2.sh
+
+sent 67 bytes  received 81 bytes  32.89 bytes/sec
+total size is 2.21K  speedup is 14.91
+]0;s4d1@CC2-25: ~/Desktops4d1@CC2-25:~/Desktop$ ls
+[0m[01;34mFOSS[0m  rsync.txt  [01;34mt2[0m  task2.sh  task4.txt
+]0;s4d1@CC2-25: ~/Desktops4d1@CC2-25:~/Desktop$ ssh cs17d12@192.168.030[1P30030.30[C[C
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs17d12@192.168.0.30's password: 
+Welcome to elementary OS 0.4.1 Loki (GNU/Linux 4.13.0-32-generic x86_64)
+
+ * Website:  http://elementary.io/
+
+278 packages can be updated.
+0 updates are security updates.
+
+Last login: Thu Apr  4 10:58:10 2019 from 192.168.0.178
+$ ls
+examples.desktop  rsync.txt  script  task2.sh  test
+$ pwd
+/home/cs17d12
+$ 
+Connection to 192.168.0.30 closed.
+]0;s4d1@CC2-25: ~/Desktops4d1@CC2-25:~/Desktop$ scp[K[K[Kexit
+
+Script done on Thursday 04 April 2019 12:00:49 PM IST
