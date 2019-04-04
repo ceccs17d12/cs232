@@ -1,0 +1,362 @@
+Script started on Thursday 04 April 2019 10:25:30 AM IST
+]0;s4d1@CC2-25: ~/Desktop/FOSS/0404s4d1@CC2-25:~/Desktop/FOSS/0404$ ifconfig
+eth0      Link encap:Ethernet  HWaddr 38:d5:47:b8:d2:08  
+          inet addr:192.168.5.75  Bcast:192.168.5.255  Mask:255.255.255.0
+          inet6 addr: fe80::3ad5:47ff:feb8:d208/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:15922 errors:0 dropped:1 overruns:0 frame:0
+          TX packets:4455 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:4974160 (4.9 MB)  TX bytes:597561 (597.5 KB)
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+          RX packets:514 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:514 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:0 
+          RX bytes:118633 (118.6 KB)  TX bytes:118633 (118.6 KB)
+
+]0;s4d1@CC2-25: ~/Desktop/FOSS/0404s4d1@CC2-25:~/Desktop/FOSS/0404$ ifconfig[1Psudo suifconfigscript new.txtcd /home/s4d1/FOSS/n [1P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgrep -Po '^sudo.+:\K.*$' /etc/group
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csudo su[Kapt-get install openssh-server
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cifconfig[Ksftp s4d1@192.168.0.153214153[15Pifconfigsftp s4d1@192.168.0.153214[K[K[K30
+.cs232-master
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+s4d1@192.168.0.30's password: 
+Permission denied, please try again.
+
+s4d1@192.168.0.30's password: 
+Permission denied, please try again.
+
+s4d1@192.168.0.30's password: 
+
+[1]+  Stopped                 sftp s4d1@192.168.0.30
+]0;s4d1@CC2-25: ~/Desktop/FOSS/0404s4d1@CC2-25:~/Desktop/FOSS/0404$ sftp s4d1@192.168.0.30[1P@192.168.0.30[1P@192.168.0.30[1P@192.168.0.30[1P@192.168.0.30c@192.168.0.30s@192.168.0.301@192.168.0.307@192.168.0.30d@192.168.0.301@192.168.0.302@192.168.0.30
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs17d12@192.168.0.30's password: 
+Connected to 192.168.0.30.
+sftp> ls
+examples.desktop    script              test                
+sftp> exit[K[K[K[Kbye
+]0;s4d1@CC2-25: ~/Desktop/FOSS/0404s4d1@CC2-25:~/Desktop/FOSS/0404$ cd sftp cs17d12@192.168.0.30[3Ps4d1@192.168.0.30[14Pifconfig[1Psudo suifconfigscript new.txtcd /home/s4d1/FOSS/n [K[K[K
+bash: cd: /home/s4d1/FOSS: No such file or directory
+]0;s4d1@CC2-25: ~/Desktop/FOSS/0404s4d1@CC2-25:~/Desktop/FOSS/0404$ cd /home/s4d1/FOSSsftp cs17d12@192.168.0.30[3Ps4d1@192.168.0.30[14Pifconfig[1Psudo suifconfigscript new.txtcd /home/s4d1/FOSS/n [1P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgrep -Po '^sudo.+:\K.*$' /etc/group
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csudo su[Kgrep -Po '^sudo.+:\K.*$' /etc/group
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[15Pcd/home/s4d1/FOSS/n grep -Po '^sudo.+:\K.*$' /etc/group
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csudo su[Kapt-get install openssh-server
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cifconfig[Ksftp s4d1@192.168.0.153214153[15Pifconfigssh cs17d12@192.168.0.30[1@ftp[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1Psh[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@ftp[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1Psh[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[16Prsync -vifconfigsudo ifconfigsh cs17d12@192.168.0.30[1@ftp[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C-t cs17d12@192.168.0.30 cs17d12[11Pcs17d12@192.168.0.30[11Pcript new.txtcd /home/s4d1/FOSS/n -[K/home/s4d1/FOSS/n -[K/home/s4d1/FOSS/n sftp cs17d12@192.168.0.2[8Psh 192.168.0.30ping 192.168.0.2[Ksftp cs17d12@192.168.0.30eccs17d12@192.168.0.30[16Pcript 1.txtcd /home/s4d1/FOSS/11-02 exit[Ksftp cs17d12@192.168.0.30[1Psh[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cudo apt-get  remove  openssh-server openssh-cli
+ient[A
+]0;s4d1@CC2-25: ~/Desktop/FOSS/0404s4d1@CC2-25:~/Desktop/FOSS/0404$ [30Pusermod -U ubuntu
+
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cssh chn17d12@192.168.0.30[6Pcript script11.txtcd /home/s4d1/FOSS/11-02 ssh ceccs17d12@192.168.0.30[2Phn17d12@192.168.0.30[1@ftp[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[10Psh 192.168.0.30ftp chn17d12@192.168.0.20[10Psh 192.168.0.30ask@192.168.0.30[4P192.168.0.304.139.189.217udo rsync -azvv /home/path/folder1/ /home/path/
+/folder2[A
+]0;s4d1@CC2-25: ~/Desktop/FOSS/0404s4d1@CC2-25:~/Desktop/FOSS/0404$ rsync -v[K
+
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csudo route add default gw 192.168.1.1
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[5P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kcat /etc/resolv.conf[1Petc/resolv.confsudo apt-get install build-essential libncurses-
+-dev bison flex libssl-dev libelf-dev[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kcd /home/s4d1/Desktop/FOSS
+]0;s4d1@CC2-25: ~/Desktop/FOSSs4d1@CC2-25:~/Desktop/FOSS$ cd /home/s4d1/Desktop/FOSS[K[K[K[K[K
+]0;s4d1@CC2-25: ~/Desktops4d1@CC2-25:~/Desktop$ scp task2.sh cs17d12@192.168.0.30:home/cs17d12/home/cs17d12
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs17d12@192.168.0.30's password: 
+
+task2.sh                                        0%    0     0.0KB/s   --:-- ETA
+task2.sh                                      100% 2207     2.2KB/s   00:00    
+]0;s4d1@CC2-25: ~/Desktops4d1@CC2-25:~/Desktop$ ls
+[0m[01;34mFOSS[0m  task2.sh
+]0;s4d1@CC2-25: ~/Desktops4d1@CC2-25:~/Desktop$ sftp cs17d12@192.168.0.30
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs17d12@192.168.0.30's password: 
+Connected to 192.168.0.30.
+sftp> ls
+examples.desktop    script              task2.sh            test                
+sftp> get test
+Fetching /home/cs17d12/test/ to test
+Cannot download non-regular file: /home/cs17d12/test/
+
+sftp> get script
+Fetching /home/cs17d12/script/ to script
+Cannot download non-regular file: /home/cs17d12/script/
+
+sftp> rm script
+Removing /home/cs17d12/script
+Couldn't delete file: Failure
+
+sftp> rm test
+Removing /home/cs17d12/test
+Couldn't delete file: Failure
+
+sftp> bye
+]0;s4d1@CC2-25: ~/Desktops4d1@CC2-25:~/Desktop$ cs17d12@[K[K[K[K[K[K[K[Kscp cs17d12@192.162.0.30:home//home/[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Krsync -zvh /home/s4d1/Desktop[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Krsync.txt cs17d12@192.168.0.30:/home/s4d1
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs17d12@192.168.0.30's password: 
+rsync.txt
+rsync: mkstemp "/home/.s4d1.Ln1FuM" failed: Permission denied (13)
+
+sent 80 bytes  received 106 bytes  24.80 bytes/sec
+total size is 0  speedup is 0.00
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1183) [sender=3.1.0]
+]0;s4d1@CC2-25: ~/Desktops4d1@CC2-25:~/Desktop$ rsync -zvh rsync.txt cs17d12@192.168.0.30:/home/s4d1[K[K[K[Kcs17d12
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs17d12@192.168.0.30's password: 
+rsync.txt
+
+sent 80 bytes  received 35 bytes  32.86 bytes/sec
+total size is 0  speedup is 0.00
+]0;s4d1@CC2-25: ~/Desktops4d1@CC2-25:~/Desktop$ rsync -zvh rsync.txt cs17d12@192.168.0.30:/home/cs17d12[1Pcs17d12@192.168.0.30:/home/cs17d12[1Pcs17d12@192.168.0.30:/home/cs17d12[1Pcs17d12@192.168.0.30:/home/cs17d12[1Pcs17d12@192.168.0.30:/home/cs17d12[1Pcs17d12@192.168.0.30:/home/cs17d12[1Ps17d12@192.168.0.30:/home/cs17d12[1Pcs17d12@192.168.0.30:/home/cs17d12[1Pcs17d12@192.168.0.30:/home/cs17d12[1Pcs17d12@192.168.0.30:/home/cs17d12[1Pcs17d12@192.168.0.30:/home/cs17d12[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C/task2.sh C[K/h 
+ome/s4d1/Dw[Kesktop
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs17d12@192.168.0.30's password: 
+task2.sh
+
+sent 67 bytes  received 81 bytes  32.89 bytes/sec
+total size is 2.21K  speedup is 14.91
+]0;s4d1@CC2-25: ~/Desktops4d1@CC2-25:~/Desktop$  /home/s4d1/Desktop /home/s4d1/Desktop /home/s4d1/Desktop 
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kssh cs17d12@192.168.0.30
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs17d12@192.168.0.30's password: 
+Welcome to elementary OS 0.4.1 Loki (GNU/Linux 4.13.0-32-generic x86_64)
+
+ * Website:  http://elementary.io/
+
+278 packages can be updated.
+0 updates are security updates.
+
+Last login: Mon Mar 25 11:20:38 2019 from 192.168.0.54
+
+$ ls
+examples.desktop  rsync.txt  script  task2.sh  test
+$ sco p     rm task2.sh
+$ ls
+examples.desktop  rsync.txt  script  test
+$ scp task2.sh cs17d12@192.168.0.30:home/^[[D^[[D^[[D                 /home/cs17d12/
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs17d12@192.168.0.30's password: 
+task2.sh: No such file or directory
+$ scp     ^[[A    ^C
+$ scp task2.sh cs17d12@192.168.0.30:/home/cs17d12/   
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs17d12@192.168.0.30's password: 
+task2.sh: No such file or directory
+$ scp task2.sh
+usage: scp [-12346BCpqrv] [-c cipher] [-F ssh_config] [-i identity_file]
+           [-l limit] [-o ssh_option] [-P port] [-S program]
+           [[user@]host1:]file1 ... [[user@]host2:]file2
+$ scp     pwd
+\/home/cs17d12
+$ ss cp task2, .sh rsync.txt
+cp: cannot stat 'task2.sh': No such file or directory
+$ scp new.txt new1.txt
+cp: cannot stat 'new.txt': No such file or directory
+$ ^[[A    bye
+-sh: 10: bye: not found
+$ 
+Connection to 192.168.0.30 closed.
+Script started on Thursday 04 April 2019 11:51:35 AM IST
+]0;s4d1@CC2-25: ~/Desktops4d1@CC2-25:~/Desktop$ scp [K[K[K[Kls
+[0m[01;34mFOSS[0m  rsync.txt  [01;34mt2[0m  task2.sh  task4.txt
+]0;s4d1@CC2-25: ~/Desktops4d1@CC2-25:~/Desktop$ scp task2.sh cs17d12@192.168.0.30:home/cs17d12
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs17d12@192.168.0.30's password: 
+scp: home/cs17d12: No such file or directory
+]0;s4d1@CC2-25: ~/Desktops4d1@CC2-25:~/Desktop$ scp task2.sh cs17d12@192.168.0.30:home/cs17d12[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kls
+[0m[01;34mFOSS[0m  rsync.txt  [01;34mt2[0m  task2.sh  task4.txt
+]0;s4d1@CC2-25: ~/Desktops4d1@CC2-25:~/Desktop$ lsscp task2.sh cs17d12@192.168.0.30:home/cs17d12/home/cs17d12
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs17d12@192.168.0.30's password: 
+
+task2.sh                                        0%    0     0.0KB/s   --:-- ETA
+task2.sh                                      100% 2207     2.2KB/s   00:00    
+]0;s4d1@CC2-25: ~/Desktops4d1@CC2-25:~/Desktop$ ssh cs17d12@192.1687.030.30[1P.0.30
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs17d12@192.168.0.30's password: 
+Welcome to elementary OS 0.4.1 Loki (GNU/Linux 4.13.0-32-generic x86_64)
+
+ * Website:  http://elementary.io/
+
+278 packages can be updated.
+0 updates are security updates.
+
+Last login: Thu Apr  4 10:41:22 2019 from 192.168.0.178
+
+$ ls
+examples.desktop  rsync.txt  script  task2.sh  test
+$ rm task2.sh
+$ ls
+examples.desktop  rsync.txt  script  test
+$ 
+Connection to 192.168.0.30 closed.
+
+]0;s4d1@CC2-25: ~/Desktops4d1@CC2-25:~/Desktop$ rsync -zvh task2.sh cs17d12@192.168.0.30:?home[K[K[K[K[K/home/cs17d12
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs17d12@192.168.0.30's password: 
+task2.sh
+
+sent 642 bytes  received 35 bytes  150.44 bytes/sec
+total size is 2.21K  speedup is 3.26
+]0;s4d1@CC2-25: ~/Desktops4d1@CC2-25:~/Desktop$ rsync -zvh cs17d12@192.168.0.30:/home [K/cs17d12/task2.sh /h 
+ome/s4d1/Desktop
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs17d12@192.168.0.30's password: 
+task2.sh
+
+sent 67 bytes  received 81 bytes  32.89 bytes/sec
+total size is 2.21K  speedup is 14.91
+]0;s4d1@CC2-25: ~/Desktops4d1@CC2-25:~/Desktop$ ls
+[0m[01;34mFOSS[0m  rsync.txt  [01;34mt2[0m  task2.sh  task4.txt
+]0;s4d1@CC2-25: ~/Desktops4d1@CC2-25:~/Desktop$ ssh cs17d12@192.168.030[1P30030.30[C[C
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs17d12@192.168.0.30's password: 
+Welcome to elementary OS 0.4.1 Loki (GNU/Linux 4.13.0-32-generic x86_64)
+
+ * Website:  http://elementary.io/
+
+278 packages can be updated.
+0 updates are security updates.
+
+Last login: Thu Apr  4 10:58:10 2019 from 192.168.0.178
+
+$ ls
+examples.desktop  rsync.txt  script  task2.sh  test
+$ pwd
+/home/cs17d12
+$ 
+Connection to 192.168.0.30 closed.
+
+]0;s4d1@CC2-25: ~/Desktops4d1@CC2-25:~/Desktop$ scp[K[K[Kexit
+
+Script done on Thursday 04 April 2019 12:00:49 PM IST
+
+
+Script started on Thursday 04 April 2019 12:12:48 PM IST
+]0;s4d1@CC2-25: ~/Desktops4d1@CC2-25:~/Desktop$ scp -r /home/s4d1/cs232-master cs17d12@192.168.0.30:home/home [A
+]0;s4d1@CC2-25: ~/Desktops4d1@CC2-25:~/Desktop$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C/e
+e
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ce 
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+/cs17d12
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs17d12@192.168.0.30's password: 
+/home/s4d1/cs232-master: No such file or directory
+]0;s4d1@CC2-25: ~/Desktops4d1@CC2-25:~/Desktop$ scp -r /home/s4d1/cs232-master cs17d12@192.168.0.30:/home/
+/cs17d12
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CDcs232-master cs17d12@192.168.0.30:/home/cs17d12[A
+]0;s4d1@CC2-25: ~/Desktops4d1@CC2-25:~/Desktop$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cecs232-master cs17d12@192.168.0.30:/home/cs17d12[A
+]0;s4d1@CC2-25: ~/Desktops4d1@CC2-25:~/Desktop$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cscs232-master cs17d12@192.168.0.30:/home/cs17d12[A
+]0;s4d1@CC2-25: ~/Desktops4d1@CC2-25:~/Desktop$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ckcs232-master cs17d12@192.168.0.30:/home/cs17d12[A
+]0;s4d1@CC2-25: ~/Desktops4d1@CC2-25:~/Desktop$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ctcs232-master cs17d12@192.168.0.30:/home/cs17d12[A
+]0;s4d1@CC2-25: ~/Desktops4d1@CC2-25:~/Desktop$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cocs232-master cs17d12@192.168.0.30:/home/cs17d12[A
+]0;s4d1@CC2-25: ~/Desktops4d1@CC2-25:~/Desktop$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cpcs232-master cs17d12@192.168.0.30:/home/cs17d12[A
+]0;s4d1@CC2-25: ~/Desktops4d1@CC2-25:~/Desktop$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C/cs232-master cs17d12@192.168.0.30:/home/cs17d12[A
+]0;s4d1@CC2-25: ~/Desktops4d1@CC2-25:~/Desktop$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs17d12@192.168.0.30's password: 
+
+task4.txt                                       0%    0     0.0KB/s   --:-- ETA
+task4.txt                                     100% 3689     3.6KB/s   00:00    
+
+ceccs17d12.11.02.19.txt                         0%    0     0.0KB/s   --:-- ETA
+ceccs17d12.11.02.19.txt                       100%  449KB 448.5KB/s   00:00    
+
+ceccs17d12.04.02.19.txt                         0%    0     0.0KB/s   --:-- ETA
+ceccs17d12.04.02.19.txt                       100%   81KB  81.1KB/s   00:00    
+
+Task2                                           0%    0     0.0KB/s   --:-- ETA
+Task2                                         100%    2     0.0KB/s   00:00    
+
+task2.sh                                        0%    0     0.0KB/s   --:-- ETA
+task2.sh                                      100% 2154     2.1KB/s   00:00    
+
+25-03-2019.txt                                  0%    0     0.0KB/s   --:-- ETA
+25-03-2019.txt                                100%   51KB  50.7KB/s   00:00    
+
+ceccs17d12.25.02.19.txt                         0%    0     0.0KB/s   --:-- ETA
+ceccs17d12.25.02.19.txt                       100%  623KB 622.7KB/s   00:00    
+
+ceccs17d12.11.03.19.txt                         0%    0     0.0KB/s   --:-- ETA
+ceccs17d12.11.03.19.txt                       100%   56KB  56.0KB/s   00:00    
+]0;s4d1@CC2-25: ~/Desktops4d1@CC2-25:~/Desktop$ exit
+
+Script done on Thursday 04 April 2019 12:15:10 PM IST
