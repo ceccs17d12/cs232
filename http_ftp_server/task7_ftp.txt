@@ -1,0 +1,170 @@
+Script started on Thursday 11 April 2019 11:13:37 AM IST
+]0;s4d1@CC2-25: ~/Desktops4d1@CC2-25:~/Desktop$ sudo apt install vsftpd
+sudo: unable to resolve host CC2-25
+[sudo] password for s4d1: 
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+vsftpd is already the newest version.
+The following packages were automatically installed and are no longer required:
+  account-plugin-windows-live libdbusmenu-gtk4 libntdb1 libupstart1
+  python-ntdb
+Use 'apt-get autoremove' to remove them.
+0 upgraded, 0 newly installed, 0 to remove and 49 not upgraded.
+]0;s4d1@CC2-25: ~/Desktops4d1@CC2-25:~/Desktop$ 0[Ksudo vsftpd
+sudo: unable to resolve host CC2-25
+500 OOPS: could not bind listening IPv4 socket
+]0;s4d1@CC2-25: ~/Desktops4d1@CC2-25:~/Desktop$ sudo apt-get remove vsftp
+sudo: unable to resolve host CC2-25
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+E: Unable to locate package vsftp
+]0;s4d1@CC2-25: ~/Desktops4d1@CC2-25:~/Desktop$ ftp localhost
+Connected to localhost.
+220 (vsFTPd 3.0.2)
+Name (localhost:s4d1): arun
+331 Please specify the password.
+Password:
+530 Login incorrect.
+Login failed.
+ftp> ^Z
+[1]+  Stopped                 ftp localhost
+]0;s4d1@CC2-25: ~/Desktops4d1@CC2-25:~/Desktop$ ftp localhostsudo apt-get remove vsftp
+sudo: unable to resolve host CC2-25
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+E: Unable to locate package vsftp
+]0;s4d1@CC2-25: ~/Desktops4d1@CC2-25:~/Desktop$ sudo apt-get remove vsftp[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[12Pftp localhostsudo apt-get remove vsftpvsftpd[Kapt install vsftpd
+sudo: unable to resolve host CC2-25
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+vsftpd is already the newest version.
+The following packages were automatically installed and are no longer required:
+  account-plugin-windows-live libdbusmenu-gtk4 libntdb1 libupstart1
+  python-ntdb
+Use 'apt-get autoremove' to remove them.
+0 upgraded, 0 newly installed, 0 to remove and 49 not upgraded.
+]0;s4d1@CC2-25: ~/Desktops4d1@CC2-25:~/Desktop$ ftp localhost
+Connected to localhost.
+220 (vsFTPd 3.0.2)
+Name (localhost:s4d1): s4d1
+331 Please specify the password.
+Password:
+230 Login successful.
+Remote system type is UNIX.
+Using binary mode to transfer files.
+ftp> ls
+200 PORT command successful. Consider using PASV.
+150 Here comes the directory listing.
+-rw-rw-r--    1 1005     1005       388975 Feb 25 12:01  	ceccs17d12.25.02.19.txt
+-rw-rw-r--    1 1005     1005       864256 Feb 11 11:57 11.1.txt
+-rw-rw-r--    1 1005     1005         1220 Feb 11 10:15 11.2.txt
+-rw-rw-r--    1 1005     1005         2259 Feb 11 10:20 11.3.txt
+-rw-rw-r--    1 1005     1005       434176 Feb 11 11:57 11.4.txt
+drwxr-xr-x    6 1005     1005         4096 Apr 11 11:13 Desktop
+drwxr-xr-x    2 1005     1005         4096 Feb 04 10:48 Documents
+drwxr-xr-x    2 1005     1005         4096 Apr 04 12:16 Downloads
+drwxr-xr-x    2 1005     1005         4096 Feb 04 10:48 Music
+drwxr-xr-x    2 1005     1005         4096 Apr 11 11:02 Pictures
+drwxr-xr-x    2 1005     1005         4096 Feb 04 10:48 Public
+drwxr-xr-x    2 1005     1005         4096 Feb 04 10:48 Templates
+-rw-rw-r--    1 1005     1005            0 Mar 25 11:28 Untitled Document~
+drwxr-xr-x    2 1005     1005         4096 Feb 04 10:48 Videos
+drwxrwxr-x    2 1005     1005         4096 Feb 11 11:52 bash_test
+-rw-rw-r--    1 1005     1005       459272 Feb 11 10:57 ceccs17d12.11.02.19.txt
+-rw-rw-r--    1 1005     1005          741 Feb 11 10:00 ceccs17d12.11.02.19.txt~
+-rw-rw-r--    1 1005     1005        15049 Feb 11 11:04 csresult.txt
+-rw-r--r--    1 1005     1005         8980 Feb 04 10:46 examples.desktop
+-rw-rw-r--    1 1005     1005            0 Mar 25 11:02 new.txt
+drwxrwxr-x    2 1005     1005         4096 Mar 25 10:57 rsync
+-rw-rw-r--    1 1005     1005        43642 Feb 04 13:19 script1.txt
+-rwxrw-r--    1 1005     1005         2207 Mar 18 10:10 task2.sh
+-rw-rw-r--    1 1005     1005         3152 Feb 11 11:00 tempr.txt
+226 Directory send OK.
+ftp> cd Desktop
+250 Directory successfully changed.
+ftp> ls
+200 PORT command successful. Consider using PASV.
+150 Here comes the directory listing.
+-rw-r--r--    1 1005     1005            0 Apr 04 12:56 1.txt
+-rw-r--r--    1 1005     1005            0 Apr 04 12:56 2.txt
+drwxrwxr-x    8 1005     1005         4096 Apr 04 12:30 FOSS
+drwxrwxr-x    2 1005     1005         4096 Apr 04 12:46 Untitled Folder
+-rw-rw-r--    1 1005     1005        22657 Apr 04 12:28 ceccs17d12.04.04.2019.txt
+-rw-rw-r--    1 1005     1005        22657 Apr 04 12:32 cs17d12@192.168
+drwxrwxr-x    2 1005     1005         4096 Apr 04 11:19 cs232-master
+-rw-rw-r--    1 1005     1005       101919 Apr 04 12:16 cs232-master.zip
+-rw-rw-r--    1 1005     1005            0 Apr 04 11:16 rsync.txt
+drwxrwxr-x    2 1005     1005         4096 Mar 18 11:23 t2
+-rw-rw-r--    1 1005     1005         2207 Apr 04 11:59 task2.sh
+-rw-rw-r--    1 1005     1005         8269 Apr 04 12:15 task4.txt
+-rw-rw-r--    1 1005     1005         3689 Apr 04 12:00 task4.txt~
+-rw-rw-r--    1 1005     1005         4096 Apr 11 11:16 task7.txt
+226 Directory send OK.
+ftp> exit
+221 Goodbye.
+]0;s4d1@CC2-25: ~/Desktops4d1@CC2-25:~/Desktop$ ftp localhost
+\Connected to localhost.
+220 (vsFTPd 3.0.2)
+Name (localhost:s4d1): s4d1
+331 Please specify the password.
+Password:
+530 Login incorrect.
+Login failed.
+ftp> bye
+221 Goodbye.
+]0;s4d1@CC2-25: ~/Desktops4d1@CC2-25:~/Desktop$ ftp localhost
+Connected to localhost.
+220 (vsFTPd 3.0.2)
+Name (localhost:s4d1): s4d1
+331 Please specify the password.
+Password:
+230 Login successful.
+Remote system type is UNIX.
+Using binary mode to transfer files.
+ftp> cat test.txt
+?Invalid command
+ftp> ls
+200 PORT command successful. Consider using PASV.
+150 Here comes the directory listing.
+-rw-rw-r--    1 1005     1005       388975 Feb 25 12:01  	ceccs17d12.25.02.19.txt
+-rw-rw-r--    1 1005     1005       864256 Feb 11 11:57 11.1.txt
+-rw-rw-r--    1 1005     1005         1220 Feb 11 10:15 11.2.txt
+-rw-rw-r--    1 1005     1005         2259 Feb 11 10:20 11.3.txt
+-rw-rw-r--    1 1005     1005       434176 Feb 11 11:57 11.4.txt
+drwxr-xr-x    6 1005     1005         4096 Apr 11 11:13 Desktop
+drwxr-xr-x    2 1005     1005         4096 Feb 04 10:48 Documents
+drwxr-xr-x    2 1005     1005         4096 Apr 04 12:16 Downloads
+drwxr-xr-x    2 1005     1005         4096 Feb 04 10:48 Music
+drwxr-xr-x    2 1005     1005         4096 Apr 11 11:02 Pictures
+drwxr-xr-x    2 1005     1005         4096 Feb 04 10:48 Public
+drwxr-xr-x    2 1005     1005         4096 Feb 04 10:48 Templates
+-rw-rw-r--    1 1005     1005            0 Mar 25 11:28 Untitled Document~
+drwxr-xr-x    2 1005     1005         4096 Feb 04 10:48 Videos
+drwxrwxr-x    2 1005     1005         4096 Feb 11 11:52 bash_test
+-rw-rw-r--    1 1005     1005       459272 Feb 11 10:57 ceccs17d12.11.02.19.txt
+-rw-rw-r--    1 1005     1005          741 Feb 11 10:00 ceccs17d12.11.02.19.txt~
+-rw-rw-r--    1 1005     1005        15049 Feb 11 11:04 csresult.txt
+-rw-r--r--    1 1005     1005         8980 Feb 04 10:46 examples.desktop
+-rw-rw-r--    1 1005     1005            0 Mar 25 11:02 new.txt
+drwxrwxr-x    2 1005     1005         4096 Mar 25 10:57 rsync
+-rw-rw-r--    1 1005     1005        43642 Feb 04 13:19 script1.txt
+-rwxrw-r--    1 1005     1005         2207 Mar 18 10:10 task2.sh
+-rw-rw-r--    1 1005     1005         3152 Feb 11 11:00 tempr.txt
+226 Directory send OK.
+ftp> pwd
+257 "/home/s4d1"
+ftp> cd desk^[[2~^[[2~[K[K[K[K[K[K[K[K[K[K[K[K[K Desktop
+250 Directory successfully changed.
+ftp> pwd
+257 "/home/s4d1/Desktop"
+ftp> bye
+221 Goodbye.
+]0;s4d1@CC2-25: ~/Desktops4d1@CC2-25:~/Desktop$ exit
+There are stopped jobs.
+]0;s4d1@CC2-25: ~/Desktops4d1@CC2-25:~/Desktop$ exit
+
+Script done on Thursday 11 April 2019 11:23:54 AM IST
