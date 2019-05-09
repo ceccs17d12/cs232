@@ -1,4 +1,5 @@
-Script started on Monday 18 March 2019 11:33:10 AM IST
+
+          TX packets:1519 errors:0 dropped:0 overruns:0 carrier:0Script started on Monday 18 March 2019 11:33:10 AM IST
 ]0;cec@CLAB2: ~cec@CLAB2:~$ sudo ifconfig
 [sudo] password for cec: 
 Sorry, try again.
@@ -47,3 +48,298 @@ lo        Link encap:Local Loopback
           inet6 addr: ::1/128 Scope:Host
           UP LOOPBACK RUNNING  MTU:65536  Metric:1
           RX packets:1519 errors:0 dropped:0 overruns:0 frame:0
+          collisions:0 txqueuelen:0 
+          RX bytes:231052 (231.0 KB)  TX bytes:231052 (231.0 KB)
+
+]0;cec@CLAB2: ~cec@CLAB2:~$ ping [K[K[K[K[Kping 192.168.0.98
+PING 192.168.0.98 (192.168.0.98) 56(84) bytes of data.
+64 bytes from 192.168.0.98: icmp_seq=1 ttl=64 time=0.525 ms
+64 bytes from 192.168.0.98: icmp_seq=2 ttl=64 time=0.524 ms
+64 bytes from 192.168.0.98: icmp_seq=3 ttl=64 time=0.542 ms
+64 bytes from 192.168.0.98: icmp_seq=4 ttl=64 time=0.413 ms
+64 bytes from 192.168.0.98: icmp_seq=5 ttl=64 time=0.593 ms
+64 bytes from 192.168.0.98: icmp_seq=6 ttl=64 time=0.548 ms
+64 bytes from 192.168.0.98: icmp_seq=7 ttl=64 time=0.398 ms
+64 bytes from 192.168.0.98: icmp_seq=8 ttl=64 time=0.393 ms
+64 bytes from 192.168.0.98: icmp_seq=9 ttl=64 time=0.468 ms
+64 bytes from 192.168.0.98: icmp_seq=10 ttl=64 time=0.603 ms
+64 bytes from 192.168.0.98: icmp_seq=11 ttl=64 time=0.391 ms
+64 bytes from 192.168.0.98: icmp_seq=12 ttl=64 time=0.462 ms
+64 bytes from 192.168.0.98: icmp_seq=13 ttl=64 time=0.554 ms
+64 bytes from 192.168.0.98: icmp_seq=14 ttl=64 time=0.391 ms
+64 bytes from 192.168.0.98: icmp_seq=15 ttl=64 time=0.535 ms
+64 bytes from 192.168.0.98: icmp_seq=16 ttl=64 time=0.509 ms
+64 bytes from 192.168.0.98: icmp_seq=17 ttl=64 time=0.386 ms
+64 bytes from 192.168.0.98: icmp_seq=18 ttl=64 time=0.538 ms
+64 bytes from 192.168.0.98: icmp_seq=19 ttl=64 time=0.569 ms
+64 bytes from 192.168.0.98: icmp_seq=20 ttl=64 time=0.210 ms
+64 bytes from 192.168.0.98: icmp_seq=21 ttl=64 time=0.592 ms
+64 bytes from 192.168.0.98: icmp_seq=22 ttl=64 time=0.405 ms
+64 bytes from 192.168.0.98: icmp_seq=23 ttl=64 time=0.383 ms
+64 bytes from 192.168.0.98: icmp_seq=24 ttl=64 time=0.590 ms
+64 bytes from 192.168.0.98: icmp_seq=25 ttl=64 time=0.354 ms
+64 bytes from 192.168.0.98: icmp_seq=26 ttl=64 time=0.592 ms
+64 bytes from 192.168.0.98: icmp_seq=27 ttl=64 time=0.409 ms
+64 bytes from 192.168.0.98: icmp_seq=28 ttl=64 time=0.356 ms
+64 bytes from 192.168.0.98: icmp_seq=29 ttl=64 time=0.549 ms
+64 bytes from 192.168.0.98: icmp_seq=30 ttl=64 time=0.486 ms
+64 bytes from 192.168.0.98: icmp_seq=31 ttl=64 time=0.364 ms
+64 bytes from 192.168.0.98: icmp_seq=32 ttl=64 time=0.387 ms
+64 bytes from 192.168.0.98: icmp_seq=33 ttl=64 time=0.405 ms
+64 bytes from 192.168.0.98: icmp_seq=34 ttl=64 time=0.338 ms
+64 bytes from 192.168.0.98: icmp_seq=35 ttl=64 time=0.412 ms
+64 bytes from 192.168.0.98: icmp_seq=36 ttl=64 time=0.482 ms
+64 bytes from 192.168.0.98: icmp_seq=37 ttl=64 time=0.258 ms
+64 bytes from 192.168.0.98: icmp_seq=38 ttl=64 time=0.542 ms
+64 bytes from 192.168.0.98: icmp_seq=39 ttl=64 time=0.484 ms
+64 bytes from 192.168.0.98: icmp_seq=40 ttl=64 time=0.488 ms
+64 bytes from 192.168.0.98: icmp_seq=41 ttl=64 time=0.354 ms
+64 bytes from 192.168.0.98: icmp_seq=42 ttl=64 time=0.554 ms
+ping: sendmsg: Network is unreachable
+ping: sendmsg: Network is unreachable
+ping: sendmsg: Network is unreachable
+ping: sendmsg: Network is unreachable
+ping: sendmsg: Network is unreachable
+ping: sendmsg: Network is unreachable
+ping: sendmsg: Network is unreachable
+ping: sendmsg: Network is unreachable
+^[[Aping: sendmsg: Network is unreachable
+ ping: sendmsg: Network is unreachable
+
+ping: sendmsg: Network is unreachable
+ping: sendmsg: Network is unreachable
+ping: sendmsg: Network is unreachable
+ping: sendmsg: Network is unreachable
+ping: sendmsg: Network is unreachable
+ping: sendmsg: Network is unreachable
+ping: sendmsg: Network is unreachable
+ping: sendmsg: Network is unreachable
+ping: sendmsg: Network is unreachable
+ping: sendmsg: Network is unreachable
+ping: sendmsg: Network is unreachable
+ping: sendmsg: Network is unreachable
+ping: sendmsg: Network is unreachable
+ping: sendmsg: Network is unreachable
+ping: sendmsg: Network is unreachable
+ping: sendmsg: Network is unreachable
+ping: sendmsg: Network is unreachable
+ping: sendmsg: Network is unreachable
+ping: sendmsg: Network is unreachable
+ping: sendmsg: Network is unreachable
+ping: sendmsg: Network is unreachable
+ping: sendmsg: Network is unreachable
+ping: sendmsg: Network is unreachable
+ping: sendmsg: Network is unreachable
+ping: sendmsg: Network is unreachable
+ping: sendmsg: Network is unreachable
+ping: sendmsg: Network is unreachable
+ping: sendmsg: Network is unreachable
+ping: sendmsg: Network is unreachable
+ping: sendmsg: Network is unreachable
+ping: sendmsg: Network is unreachable
+ping: sendmsg: Network is unreachable
+ping: sendmsg: Network is unreachable
+^Z
+[1]+  Stopped                 ping 192.168.0.98
+]0;cec@CLAB2: ~cec@CLAB2:~$ ping 192.168.0.98
+[C[C[C[C[C[C[C[C[C[C[C[C[C[3Psudo ifconfig 
+eth0      Link encap:Ethernet  HWaddr e0:d5:5e:03:e8:35  
+          inet6 addr: fe80::e2d5:5eff:fe03:e835/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:10314459 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:20495 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:3559529844 (3.5 GB)  TX bytes:2439590 (2.4 MB)
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+          RX packets:1519 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:1519 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:0 
+          RX bytes:231052 (231.0 KB)  TX bytes:231052 (231.0 KB)
+
+]0;cec@CLAB2: ~cec@CLAB2:~$ sudo ifconfig ping 192.168.0.98
+[C[C[C[C[C[C[C[C[C[C[C[C[C[3Psudo ifconfig eth0 192.168.0.90 netmask 255.255.255.0
+]0;cec@CLAB2: ~cec@CLAB2:~$ sudo ifconfig eth0 192.168.0.90 netmask 255.255.255.0
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+eth0      Link encap:Ethernet  HWaddr e0:d5:5e:03:e8:35  
+          inet addr:192.168.0.90  Bcast:192.168.0.255  Mask:255.255.255.0
+          inet6 addr: fe80::e2d5:5eff:fe03:e835/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:10314474 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:20531 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:3559530858 (3.5 GB)  TX bytes:2446508 (2.4 MB)
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+          RX packets:1519 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:1519 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:0 
+          RX bytes:231052 (231.0 KB)  TX bytes:231052 (231.0 KB)
+
+]0;cec@CLAB2: ~cec@CLAB2:~$ sudo ifconfig eth0 192.168.0.90 netmask 255.255.255.0
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kping 192.168.0.98
+PING 192.168.0.98 (192.168.0.98) 56(84) bytes of data.
+64 bytes from 192.168.0.98: icmp_seq=1 ttl=64 time=0.686 ms
+64 bytes from 192.168.0.98: icmp_seq=2 ttl=64 time=0.334 ms
+64 bytes from 192.168.0.98: icmp_seq=3 ttl=64 time=0.228 ms
+^Z
+[2]+  Stopped                 ping 192.168.0.98
+]0;cec@CLAB2: ~cec@CLAB2:~$ -sudo ifdown eth[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Ksudo id=fdown eth0[1P[1P
+ifdown: interface eth0 not configured
+]0;cec@CLAB2: ~cec@CLAB2:~$ sudo ifdown eth0
+[C[C[C[C[C[C[C[C[C[C[C[C[Cping 192.168.0.98
+[C[C[C[C[C[C[C[C[C[C[C[C[C[1Psudo ifdown eth0
+[C[C[C[C[C[C[C[C[C[C[C[C[C[Kifg[Kconfig
+eth0      Link encap:Ethernet  HWaddr e0:d5:5e:03:e8:35  
+          inet6 addr: fe80::e2d5:5eff:fe03:e835/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:10314713 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:20582 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:3559545835 (3.5 GB)  TX bytes:2455014 (2.4 MB)
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+          RX packets:1519 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:1519 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:0 
+          RX bytes:231052 (231.0 KB)  TX bytes:231052 (231.0 KB)
+
+]0;cec@CLAB2: ~cec@CLAB2:~$ ifconfigsudo ifdown eth0
+ifdown: interface eth0 not configured
+]0;cec@CLAB2: ~cec@CLAB2:~$ 
+]0;cec@CLAB2: ~cec@CLAB2:~$ ifconfig
+eth0      Link encap:Ethernet  HWaddr e0:d5:5e:03:e8:35  
+          inet6 addr: fe80::e2d5:5eff:fe03:e835/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:10314728 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:20605 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:3559546735 (3.5 GB)  TX bytes:2459353 (2.4 MB)
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+          RX packets:1519 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:1519 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:0 
+          RX bytes:231052 (231.0 KB)  TX bytes:231052 (231.0 KB)
+
+]0;cec@CLAB2: ~cec@CLAB2:~$ ifconfigsudo ifdown eth0
+[C[C[C[C[C[C[C[C[C[C[C[C[C[8Pifconfigsudo ifdown eth0
+[C[C[C[C[C[C[C[C[C[C[C[C[Cping 192.168.0.98
+[C[C[C[C[C[C[C[C[C[C[C[C[C[3Psudo ifconfig eth0 192.168.0.90 netmask 255.255.255.0
+]0;cec@CLAB2: ~cec@CLAB2:~$ sudo ifconfig
+eth0      Link encap:Ethernet  HWaddr e0:d5:5e:03:e8:35  
+          inet addr:192.168.0.90  Bcast:192.168.0.255  Mask:255.255.255.0
+          inet6 addr: fe80::e2d5:5eff:fe03:e835/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:10314737 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:20626 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:3559547275 (3.5 GB)  TX bytes:2463576 (2.4 MB)
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+          RX packets:1519 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:1519 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:0 
+          RX bytes:231052 (231.0 KB)  TX bytes:231052 (231.0 KB)
+
+]0;cec@CLAB2: ~cec@CLAB2:~$ sudo ifconfig eth0 192.168.0.90 netmask 255.255.255.0[C[1P[1P[1@6[1@9
+]0;cec@CLAB2: ~cec@CLAB2:~$ sudo ifconfig eth0 192.168.0.69 netmask 255.255.255.0
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+eth0      Link encap:Ethernet  HWaddr e0:d5:5e:03:e8:35  
+          inet addr:192.168.0.69  Bcast:192.168.0.255  Mask:255.255.255.0
+          inet6 addr: fe80::e2d5:5eff:fe03:e835/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:10314737 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:20666 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:3559547275 (3.5 GB)  TX bytes:2471206 (2.4 MB)
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+          RX packets:1519 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:1519 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:0 
+          RX bytes:231052 (231.0 KB)  TX bytes:231052 (231.0 KB)
+
+]0;cec@CLAB2: ~cec@CLAB2:~$ sudo ifup re[K[K[K[K[K[K[K[K[K[K[K[Ksudo ifconfig eth0 192.168.0.69 netmask 255.255.255.0
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K eth0 192.168.0.90 netmask 255.255.255.0
+[C[C[C[C[C[C[C[C[C[C[C[C[Cifconfig[Ksudo ifdown eth0[1P eth0[1P eth0[1P eth0[1P eth0u eth0p eth0
+Ignoring unknown interface eth0=eth0.
+]0;cec@CLAB2: ~cec@CLAB2:~$ sudo ifup eth0[K0
+Ignoring unknown interface eth0=eth0.
+]0;cec@CLAB2: ~cec@CLAB2:~$ usdo ifcong[Kfig [K[K[K[K[K[K[K[K[K[K[K[K[K[Ksudo ifcong[Kfu[Kig eth0 updown[K[K[K[K[K[Kup
+]0;cec@CLAB2: ~cec@CLAB2:~$ sudo ifconfig eth0 up[7Pup eth0[1Pconfig eth0 192.168.0.69 netmask 255.255.255.0
+]0;cec@CLAB2: ~cec@CLAB2:~$ sudo confi[K[K[K[K[Kifconfig
+eth0      Link encap:Ethernet  HWaddr e0:d5:5e:03:e8:35  
+          inet addr:192.168.0.69  Bcast:192.168.0.255  Mask:255.255.255.0
+          inet6 addr: fe80::e2d5:5eff:fe03:e835/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:10314747 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:20803 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:3559548041 (3.5 GB)  TX bytes:2497223 (2.4 MB)
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+          RX packets:1519 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:1519 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:0 
+          RX bytes:231052 (231.0 KB)  TX bytes:231052 (231.0 KB)
+
+]0;cec@CLAB2: ~cec@CLAB2:~$ sudo ifconfid [K[Kg re[K[Keth0 down
+]0;cec@CLAB2: ~cec@CLAB2:~$ sudo ifconfig
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+          RX packets:1519 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:1519 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:0 
+          RX bytes:231052 (231.0 KB)  TX bytes:231052 (231.0 KB)
+
+]0;cec@CLAB2: ~cec@CLAB2:~$ sudo ifconfig eth0 down[K eth0 192.168.0.69 netmask 255.255.255.0
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cup[K192.168.0.69 netmask 255.255.255.0
+]0;cec@CLAB2: ~cec@CLAB2:~$ sudo ifconfig eth0 192.168.0.69 netmask 255.255.255.0
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+eth0      Link encap:Ethernet  HWaddr e0:d5:5e:03:e8:35  
+          inet addr:192.168.0.69  Bcast:192.168.0.255  Mask:255.255.255.0
+          UP BROADCAST MULTICAST  MTU:1500  Metric:1
+          RX packets:10314747 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:20808 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:3559548041 (3.5 GB)  TX bytes:2498188 (2.4 MB)
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+          RX packets:1519 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:1519 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:0 
+          RX bytes:231052 (231.0 KB)  TX bytes:231052 (231.0 KB)
+
+]0;cec@CLAB2: ~cec@CLAB2:~$ sudo ifconfig eth0 192.168.0.69 netmask 255.255.255.0
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K eth0 down[K eth0 down
+]0;cec@CLAB2: ~cec@CLAB2:~$ exit
+exit
+There are stopped jobs.
+]0;cec@CLAB2: ~cec@CLAB2:~$ exit
