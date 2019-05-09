@@ -1,0 +1,949 @@
+Script started on Monday 29 April 2019 11:05:23 AM IST
+declare -x ALL_PROXY="socks://192.168.0.2:3128/"
+declare -x CLUTTER_IM_MODULE="xim"
+declare -x COMPIZ_CONFIG_PROFILE="ubuntu"
+declare -x DBUS_SESSION_BUS_ADDRESS="unix:abstract=/tmp/dbus-8JxTFPKCxf"
+declare -x DEFAULTS_PATH="/usr/share/gconf/ubuntu.default.path"
+declare -x DESKTOP_SESSION="ubuntu"
+declare -x DISPLAY=":1"
+declare -x GDMSESSION="ubuntu"
+declare -x GDM_LANG="en_US"
+declare -x GNOME_DESKTOP_SESSION_ID="this-is-deprecated"
+declare -x GNOME_KEYRING_CONTROL=""
+declare -x GNOME_KEYRING_PID=""
+declare -x GPG_AGENT_INFO="/home/cec/.gnupg/S.gpg-agent:0:1"
+declare -x GTK2_MODULES="overlay-scrollbar"
+declare -x GTK_IM_MODULE="ibus"
+declare -x GTK_MODULES="gail:atk-bridge:unity-gtk-module"
+declare -x HOME="/home/cec"
+declare -x IM_CONFIG_PHASE="1"
+declare -x INSTANCE="Unity"
+declare -x JOB="gnome-session"
+declare -x LANG="en_IN"
+declare -x LANGUAGE="en_IN:en"
+declare -x LESSCLOSE="/usr/bin/lesspipe %s %s"
+declare -x LESSOPEN="| /usr/bin/lesspipe %s"
+declare -x LOGNAME="cec"
+declare -x LS_COLORS="rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:"
+declare -x MANDATORY_PATH="/usr/share/gconf/ubuntu.mandatory.path"
+declare -x NO_PROXY="localhost,127.0.0.0/8,::1"
+declare -x OLDPWD
+declare -x PATH="/home/cec/bin:/home/cec/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/opt/ns-allinone-2.35/xgraph-12.2/:/opt/ns-allinone-2.35/bin/:/opt/ns/-allinone-2.35/tcl8.5.10/unix/::/opt/ns-allinone-2.35/ns-2.35/:/opt/ns-allinone-2.35/nam-1.15/"
+declare -x PWD="/home/cec"
+declare -x QT4_IM_MODULE="xim"
+declare -x QT_ACCESSIBILITY="1"
+declare -x QT_IM_MODULE="ibus"
+declare -x QT_LINUX_ACCESSIBILITY_ALWAYS_ON="1"
+declare -x QT_QPA_PLATFORMTHEME="appmenu-qt5"
+declare -x SESSIONTYPE="gnome-session"
+declare -x SHELL="/bin/bash"
+declare -x SHLVL="2"
+declare -x SSH_AUTH_SOCK="/run/user/1000/keyring/ssh"
+declare -x TCL_LIBRARY=":/opt/ns-allinone-2.35/tcl8.5.10/library/:/usr/lib/"
+declare -x TERM="xterm-256color"
+declare -x UPSTART_EVENTS="started starting"
+declare -x UPSTART_INSTANCE=""
+declare -x UPSTART_JOB="unity-settings-daemon"
+declare -x UPSTART_SESSION="unix:abstract=/com/ubuntu/upstart-session/1000/3257"
+declare -x USER="cec"
+declare -x VTE_VERSION="4205"
+declare -x WINDOWID="88085956"
+declare -x XAUTHORITY="/home/cec/.Xauthority"
+declare -x XDG_CONFIG_DIRS="/etc/xdg/xdg-ubuntu:/usr/share/upstart/xdg:/etc/xdg"
+declare -x XDG_CURRENT_DESKTOP="Unity"
+declare -x XDG_DATA_DIRS="/usr/share/ubuntu:/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop:/var/lib/snapd/desktop"
+declare -x XDG_GREETER_DATA_DIR="/var/lib/lightdm-data/cec"
+declare -x XDG_RUNTIME_DIR="/run/user/1000"
+declare -x XDG_SEAT="seat0"
+declare -x XDG_SEAT_PATH="/org/freedesktop/DisplayManager/Seat0"
+declare -x XDG_SESSION_DESKTOP="ubuntu"
+declare -x XDG_SESSION_ID="c4"
+declare -x XDG_SESSION_PATH="/org/freedesktop/DisplayManager/Session1"
+declare -x XDG_SESSION_TYPE="x11"
+declare -x XDG_VTNR="8"
+declare -x XMODIFIERS="@im=ibus"
+declare -x all_proxy="socks://192.168.0.2:3128/"
+declare -x ftp_proxy="ftp://192.168.0.2:3128/"
+declare -x http_proxy="http://192.168.0.2:3128/"
+declare -x https_proxy="https://192.168.0.2:3128/"
+declare -x no_proxy="localhost,127.0.0.0/8,::1"
+declare -x socks_proxy="socks://192.168.0.2:3128/"
+bash: /opt/ns-allinone-2.35/tk8.5.10/unix/: No such file or directory
+]0;cec@cec-H110M-S2: ~[01;32mcec@cec-H110M-S2[00m:[01;34m~[00m$ 
+[K]0;cec@cec-H110M-S2: ~[01;32mcec@cec-H110M-S2[00m:[01;34m~[00m$ sudo apt update
+[sudo] password for cec: 
+[33m
+0% [Working][0m
+            
+Hit:1 http://in.archive.ubuntu.com/ubuntu xenial InRelease
+[33m
+0% [Waiting for headers] [Waiting for headers][0m[33m
+0% [1 InRelease gpgv 247 kB] [Waiting for headers] [Waiting for headers] [Waiti[0m
+                                                                               
+Ign:2 http://dl.google.com/linux/chrome/deb stable InRelease
+[33m
+                                                                               
+0% [1 InRelease gpgv 247 kB] [Waiting for headers] [Waiting for headers][0m[33m
+                                                                        
+0% [Waiting for headers] [Waiting for headers] [Waiting for headers][0m
+                                                                    
+Get:3 http://in.archive.ubuntu.com/ubuntu xenial-updates InRelease [109 kB]
+[33m
+0% [3 InRelease 11.9 kB/109 kB 11%] [Waiting for headers] [Waiting for headers][0m[33m
+                                                                               
+0% [Waiting for headers] [Waiting for headers][0m[33m
+0% [3 InRelease gpgv 109 kB] [Waiting for headers] [Waiting for headers] [Waiti[0m
+                                                                               
+Get:4 http://security.ubuntu.com/ubuntu xenial-security InRelease [109 kB]
+[33m
+0% [3 InRelease gpgv 109 kB] [Waiting for headers] [4 InRelease 11.9 kB/109 kB [0m[33m
+                                                                               
+0% [3 InRelease gpgv 109 kB] [Waiting for headers] [Waiting for headers][0m
+                                                                        
+Hit:5 https://packages.microsoft.com/repos/vscode stable InRelease
+[33m
+0% [3 InRelease gpgv 109 kB] [Waiting for headers] [Waiting for headers][0m[33m
+                                                                        
+0% [Waiting for headers] [Waiting for headers][0m[33m
+0% [4 InRelease gpgv 109 kB] [Waiting for headers] [Waiting for headers][0m[33m
+                                                                        
+0% [Waiting for headers] [Waiting for headers][0m[33m
+0% [5 InRelease gpgv 3,182 B] [Waiting for headers] [Waiting for headers][0m[33m
+                                                                         
+0% [Waiting for headers] [Waiting for headers][0m
+                                              
+Get:6 http://in.archive.ubuntu.com/ubuntu xenial-backports InRelease [107 kB]
+[33m
+0% [6 InRelease 8,089 B/107 kB 8%] [Waiting for headers][0m[33m
+                                                        
+0% [Waiting for headers][0m[33m
+0% [6 InRelease gpgv 107 kB] [Waiting for headers][0m[33m
+                                                  
+0% [Waiting for headers][0m
+                        
+Hit:7 http://dl.google.com/linux/chrome/deb stable Release
+[33m
+                        
+99% [Working][0m[33m
+99% [Release.gpg gpgv 943 B][0m[33m
+                            
+100% [Working][0m
+              
+Fetched 325 kB in 1s (251 kB/s)
+
+Reading package lists... 0%
+
+Reading package lists... 0%
+
+Reading package lists... 1%
+
+Reading package lists... 4%
+
+Reading package lists... 4%
+
+Reading package lists... 8%
+
+Reading package lists... 8%
+
+Reading package lists... 10%
+
+Reading package lists... 10%
+
+Reading package lists... 10%
+
+Reading package lists... 10%
+
+Reading package lists... 10%
+
+Reading package lists... 10%
+
+Reading package lists... 10%
+
+Reading package lists... 10%
+
+Reading package lists... 33%
+
+Reading package lists... 33%
+
+Reading package lists... 52%
+
+Reading package lists... 56%
+
+Reading package lists... 56%
+
+Reading package lists... 69%
+
+Reading package lists... 69%
+
+Reading package lists... 70%
+
+Reading package lists... 70%
+
+Reading package lists... 70%
+
+Reading package lists... 70%
+
+Reading package lists... 70%
+
+Reading package lists... 70%
+
+Reading package lists... 74%
+
+Reading package lists... 74%
+
+Reading package lists... 77%
+
+Reading package lists... 77%
+
+Reading package lists... 80%
+
+Reading package lists... 80%
+
+Reading package lists... 80%
+
+Reading package lists... 80%
+
+Reading package lists... 80%
+
+Reading package lists... 80%
+
+Reading package lists... 80%
+
+Reading package lists... 80%
+
+Reading package lists... 83%
+
+Reading package lists... 83%
+
+Reading package lists... 85%
+
+Reading package lists... 85%
+
+Reading package lists... 87%
+
+Reading package lists... 87%
+
+Reading package lists... 87%
+
+Reading package lists... 87%
+
+Reading package lists... 87%
+
+Reading package lists... 87%
+
+Reading package lists... 87%
+
+Reading package lists... 87%
+
+Reading package lists... 87%
+
+Reading package lists... 87%
+
+Reading package lists... 87%
+
+Reading package lists... 87%
+
+Reading package lists... 87%
+
+Reading package lists... 87%
+
+Reading package lists... 87%
+
+Reading package lists... 87%
+
+Reading package lists... 87%
+
+Reading package lists... 87%
+
+Reading package lists... 87%
+
+Reading package lists... 87%
+
+Reading package lists... 89%
+
+Reading package lists... 89%
+
+Reading package lists... 91%
+
+Reading package lists... 91%
+
+Reading package lists... 92%
+
+Reading package lists... 94%
+
+Reading package lists... 94%
+
+Reading package lists... 94%
+
+Reading package lists... 94%
+
+Reading package lists... 94%
+
+Reading package lists... 94%
+
+Reading package lists... 94%
+
+Reading package lists... 94%
+
+Reading package lists... 96%
+
+Reading package lists... 96%
+
+Reading package lists... 97%
+
+Reading package lists... 97%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... Done
+
+
+Building dependency tree... 0%
+
+Building dependency tree... 0%
+
+Building dependency tree... 1%
+
+Building dependency tree... 50%
+
+Building dependency tree... 50%
+
+Building dependency tree       
+
+
+Reading state information... 0%
+
+Reading state information... 0%
+
+Reading state information... Done
+
+4 packages can be upgraded. Run 'apt list --upgradable' to see them.
+]0;cec@cec-H110M-S2: ~[01;32mcec@cec-H110M-S2[00m:[01;34m~[00m$ sudo apt install apache2
+
+Reading package lists... 0%
+
+Reading package lists... 100%
+
+Reading package lists... Done
+
+
+Building dependency tree... 0%
+
+Building dependency tree... 0%
+
+Building dependency tree... 50%
+
+Building dependency tree... 50%
+
+Building dependency tree       
+
+
+Reading state information... 0%
+
+Reading state information... 0%
+
+Reading state information... Done
+
+apache2 is already the newest version (2.4.18-2ubuntu3.10).
+The following package was automatically installed and is no longer required:
+  libevent-core-2.0-5
+Use 'sudo apt autoremove' to remove it.
+0 upgraded, 0 newly installed, 0 to remove and 4 not upgraded.
+]0;cec@cec-H110M-S2: ~[01;32mcec@cec-H110M-S2[00m:[01;34m~[00m$ sudo apt-get install mariadb-server mariadb-client
+
+Reading package lists... 0%
+
+Reading package lists... 100%
+
+Reading package lists... Done
+
+
+Building dependency tree... 0%
+
+Building dependency tree... 0%
+
+Building dependency tree... 50%
+
+Building dependency tree... 50%
+
+Building dependency tree       
+
+
+Reading state information... 0%
+
+Reading state information... 0%
+
+Reading state information... Done
+
+mariadb-server is already the newest version (10.0.38-0ubuntu0.16.04.1).
+The following package was automatically installed and is no longer required:
+  libevent-core-2.0-5
+Use 'sudo apt autoremove' to remove it.
+The following NEW packages will be installed:
+  mariadb-client
+0 upgraded, 1 newly installed, 0 to remove and 4 not upgraded.
+Need to get 13.0 kB of archives.
+After this operation, 62.5 kB of additional disk space will be used.
+Do you want to continue? [Y/n] y
+
+0% [Working]
+0% [Waiting for headers]
+                        
+Get:1 http://in.archive.ubuntu.com/ubuntu xenial-updates/universe amd64 mariadb-client all 10.0.38-0ubuntu0.16.04.1 [13.0 kB]
+
+34% [1 mariadb-client 5,455 B/13.0 kB 42%]
+                                          
+100% [Working]
+              
+Fetched 13.0 kB in 0s (21.5 kB/s)
+Selecting previously unselected package mariadb-client.
+(Reading database ... 
+(Reading database ... 5%
+(Reading database ... 10%
+(Reading database ... 15%
+(Reading database ... 20%
+(Reading database ... 25%
+(Reading database ... 30%
+(Reading database ... 35%
+(Reading database ... 40%
+(Reading database ... 45%
+(Reading database ... 50%
+(Reading database ... 55%
+(Reading database ... 60%
+(Reading database ... 65%
+(Reading database ... 70%
+(Reading database ... 75%
+(Reading database ... 80%
+(Reading database ... 85%
+(Reading database ... 90%
+(Reading database ... 95%
+(Reading database ... 100%
+(Reading database ... 233353 files and directories currently installed.)
+Preparing to unpack .../mariadb-client_10.0.38-0ubuntu0.16.04.1_all.deb ...
+Unpacking mariadb-client (10.0.38-0ubuntu0.16.04.1) ...
+Setting up mariadb-client (10.0.38-0ubuntu0.16.04.1) ...
+]0;cec@cec-H110M-S2: ~[01;32mcec@cec-H110M-S2[00m:[01;34m~[00m$ sudo mysql_secure_installation
+
+NOTE: RUNNING ALL PARTS OF THIS SCRIPT IS RECOMMENDED FOR ALL MariaDB
+      SERVERS IN PRODUCTION USE!  PLEASE READ EACH STEP CAREFULLY!
+
+In order to log into MariaDB to secure it, we'll need the current
+password for the root user.  If you've just installed MariaDB, and
+you haven't set the root password yet, the password will be blank,
+so you should just press enter here.
+
+Enter current password for root (enter for none): 
+OK, successfully used password, moving on...
+
+Setting the root password ensures that nobody can log into the MariaDB
+root user without the proper authorisation.
+
+You already have a root password set, so you can safely answer 'n'.
+
+Change the root password? [Y/n] n
+ ... skipping.
+
+By default, a MariaDB installation has an anonymous user, allowing anyone
+to log into MariaDB without having to have a user account created for
+them.  This is intended only for testing, and to make the installation
+go a bit smoother.  You should remove them before moving into a
+production environment.
+
+Remove anonymous users? [Y/n] n
+ ... skipping.
+
+Normally, root should only be allowed to connect from 'localhost'.  This
+ensures that someone cannot guess at the root password from the network.
+
+Disallow root login remotely? [Y/n] n
+ ... skipping.
+
+By default, MariaDB comes with a database named 'test' that anyone can
+access.  This is also intended only for testing, and should be removed
+before moving into a production environment.
+
+Remove test database and access to it? [Y/n] n
+ ... skipping.
+
+Reloading the privilege tables will ensure that all changes made so far
+will take effect immediately.
+
+Reload privilege tables now? [Y/n] n
+ ... skipping.
+
+Cleaning up...
+
+All done!  If you've completed all of the above steps, your MariaDB
+installation should now be secure.
+
+Thanks for using MariaDB!
+]0;cec@cec-H110M-S2: ~[01;32mcec@cec-H110M-S2[00m:[01;34m~[00m$ sudo mysql -u root -p
+Enter password: 
+(B[0;1mWelcome to the MariaDB monitor.  Commands end with ; or \g.
+(B[m(B[0;1mYour MariaDB connection id is 53
+Server version: 10.0.38-MariaDB-0ubuntu0.16.04.1 Ubuntu 16.04
+
+(B[m(B[0;1mCopyright (c) 2000, 2018, Oracle, MariaDB Corporation Ab and others.
+
+(B[m(B[0;1mType 'help;' or '\h' for help. Type '\c' to clear the current input statement.
+
+(B[mMariaDB [(none)]> ec[Kxit
+(B[0;1mBye
+(B[m]0;cec@cec-H110M-S2: ~[01;32mcec@cec-H110M-S2[00m:[01;34m~[00m$ sudo apt-get install software-properties-common
+
+Reading package lists... 0%
+
+Reading package lists... 100%
+
+Reading package lists... Done
+
+
+Building dependency tree... 0%
+
+Building dependency tree... 0%
+
+Building dependency tree... 50%
+
+Building dependency tree... 50%
+
+Building dependency tree       
+
+
+Reading state information... 0%
+
+Reading state information... 0%
+
+Reading state information... Done
+
+software-properties-common is already the newest version (0.96.20.8).
+The following package was automatically installed and is no longer required:
+  libevent-core-2.0-5
+Use 'sudo apt autoremove' to remove it.
+0 upgraded, 0 newly installed, 0 to remove and 4 not upgraded.
+]0;cec@cec-H110M-S2: ~[01;32mcec@cec-H110M-S2[00m:[01;34m~[00m$ sudo add-apt-repository ppa:ondrej/php
+ Co-installable PHP versions: PHP 5.6, PHP 7.x and most requested extensions are included. Only Supported Versions of PHP (http://php.net/supported-versions.php) for Supported Ubuntu Releases (https://wiki.ubuntu.com/Releases) are provided. Don't ask for end-of-life PHP versions or Ubuntu release, they won't be provided.
+
+Debian oldstable and stable packages are provided as well: https://deb.sury.org/#debian-dpa
+
+You can get more information about the packages at https://deb.sury.org
+
+BUGS&FEATURES: This PPA now has a issue tracker:
+https://deb.sury.org/#bug-reporting
+
+CAVEATS:
+1. If you are using php-gearman, you need to add ppa:ondrej/pkg-gearman
+2. If you are using apache2, you are advised to add ppa:ondrej/apache2
+3. If you are using nginx, you are advise to add ppa:ondrej/nginx-mainline
+   or ppa:ondrej/nginx
+
+PLEASE READ: If you like my work and want to give me a little motivation, please consider donating regularly: https://donate.sury.org/
+
+WARNING: add-apt-repository is broken with non-UTF-8 locales, see 
+https://github.com/oerdnj/deb.sury.org/issues/56 for workaround:
+
+# LC_ALL=C.UTF-8 add-apt-repository ppa:ondrej/php
+ More info: https://launchpad.net/~ondrej/+archive/ubuntu/php
+Press [ENTER] to continue or ctrl-c to cancel adding it
+
+gpg: keyring `/tmp/tmp620yunkr/secring.gpg' created
+gpg: keyring `/tmp/tmp620yunkr/pubring.gpg' created
+gpg: requesting key E5267A6C from hkp server keyserver.ubuntu.com
+gpg: /tmp/tmp620yunkr/trustdb.gpg: trustdb created
+gpg: key E5267A6C: public key "Launchpad PPA for Ondřej Surý" imported
+gpg: Total number processed: 1
+gpg:               imported: 1  (RSA: 1)
+OK
+]0;cec@cec-H110M-S2: ~[01;32mcec@cec-H110M-S2[00m:[01;34m~[00m$ sudo nano /var/www/html/index.php
+[?1049h[1;55r(B[m[4l[?7h[?1h=[?1h=[?1h=[39;49m[39;49m(B[m[H[2J[53d(B[0;7mFile /var/www/html is being edited (by root with VIM 7.4, PID 11845); continue?             [54;1H Y(B[m Yes
+[55d(B[0;7m N(B[m No[55;17H(B[0;7m^C(B[m Cancel[53;80H[?12l[?25h[H[39;49m(B[0;7m  GNU nano 2.5.3                    New Buffer                                              [53;1H(B[m[K[54d(B[0;7m^G(B[m Get Help    (B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut Text    (B[0;7m^J(B[m Justify     (B[0;7m^C(B[m Cur Pos
+[55d(B[0;7m^X(B[m Exit[55;16H(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Uncut Text  (B[0;7m^T(B[m To Spell    (B[0;7m^_(B[m Go To Line
+[3d[1;83H(B[0;7mModified
+[4d(B[m<?php
+[5d# Here echo command is used to print
+[6decho "Hello, world!";
+[7d?>
+[8d[A?> [Ao[Are echo command is used to print                            [K[?25l[53;31H(B[0;7m[ XOFF ignored, mumble mumble ]
+[5d(B[m[?12l[?25h[?25l[?12l[?25h[53d(B[0;7mSave modified buffer (ANSWERING "No" WILL DESTROY CHANGES) ?                                [54;1H Y(B[m Yes[K
+[55d(B[0;7m N(B[m No  [55;16H (B[0;7m^C(B[m Cancel[K[53;62H
+[J[55;92H[55;1H[?1049l
+[?1l>]0;cec@cec-H110M-S2: ~[01;32mcec@cec-H110M-S2[00m:[01;34m~[00m$ sudo nano /var/www/html/index.php
+[?1049h[1;55r(B[m[4l[?7h[?1h=[?1h=[?1h=[39;49m[39;49m(B[m[H[2J[53d(B[0;7mFile /var/www/html is being edited (by root with VIM 7.4, PID 11845); continue?             [54;1H Y(B[m Yes
+[55d(B[0;7m N(B[m No[55;17H(B[0;7m^C(B[m Cancel[53;80H[?12l[?25h[H[39;49m(B[0;7m  GNU nano 2.5.3                    New Buffer                                    Modified  [3;1H(B[md is used to print
+[4decho "Hello, world!";
+[5d?>
+[53d[K[54d(B[0;7m^G(B[m Get Help    (B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut Text    (B[0;7m^J(B[m Justify     (B[0;7m^C(B[m Cur Pos
+[55d(B[0;7m^X(B[m Exit[55;16H(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Uncut Text  (B[0;7m^T(B[m To Spell    (B[0;7m^_(B[m Go To Line
+[6d[A?>  [K[4;23H                  [K[3;19H             [K[4d<?php
+[5d# Here echo command is used to print
+[6decho "Hello, world!";
+[7d?>
+[8d[A?> [A[A[Ap[5dere echo command is used to print                            [K[5;53r[53;1H
+[1;55r[4;7H[?25l[53;31H(B[0;7m[ XOFF ignored, mumble mumble ][4;7H(B[m[?12l[?25h
+[53d(B[0;7mSave modified buffer (ANSWERING "No" WILL DESTROY CHANGES) ?                                [54;1H Y(B[m Yes[K
+[55d(B[0;7m N(B[m No  [55;16H (B[0;7m^C(B[m Cancel[K[53;62H
+(B[0;7mFile Name to Write:                                         
+[54d^G(B[m Get Help[19G(B[0;7mM-D(B[m DOS Format    (B[0;7mM-A(B[m Append[54;55H(B[0;7mM-B(B[m Backup File
+[55d(B[0;7m^C(B[m Cancel[17G  (B[0;7mM-M(B[m Mac Format    (B[0;7mM-P(B[m Prepend[55G(B[0;7m^T(B[m To Files[53;21H[?25l[53;39H[1K (B[0;7m[ Cancelled ](B[m[K[4;7H[?12l[?25h[54;16H(B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut Text    (B[0;7m^J(B[m Justify     (B[0;7m^C(B[m Cur Pos[55;2H(B[0;7mX(B[m Exit  [16G(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Uncut Text  (B[0;7m^T(B[m To Spell    (B[0;7m^_(B[m Go To Line[4;7H[?25l[53;31H(B[0;7m[ XOFF ignored, mumble mumble ][4;7H(B[m[?12l[?25h
+[53d(B[0;7mSave modified buffer (ANSWERING "No" WILL DESTROY CHANGES) ?                                [54;1H Y(B[m Yes[K
+[55d(B[0;7m N(B[m No  [55;16H (B[0;7m^C(B[m Cancel[K[53;62H
+(B[0;7mFile Name to Write:                                         
+[54d^G(B[m Get Help[19G(B[0;7mM-D(B[m DOS Format    (B[0;7mM-A(B[m Append[54;55H(B[0;7mM-B(B[m Backup File
+[55d(B[0;7m^C(B[m Cancel[17G  (B[0;7mM-M(B[m Mac Format    (B[0;7mM-P(B[m Prepend[55G(B[0;7m^T(B[m To Files[53;21H(B[0;7mi(B[m(B[0;7mn(B[m(B[0;7md(B[m(B[0;7me(B[m(B[0;7mx(B[m(B[0;7m.(B[m(B[0;7mp(B[m(B[0;7mh(B[m(B[0;7mp(B[m[?25l
+[4d(B[0;1m[32m<?php(B[0m[42m [5d(B[0;1m[33m"Hello, world!"[39m(B[m;[42m 
+[6d(B[0;1m[32m?>[53;37H[39m(B[m[1K (B[0;7m[ Wrote 4 lines ](B[m[K[4;7H
+[53d[J[1;35H(B[0;7mFile: index.php[1;83H        [55;92H(B[m[55;1H[?12l[?25h[?1049l
+[?1l>]0;cec@cec-H110M-S2: ~[01;32mcec@cec-H110M-S2[00m:[01;34m~[00m$ sudo nano /var/www/html/index.php[1P /var/www/html/index.php[1P /var/www/html/index.php[1P /var/www/html/index.php[1P /var/www/html/index.phpc /var/www/html/index.phpa /var/www/html/index.phpt /var/www/html/index.php
+<?php
+   ob_start();
+   session_start();
+?>
+
+<?
+   // error_reporting(E_ALL);
+   // ini_set("display_errors", 1);
+?>
+
+<html lang = "en">
+   
+   <head>
+      <title>Tutorialspoint.com</title>
+      <link href = "css/bootstrap.min.css" rel = "stylesheet">
+      
+      <style>
+         body {
+            padding-top: 40px;
+            padding-bottom: 40px;
+            background-color: #ADABAB;
+         }
+         
+         .form-signin {
+            max-width: 330px;
+            padding: 15px;
+            margin: 0 auto;
+            color: #017572;
+         }
+         
+         .form-signin .form-signin-heading,
+         .form-signin .checkbox {
+            margin-bottom: 10px;
+         }
+         
+         .form-signin .checkbox {
+            font-weight: normal;
+         }
+         
+         .form-signin .form-control {
+            position: relative;
+            height: auto;
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            box-sizing: border-box;
+            padding: 10px;
+            font-size: 16px;
+         }
+         
+         .form-signin .form-control:focus {
+            z-index: 2;
+         }
+         
+         .form-signin input[type="email"] {
+            margin-bottom: -1px;
+            border-bottom-right-radius: 0;
+            border-bottom-left-radius: 0;
+            border-color:#017572;
+         }
+         
+         .form-signin input[type="password"] {
+            margin-bottom: 10px;
+            border-top-left-radius: 0;
+            border-top-right-radius: 0;
+            border-color:#017572;
+         }
+         
+         h2{
+            text-align: center;
+            color: #017572;
+         }
+      </style>
+      
+   </head>
+	
+   <body>
+      
+      <h2>Enter Username and Password</h2> 
+      <div class = "container form-signin">
+         
+         <?php
+            $msg = '';
+            
+            if (isset($_POST['login']) && !empty($_POST['username']) 
+               && !empty($_POST['password'])) {
+				
+               if ($_POST['username'] == 'tutorialspoint' && 
+                  $_POST['password'] == '1234') {
+                  $_SESSION['valid'] = true;
+                  $_SESSION['timeout'] = time();
+                  $_SESSION['username'] = 'tutorialspoint';
+                  
+                  echo 'You have entered valid use name and password';
+               }else {
+                  $msg = 'Wrong username or password';
+               }
+            }
+         ?>
+      </div> <!-- /container -->
+      
+      <div class = "container">
+      
+         <form class = "form-signin" role = "form" 
+            action = "<?php echo htmlspecialchars($_SERVER['PHP_SELF']); 
+            ?>" method = "post">
+            <h4 class = "form-signin-heading"><?php echo $msg; ?></h4>
+            <input type = "text" class = "form-control" 
+               name = "username" placeholder = "username = stephen" 
+               required autofocus></br>
+            <input type = "password" class = "form-control"
+               name = "password" placeholder = "password = ...." required>
+            <button class = "btn btn-lg btn-primary btn-block" type = "submit" 
+               name = "login">Login</button>
+         </form>
+			
+          <a href = "logout.php" tite = "Logout">
+         
+      </div> 
+      
+   </body>
+</html>
+]0;cec@cec-H110M-S2: ~[01;32mcec@cec-H110M-S2[00m:[01;34m~[00m$ sudo cat /var/www/html/index.php[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[1P /var/www/html[1P /var/www/html[1P /var/www/html[1P/var/www/html[1P /var/www/html[1P /var/www/html[1P /var/www/html[1P /var/www/htmlc /var/www/htmld /var/www/html
+]0;cec@cec-H110M-S2: /var/www/html[01;32mcec@cec-H110M-S2[00m:[01;34m/var/www/html[00m$ ls
+index.html.save  index.html.save.1  [0m[01;35mindex.jpeg[0m  index.nginx-debian.html  index.php
+]0;cec@cec-H110M-S2: /var/www/html[01;32mcec@cec-H110M-S2[00m:[01;34m/var/www/html[00m$ rm index.html.save
+rm: remove write-protected regular file 'index.html.save'? y
+rm: cannot remove 'index.html.save': Permission denied
+]0;cec@cec-H110M-S2: /var/www/html[01;32mcec@cec-H110M-S2[00m:[01;34m/var/www/html[00m$ rm index.html.save[1@s[1@u[1@d[1@o[1@ 
+]0;cec@cec-H110M-S2: /var/www/html[01;32mcec@cec-H110M-S2[00m:[01;34m/var/www/html[00m$ ls
+index.html.save.1  [0m[01;35mindex.jpeg[0m  index.nginx-debian.html  index.php
+]0;cec@cec-H110M-S2: /var/www/html[01;32mcec@cec-H110M-S2[00m:[01;34m/var/www/html[00m$ cd[K[Krm index.html.save.1 
+rm: remove write-protected regular file 'index.html.save.1'? 
+]0;cec@cec-H110M-S2: /var/www/html[01;32mcec@cec-H110M-S2[00m:[01;34m/var/www/html[00m$ 
+]0;cec@cec-H110M-S2: /var/www/html[01;32mcec@cec-H110M-S2[00m:[01;34m/var/www/html[00m$ rm index.html.save.1 [1@s[1@u[1@d[1@ [1P[1@o[1@ 
+]0;cec@cec-H110M-S2: /var/www/html[01;32mcec@cec-H110M-S2[00m:[01;34m/var/www/html[00m$ ls
+[0m[01;35mindex.jpeg[0m  index.nginx-debian.html  index.php
+]0;cec@cec-H110M-S2: /var/www/html[01;32mcec@cec-H110M-S2[00m:[01;34m/var/www/html[00m$ ls[K[Kcat index.php 
+<?php
+   ob_start();
+   session_start();
+?>
+
+<?
+   // error_reporting(E_ALL);
+   // ini_set("display_errors", 1);
+?>
+
+<html lang = "en">
+   
+   <head>
+      <title>Tutorialspoint.com</title>
+      <link href = "css/bootstrap.min.css" rel = "stylesheet">
+      
+      <style>
+         body {
+            padding-top: 40px;
+            padding-bottom: 40px;
+            background-color: #ADABAB;
+         }
+         
+         .form-signin {
+            max-width: 330px;
+            padding: 15px;
+            margin: 0 auto;
+            color: #017572;
+         }
+         
+         .form-signin .form-signin-heading,
+         .form-signin .checkbox {
+            margin-bottom: 10px;
+         }
+         
+         .form-signin .checkbox {
+            font-weight: normal;
+         }
+         
+         .form-signin .form-control {
+            position: relative;
+            height: auto;
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            box-sizing: border-box;
+            padding: 10px;
+            font-size: 16px;
+         }
+         
+         .form-signin .form-control:focus {
+            z-index: 2;
+         }
+         
+         .form-signin input[type="email"] {
+            margin-bottom: -1px;
+            border-bottom-right-radius: 0;
+            border-bottom-left-radius: 0;
+            border-color:#017572;
+         }
+         
+         .form-signin input[type="password"] {
+            margin-bottom: 10px;
+            border-top-left-radius: 0;
+            border-top-right-radius: 0;
+            border-color:#017572;
+         }
+         
+         h2{
+            text-align: center;
+            color: #017572;
+         }
+      </style>
+      
+   </head>
+	
+   <body>
+      
+      <h2>Enter Username and Password</h2> 
+      <div class = "container form-signin">
+         
+         <?php
+            $msg = '';
+            
+            if (isset($_POST['login']) && !empty($_POST['username']) 
+               && !empty($_POST['password'])) {
+				
+               if ($_POST['username'] == 'tutorialspoint' && 
+                  $_POST['password'] == '1234') {
+                  $_SESSION['valid'] = true;
+                  $_SESSION['timeout'] = time();
+                  $_SESSION['username'] = 'tutorialspoint';
+                  
+                  echo 'You have entered valid use name and password';
+               }else {
+                  $msg = 'Wrong username or password';
+               }
+            }
+         ?>
+      </div> <!-- /container -->
+      
+      <div class = "container">
+      
+         <form class = "form-signin" role = "form" 
+            action = "<?php echo htmlspecialchars($_SERVER['PHP_SELF']); 
+            ?>" method = "post">
+            <h4 class = "form-signin-heading"><?php echo $msg; ?></h4>
+            <input type = "text" class = "form-control" 
+               name = "username" placeholder = "username = stephen" 
+               required autofocus></br>
+            <input type = "password" class = "form-control"
+               name = "password" placeholder = "password = ...." required>
+            <button class = "btn btn-lg btn-primary btn-block" type = "submit" 
+               name = "login">Login</button>
+         </form>
+			
+          <a href = "logout.php" tite = "Logout">
+         
+      </div> 
+      
+   </body>
+</html>
+]0;cec@cec-H110M-S2: /var/www/html[01;32mcec@cec-H110M-S2[00m:[01;34m/var/www/html[00m$ sudp[Ko gedit index.php 
+
+(gedit:17527): Gtk-WARNING **: Calling Inhibit failed: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.SessionManager was not provided by any .service files
+
+** (gedit:17527): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-spell-enabled not supported
+
+** (gedit:17527): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-encoding not supported
+^C
+]0;cec@cec-H110M-S2: /var/www/html[01;32mcec@cec-H110M-S2[00m:[01;34m/var/www/html[00m$ sudo systemctl restart apache2
+]0;cec@cec-H110M-S2: /var/www/html[01;32mcec@cec-H110M-S2[00m:[01;34m/var/www/html[00m$ firefox http://localhost
+]0;cec@cec-H110M-S2: /var/www/html[01;32mcec@cec-H110M-S2[00m:[01;34m/var/www/html[00m$ sudfirefox http://localhostsudo systemctl restart apache2[1P apache2[1P apache2[1P apache2[1P apache2[1P apache2[1P apache2[1P apache2d apache2i apache2s apache2a apache2b apache2l apache2e apache2[C[C[C[C[C[C[C[C[K[K[K[K[K[K[Knginx
+Synchronizing state of nginx.service with SysV init with /lib/systemd/systemd-sysv-install...
+Executing /lib/systemd/systemd-sysv-install disable nginx
+insserv: warning: current start runlevel(s) (empty) of script `nginx' overrides LSB defaults (2 3 4 5).
+insserv: warning: current stop runlevel(s) (0 1 2 3 4 5 6) of script `nginx' overrides LSB defaults (0 1 6).
+]0;cec@cec-H110M-S2: /var/www/html[01;32mcec@cec-H110M-S2[00m:[01;34m/var/www/html[00m$ sudo systemctl disable nginx[C[K[K[K[K[Kap[1P ap[1P ap[1P ap[1P ap[1P ap[1P ap[1P ape apn apa apb apl ape ap[C[C[Cache2
+apache2.service is not a native service, redirecting to systemd-sysv-install
+Executing /lib/systemd/systemd-sysv-install enable apache2
+]0;cec@cec-H110M-S2: /var/www/html[01;32mcec@cec-H110M-S2[00m:[01;34m/var/www/html[00m$ sudo systemctl enable apache2[1Pdisable nginx[4Pfirefox http://localhostsudo systemctl restart apache2[9Pgedit index.php systemctl restart apache2
+]0;cec@cec-H110M-S2: /var/www/html[01;32mcec@cec-H110M-S2[00m:[01;34m/var/www/html[00m$ sudo systemctl restart apache2[1Penable[C[C[C[C[C[C[C[C[1Pdisable nginx[4Pfirefox http://localhostsudo systemctl restart apache2[6Pfirefox http://localhost
+]0;cec@cec-H110M-S2: /var/www/html[01;32mcec@cec-H110M-S2[00m:[01;34m/var/www/html[00m$ firefox http://localhostsudo systemctl restart apache2[1Penable[C[C[C[C[C[C[C[C[1Pdisable nginx[4Pfirefox http://localhostsudo systemctl disable nginx[C[1P nginx[1P nginx[1P nginx[1P nginx[1P nginx[1P nginx[1P nginxs nginxt nginxo nginxp nginx
+]0;cec@cec-H110M-S2: /var/www/html[01;32mcec@cec-H110M-S2[00m:[01;34m/var/www/html[00m$ sudo systemctl stop nginx[1Pfirefox http://localhostsudo systemctl stop nginx[C[1Pfirefox http://localhostsudo systemctl restart apache2[1P[1P
+]0;cec@cec-H110M-S2: /var/www/html[01;32mcec@cec-H110M-S2[00m:[01;34m/var/www/html[00m$ ls
+[0m[01;35mindex.jpeg[0m  index.nginx-debian.html  index.php
+]0;cec@cec-H110M-S2: /var/www/html[01;32mcec@cec-H110M-S2[00m:[01;34m/var/www/html[00m$ lssudo systemctl start apache2[3Pop nginx[1Pfirefox http://localhostsudo systemctl restart apache2[6Pfirefox http://localhost
+]0;cec@cec-H110M-S2: /var/www/html[01;32mcec@cec-H110M-S2[00m:[01;34m/var/www/html[00m$ sudo ufw app list
+Available applications:
+  Apache
+  Apache Full
+  Apache Secure
+  CUPS
+  Nginx Full
+  Nginx HTTP
+  Nginx HTTPS
+]0;cec@cec-H110M-S2: /var/www/html[01;32mcec@cec-H110M-S2[00m:[01;34m/var/www/html[00m$ sudo ufw allow 'Apache Full'
+Rules updated
+Rules updated (v6)
+]0;cec@cec-H110M-S2: /var/www/html[01;32mcec@cec-H110M-S2[00m:[01;34m/var/www/html[00m$ sudo ufw status
+Status: inactive
+]0;cec@cec-H110M-S2: /var/www/html[01;32mcec@cec-H110M-S2[00m:[01;34m/var/www/html[00m$ sudo ufw status
+Status: inactive
+]0;cec@cec-H110M-S2: /var/www/html[01;32mcec@cec-H110M-S2[00m:[01;34m/var/www/html[00m$ sudo systemctl status apache2
+[?1h=
+[0;1;32m●[0m apache2.service - LSB: Apache2 web server[m
+   Loaded: loaded (/etc/init.d/apache2; bad; vendor preset: enabled)[m
+  Drop-In: /lib/systemd/system/apache2.service.d[m
+           └─apache2-systemd.conf[m
+   Active: [0;1;32mactive (running)[0m since Mon 2019-04-29 11:28:32 IST; 1min 47s ago[m
+     Docs: man:systemd-sysv-generator(8)[m
+  Process: 17762 ExecStop=/etc/init.d/apache2 stop (code=exited, status=0/SUCCESS)[m
+  Process: 17829 ExecStart=/etc/init.d/apache2 start (code=exited, status=0/SUCCESS)[m
+   CGroup: /system.slice/apache2.service[m
+           ├─17844 /usr/sbin/apache2 -k start[m
+           ├─17847 /usr/sbin/apache2 -k start[m
+           ├─17848 /usr/sbin/apache2 -k start[m
+           ├─17849 /usr/sbin/apache2 -k start[m
+           ├─17850 /usr/sbin/apache2 -k start[m
+           └─17851 /usr/sbin/apache2 -k start[m
+[m
+Apr 29 11:28:30 cec-H110M-S2 systemd[1]: Starting LSB: Apache2 web server...[m
+Apr 29 11:28:30 cec-H110M-S2 apache2[17829]:  * Starting Apache httpd web server apache2[m
+Apr 29 11:28:31 cec-H110M-S2 apache2[17829]: AH00558: apache2: Could not reliably determine [m
+Apr 29 11:28:32 cec-H110M-S2 apache2[17829]:  *[m
+Apr 29 11:28:32 cec-H110M-S2 systemd[1]: Started LSB: Apache2 web server.[m
+[7mlines 1-21/21 (END)[27m[K
+[K[?1l>
+[1]+  Stopped                 sudo systemctl status apache2
+]0;cec@cec-H110M-S2: /var/www/html[01;32mcec@cec-H110M-S2[00m:[01;34m/var/www/html[00m$ exit
+exit
+There are stopped jobs.
+]0;cec@cec-H110M-S2: /var/www/html[01;32mcec@cec-H110M-S2[00m:[01;34m/var/www/html[00m$ exit
+exit
+
+Script done on Monday 29 April 2019 11:33:57 AM IST
