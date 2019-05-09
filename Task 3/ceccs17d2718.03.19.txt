@@ -1,0 +1,49 @@
+Script started on Monday 18 March 2019 11:33:10 AM IST
+]0;cec@CLAB2: ~cec@CLAB2:~$ sudo ifconfig
+[sudo] password for cec: 
+Sorry, try again.
+[sudo] password for cec: 
+Sorry, try again.
+[sudo] password for cec: 
+eth0      Link encap:Ethernet  HWaddr e0:d5:5e:03:e8:35  
+          inet addr:192.168.0.60  Bcast:192.168.0.255  Mask:255.255.255.0
+          inet6 addr: fe80::e2d5:5eff:fe03:e835/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:10314019 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:20262 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:3559492080 (3.5 GB)  TX bytes:2408432 (2.4 MB)
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+          RX packets:1519 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:1519 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:0 
+          RX bytes:231052 (231.0 KB)  TX bytes:231052 (231.0 KB)
+
+]0;cec@CLAB2: ~cec@CLAB2:~$ sudo ifconfig etho 192.168.0.69 netmask 255.255.255.0
+SIOCSIFADDR: No such device
+etho: ERROR while getting interface flags: No such device
+SIOCSIFNETMASK: No such device
+]0;cec@CLAB2: ~cec@CLAB2:~$ sudo ifconfig etho 192.168.0.69 netmask 255.255.255.0[1P[1P[1@9[1@0
+SIOCSIFADDR: No such device
+etho: ERROR while getting interface flags: No such device
+SIOCSIFNETMASK: No such device
+]0;cec@CLAB2: ~cec@CLAB2:~$ sudo ifconfig etho 192.168.0.90 netmask 255.255.255.0[C[1P[1@0
+]0;cec@CLAB2: ~cec@CLAB2:~$ sudo ifconfig 
+eth0      Link encap:Ethernet  HWaddr e0:d5:5e:03:e8:35  
+          inet addr:192.168.0.90  Bcast:192.168.0.255  Mask:255.255.255.0
+          inet6 addr: fe80::e2d5:5eff:fe03:e835/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:10314120 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:20287 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:3559501141 (3.5 GB)  TX bytes:2414662 (2.4 MB)
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+          RX packets:1519 errors:0 dropped:0 overruns:0 frame:0
