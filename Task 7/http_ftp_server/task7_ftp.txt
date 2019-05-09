@@ -2,9 +2,31 @@ Script started on Thursday 11 April 2019 11:13:37 AM IST
 ]0;s4d1@CC2-25: ~/Desktops4d1@CC2-25:~/Desktop$ sudo apt install vsftpd
 sudo: unable to resolve host CC2-25
 [sudo] password for s4d1: 
-Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
-Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
-Reading state information... 0%Reading state information... 0%Reading state information... Done
+
+Reading package lists... 0%
+
+Reading package lists... 100%
+
+Reading package lists... Done
+
+
+Building dependency tree... 0%
+
+Building dependency tree... 0%
+
+Building dependency tree... 50%
+
+Building dependency tree... 50%
+
+Building dependency tree       
+
+
+Reading state information... 0%
+
+Reading state information... 0%
+
+Reading state information... Done
+
 vsftpd is already the newest version.
 The following packages were automatically installed and are no longer required:
   account-plugin-windows-live libdbusmenu-gtk4 libntdb1 libupstart1
@@ -13,12 +35,35 @@ Use 'apt-get autoremove' to remove them.
 0 upgraded, 0 newly installed, 0 to remove and 49 not upgraded.
 ]0;s4d1@CC2-25: ~/Desktops4d1@CC2-25:~/Desktop$ 0[Ksudo vsftpd
 sudo: unable to resolve host CC2-25
-500 OOPS: could not bind listening IPv4 socket
+500 OOPS: could not bind listening IPv4 socket
+
 ]0;s4d1@CC2-25: ~/Desktops4d1@CC2-25:~/Desktop$ sudo apt-get remove vsftp
 sudo: unable to resolve host CC2-25
-Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
-Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
-Reading state information... 0%Reading state information... 0%Reading state information... Done
+
+Reading package lists... 0%
+
+Reading package lists... 100%
+
+Reading package lists... Done
+
+
+Building dependency tree... 0%
+
+Building dependency tree... 0%
+
+Building dependency tree... 50%
+
+Building dependency tree... 50%
+
+Building dependency tree       
+
+
+Reading state information... 0%
+
+Reading state information... 0%
+
+Reading state information... Done
+
 E: Unable to locate package vsftp
 ]0;s4d1@CC2-25: ~/Desktops4d1@CC2-25:~/Desktop$ ftp localhost
 Connected to localhost.
@@ -32,15 +77,60 @@ ftp> ^Z
 [1]+  Stopped                 ftp localhost
 ]0;s4d1@CC2-25: ~/Desktops4d1@CC2-25:~/Desktop$ ftp localhostsudo apt-get remove vsftp
 sudo: unable to resolve host CC2-25
-Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
-Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
-Reading state information... 0%Reading state information... 0%Reading state information... Done
+
+Reading package lists... 0%
+
+Reading package lists... 100%
+
+Reading package lists... Done
+
+
+Building dependency tree... 0%
+
+Building dependency tree... 0%
+
+Building dependency tree... 50%
+
+Building dependency tree... 50%
+
+Building dependency tree       
+
+
+Reading state information... 0%
+
+Reading state information... 0%
+
+Reading state information... Done
+
 E: Unable to locate package vsftp
-]0;s4d1@CC2-25: ~/Desktops4d1@CC2-25:~/Desktop$ sudo apt-get remove vsftp[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[12Pftp localhostsudo apt-get remove vsftpvsftpd[Kapt install vsftpd
+]0;s4d1@CC2-25: ~/Desktops4d1@CC2-25:~/Desktop$ sudo apt-get remove vsftp
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[12Pftp localhostsudo apt-get remove vsftpvsftpd[Kapt install vsftpd
 sudo: unable to resolve host CC2-25
-Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
-Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
-Reading state information... 0%Reading state information... 0%Reading state information... Done
+
+Reading package lists... 0%
+
+Reading package lists... 100%
+
+Reading package lists... Done
+
+
+Building dependency tree... 0%
+
+Building dependency tree... 0%
+
+Building dependency tree... 50%
+
+Building dependency tree... 50%
+
+Building dependency tree       
+
+
+Reading state information... 0%
+
+Reading state information... 0%
+
+Reading state information... Done
+
 vsftpd is already the newest version.
 The following packages were automatically installed and are no longer required:
   account-plugin-windows-live libdbusmenu-gtk4 libntdb1 libupstart1
